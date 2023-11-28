@@ -1,0 +1,17 @@
+{
+    "name": "MK.Toon.Examples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:d37d3ef23beb047459e2f887e5189c4e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

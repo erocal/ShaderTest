@@ -1,0 +1,20 @@
+{
+    "name": "MK.Toon.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d37d3ef23beb047459e2f887e5189c4e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

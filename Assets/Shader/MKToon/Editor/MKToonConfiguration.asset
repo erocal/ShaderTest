@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45457fb65aee9f3489fb48617165fed6, type: 3}
+  m_Name: MKToonConfiguration
+  m_EditorClassIdentifier: 
+  _renderPipeline: 0
+  showInstallerOnReload: 0
+  _titleImage: {fileID: 2800000, guid: 21ea975165ab4464397ff03273edbbd2, type: 3}
+  _readMe: {fileID: 102900000, guid: 76efee303850a95439d1d2c1c7839079, type: 3}
+  _basePackageBuiltin: {fileID: 102900000, guid: 5e38a029cbcdecb46b1b127909e17e1e,
+    type: 3}
+  _basePackageURP_2019_4_Or_Newer: {fileID: 0}
+  _basePackageURP_2021_2_Or_Newer: {fileID: 0}
+  _examplesPackageInc: {fileID: 102900000, guid: 3d0743dd894922f419529ed8e5d217ce,
+    type: 3}
+  _examplesPackageBuiltin: {fileID: 102900000, guid: 516486fa6290f5443a292f08b87c2ee5,
+    type: 3}
+  _examplesPackageURP: {fileID: 102900000, guid: b773940e26c49864092cf278f201f83d,
+    type: 3}
+  _examples:
+  - name: Artistic
+    scene: {fileID: 102900000, guid: 2a69f88012adfd94e8e7cf26c1c4e660, type: 3}
+    icon: {fileID: 2800000, guid: bbeea56ff4c5ec24fba78841fe615562, type: 3}
+  - name: FlyingIsles
+    scene: {fileID: 102900000, guid: 154a753354579ed42be70d223e4cbfaa, type: 3}
+    icon: {fileID: 2800000, guid: d5be83d7654dea14e9cfc3b7cd94ded7, type: 3}
+  - name: Outlines
+    scene: {fileID: 102900000, guid: d1a7bdc02596e5545bb96143e4bec5a0, type: 3}
+    icon: {fileID: 2800000, guid: 6758f6e19f3c9d6419b3f05b1f72eb4d, type: 3}
+  - name: Spectate
+    scene: {fileID: 102900000, guid: 41ce2b285b8472249b915e163f820c28, type: 3}
+    icon: {fileID: 2800000, guid: 018b2b6fa83ae404faf4e1ff5c4f2224, type: 3}
+  - name: WitchLab
+    scene: {fileID: 102900000, guid: 84aaedf5ce923004382c802e54a9d944, type: 3}
+    icon: {fileID: 2800000, guid: 80fd1f9309c74514d9a93ed08c93b927, type: 3}
+  _globalShaderFeaturesFile: {fileID: 10900000, guid: 37fe33dc0469fb042a795c8f5dbd6b84,
+    type: 3}
+  _globalShaderFeatures:
+  - id: 0
+  - id: 0
+  - id: 0
+  - id: 0
+  - id: 0
+  - id: 0
+  - id: 0
+  _globalShaderFeaturesTemp: []
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }
