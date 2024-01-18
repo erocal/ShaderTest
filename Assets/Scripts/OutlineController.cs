@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -6,7 +6,10 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class OutlineController : MonoBehaviour
 {
-    #region -- °Ñ¼Æ°Ñ¦Ò°Ï --
+    #region -- åƒæ•¸åƒè€ƒå€ --
+
+    [Header("Outlineæè³ªçƒ")]
+    [SerializeField] Material outlineMaterial;
 
     private static HashSet<Mesh> registeredMeshes = new HashSet<Mesh>();
 
@@ -22,58 +25,50 @@ public class OutlineController : MonoBehaviour
     [SerializeField, HideInInspector]
     private List<ListVector3> bakeValues = new List<ListVector3>();
 
-    private Renderer[] renderers;
-    private Material outlineMaterial;
+    private Renderer cachedRenderer;
 
     #endregion
 
-    #region -- ªì©l¤Æ/¹B§@ --
+    #region -- åˆå§‹åŒ–/é‹ä½œ --
 
     private void Awake()
     {
-        // ³q¹Lª«Åéªº Renderer ²Õ¥óÀò¨ú·í«eªº Material
-        Renderer renderer = GetComponent<Renderer>();
+        // é€šéç‰©é«”çš„ Renderer çµ„ä»¶ç²å–ç•¶å‰çš„ Material
+        cachedRenderer = GetComponent<Renderer>();
 
-        // ÀË¬d¬O§_¦s¦b¦W¬°"Outline"ªº Material
-        if (renderer != null)
+        if (outlineMaterial != null)
         {
-            outlineMaterial = FindOutlineMaterial(renderer);
+            ApplyOutlineToChildren(this.transform);
         }
 
-        // Àò¨ú©Î²£¥Í¥­·Æªk½u
+        // ç²å–æˆ–ç”¢ç”Ÿå¹³æ»‘æ³•ç·š
         LoadSmoothNormals();
 
     }
 
-    void OnDestroy()
-    {
-        // ®ø·ÀMaterial
-        Destroy(outlineMaterial);
-    }
-
     #endregion
 
-    #region --  ¤èªk°Ñ¦Ò°Ï --
+    #region --  æ–¹æ³•åƒè€ƒå€ --
 
     /// <summary>
-    /// ¥­·Æªk½u¦V¶q
+    /// å¹³æ»‘æ³•ç·šå‘é‡
     /// </summary>
-    /// <param name="mesh">­n¶i¦æªk½u¥­·Æªººô®æ</param>
-    /// <returns>¥­·Æ«áªºªk½u¦V¶q¦Cªí</returns>
+    /// <param name="mesh">è¦é€²è¡Œæ³•ç·šå¹³æ»‘çš„ç¶²æ ¼</param>
+    /// <returns>å¹³æ»‘å¾Œçš„æ³•ç·šå‘é‡åˆ—è¡¨</returns>
     List<Vector3> SmoothNormals(Mesh mesh)
     {
 
-        // ±N³»ÂI«ö¦ì¸m¤À²Õ
+        // å°‡é ‚é»æŒ‰ä½ç½®åˆ†çµ„
         var groups = mesh.vertices.Select((vertex, index) => new KeyValuePair<Vector3, int>(vertex, index)).GroupBy(pair => pair.Key);
 
-        // ½Æ»sªk½u¨ì·sªº¦Cªí
+        // è¤‡è£½æ³•ç·šåˆ°æ–°çš„åˆ—è¡¨
         var smoothNormals = new List<Vector3>(mesh.normals);
 
-        // ¹ï¤À²Õªº³»ÂI­pºâ¥­§¡ªk½u
+        // å°åˆ†çµ„çš„é ‚é»è¨ˆç®—å¹³å‡æ³•ç·š
         foreach (var group in groups)
         {
 
-            // ¸õ¹L³æ¤@³»ÂI
+            // è·³éå–®ä¸€é ‚é»
             if (group.Count() == 1)
             {
                 continue;
@@ -84,115 +79,123 @@ public class OutlineController : MonoBehaviour
 
             foreach (var pair in group)
             {
-                // ²Ö¥[¤À²Õ¤¤¨C­Ó³»ÂIªºªk½u
+                // ç´¯åŠ åˆ†çµ„ä¸­æ¯å€‹é ‚é»çš„æ³•ç·š
                 smoothNormal += smoothNormals[pair.Value];
             }
 
-            // ±N¥­§¡ªk½uÂk¤@¤Æ
+            // å°‡å¹³å‡æ³•ç·šæ­¸ä¸€åŒ–
             smoothNormal.Normalize();
 
-            // ±N¥­§¡ªk½u«ü¬£µ¹¨C­Ó³»ÂI
+            // å°‡å¹³å‡æ³•ç·šæŒ‡æ´¾çµ¦æ¯å€‹é ‚é»
             foreach (var pair in group)
             {
                 smoothNormals[pair.Value] = smoothNormal;
             }
         }
 
-        // ªğ¦^¥­·Æ«áªºªk½u¦V¶q¦Cªí
+        // è¿”å›å¹³æ»‘å¾Œçš„æ³•ç·šå‘é‡åˆ—è¡¨
         return smoothNormals;
     }
 
     /// <summary>
-    /// ¦X¨Ö¤lºô®æ
+    /// åˆä½µå­ç¶²æ ¼
     /// </summary>
-    /// <param name="mesh">­n¶i¦æ¦X¨Öªººô®æ</param>
-    /// <param name="materials">¥Î©ó·s¤lºô®æªº§÷½è°}¦C</param>
+    /// <param name="mesh">è¦é€²è¡Œåˆä½µçš„ç¶²æ ¼</param>
+    /// <param name="materials">ç”¨æ–¼æ–°å­ç¶²æ ¼çš„æè³ªé™£åˆ—</param>
     void CombineSubmeshes(Mesh mesh, Material[] materials)
     {
 
-        // ¥u¦³¤@­Ó¤lºô®æªººô®æ´Nreturn
+        // åªæœ‰ä¸€å€‹å­ç¶²æ ¼çš„ç¶²æ ¼å°±return
         if (mesh.subMeshCount == 1)
         {
             return;
         }
 
-        // ¤lºô®æ¼Æ¶q¶W¹L§÷½è¼Æ¶qªººô®æ´Nreturn
+        // å­ç¶²æ ¼æ•¸é‡è¶…éæè³ªæ•¸é‡çš„ç¶²æ ¼å°±return
         if (mesh.subMeshCount > materials.Length)
         {
             return;
         }
 
-        // ¼W¥[¤@­Ó·sªº¤lºô®æ
+        // å¢åŠ ä¸€å€‹æ–°çš„å­ç¶²æ ¼
         mesh.subMeshCount++;
-        // ±N­ì©lºô®æªº¤T¨¤§Î¸ê°T½Æ»s¨ì·sªº¤lºô®æ¤¤
+        // å°‡åŸå§‹ç¶²æ ¼çš„ä¸‰è§’å½¢è³‡è¨Šè¤‡è£½åˆ°æ–°çš„å­ç¶²æ ¼ä¸­
         mesh.SetTriangles(mesh.triangles, mesh.subMeshCount - 1);
     }
 
     /// <summary>
-    /// ¦b Renderer ²Õ¥ó¤W¬d§ä¦W¬°"Outline"ªº Material
+    /// é€šééè¿´çš„æ–¹å¼å°‡æè³ªçƒç½®å…¥
     /// </summary>
-    /// <param name="renderer">¶Ç¤J·í«eª«¥óªº Renderer ²Õ¥ó</param>
-    private Material FindOutlineMaterial(Renderer renderer)
+    /// <param name="parent">æ¯ç‰©ä»¶</param>
+    void ApplyOutlineToChildren(Transform parent)
     {
-        Material[] materials = renderer.materials;
-
-        foreach (Material material in materials)
+        foreach (Transform child in parent)
         {
-            // ÀË¬d Material ªº¦WºÙ¬O§_¬°"Outline"
-            if (material.name == "Outline")
+            if (child.TryGetComponent<Renderer>(out Renderer childRenderer))
             {
-                return material;
+                ApplyOutlineMaterial(childRenderer);
             }
-        }
 
-        // ¦pªG¨S¦³§ä¨ì¡Aªğ¦^ null ©Î±Ä¨ú¨ä¥L³B²z¤è¦¡
-        return null;
+            ApplyOutlineToChildren(child);
+        }
     }
 
     /// <summary>
-    /// Àò¨ú©Î²£¥Í¥­·Æªk½u
+    /// åœ¨ç‰©ä»¶çš„rendererçµ„ä»¶ä¸­æ·»åŠ æ–°çš„æè³ªçƒ
+    /// </summary>
+    /// <param name="renderer"></param>
+    void ApplyOutlineMaterial(Renderer renderer)
+    {
+        List<Material> materialsList = new List<Material>(renderer.sharedMaterials);
+        materialsList.Add(outlineMaterial);
+        renderer.materials = materialsList.ToArray();
+    }
+
+    /// <summary>
+    /// ç²å–æˆ–ç”¢ç”Ÿå¹³æ»‘æ³•ç·š
     /// </summary>
     private void LoadSmoothNormals()
     {
         foreach (var meshFilter in GetComponentsInChildren<MeshFilter>())
         {
 
-            // ¥­·Æªk½u³Q¨Ï¥Îªº±¡ªp¤Ucontinue
+            // å¹³æ»‘æ³•ç·šè¢«ä½¿ç”¨çš„æƒ…æ³ä¸‹continue
             if (!registeredMeshes.Add(meshFilter.sharedMesh))
             {
                 continue;
             }
 
-            // Àò¨ú©Î²£¥Í¥­·Æªk½u
+            // ç²å–æˆ–ç”¢ç”Ÿå¹³æ»‘æ³•ç·š
             var index = bakeKeys.IndexOf(meshFilter.sharedMesh);
             var smoothNormals = (index >= 0) ? bakeValues[index].data : SmoothNormals(meshFilter.sharedMesh);
 
-            // ±N¥­·Æªk½u¦sÀx¦bUV3³q¹D
+            // å°‡å¹³æ»‘æ³•ç·šå­˜å„²åœ¨UV3é€šé“
             meshFilter.sharedMesh.SetUVs(3, smoothNormals);
 
-            var renderer = meshFilter.GetComponent<Renderer>();
-
-            // ¦X¨Ö¤lºô®æ
-            if (renderer != null)
+            // åˆä½µå­ç¶²æ ¼
+            if (cachedRenderer != null)
             {
-                CombineSubmeshes(meshFilter.sharedMesh, renderer.sharedMaterials);
+                CombineSubmeshes(meshFilter.sharedMesh, cachedRenderer.sharedMaterials);
             }
         }
 
         foreach (var skinnedMeshRenderer in GetComponentsInChildren<SkinnedMeshRenderer>())
         {
 
-            // ¦pªG¸ÓskinnedMeshRenderer¤w¸g³Q­«¸m¹L¡A«h¸õ¹L
+            // å¦‚æœè©²skinnedMeshRendererå·²ç¶“è¢«é‡ç½®éï¼Œå‰‡è·³é
             if (!registeredMeshes.Add(skinnedMeshRenderer.sharedMesh))
             {
                 continue;
             }
 
-            // ²MªÅUV4³q¹D
+            // æ¸…ç©ºUV4é€šé“
             skinnedMeshRenderer.sharedMesh.uv4 = new Vector2[skinnedMeshRenderer.sharedMesh.vertexCount];
 
-            // ¦X¨Ö¤lºô®æ
-            CombineSubmeshes(skinnedMeshRenderer.sharedMesh, skinnedMeshRenderer.sharedMaterials);
+            // åˆä½µå­ç¶²æ ¼
+            if (cachedRenderer != null)
+            {
+                CombineSubmeshes(skinnedMeshRenderer.sharedMesh, cachedRenderer.sharedMaterials);
+            }
         }
     }
 

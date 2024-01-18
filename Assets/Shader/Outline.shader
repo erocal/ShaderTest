@@ -1,4 +1,7 @@
-﻿
+﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+
 Shader "Custom/Outline" {
   Properties {
     _OutlineColor("Outline Color", Color) = (1, 1, 1, 1)
@@ -15,7 +18,7 @@ Shader "Custom/Outline" {
     Pass {
       Cull Front
       ZTest LEqual
-      ZWrite Off
+      ZWrite On
       Blend SrcAlpha OneMinusSrcAlpha
       ColorMask RGB
 
@@ -24,7 +27,7 @@ Shader "Custom/Outline" {
         Comp NotEqual
       }
 
-      CGPROGRAM
+      HLSLPROGRAM
       #include "UnityCG.cginc"
 
       #pragma vertex vert
@@ -65,7 +68,8 @@ Shader "Custom/Outline" {
       fixed4 frag(v2f input) : SV_Target {
         return input.color;
       }
-      ENDCG
+
+      ENDHLSL
+      }
     }
-  }
 }
