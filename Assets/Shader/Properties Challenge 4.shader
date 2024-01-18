@@ -1,9 +1,9 @@
-Shader "Holistic/PropertiesChallenge4"
+﻿Shader "Holistic/PropertiesChallenge4"
 {
     Properties
     {
         _MainTex ("Diffuse texture", 2D) = "white" {}
-        _EmissiveTex ("Emissive texture", 2D) = "white" {}
+        _EmissiveTex ("Emissive texture", 2D) = "black" {} // 如果沒有Texture，預設為黑，避免白色紋理過於突出
     }
     SubShader
     {
