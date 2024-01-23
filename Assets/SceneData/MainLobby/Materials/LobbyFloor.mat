@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lobby01
-  m_Shader: {fileID: 4800000, guid: e60fd8c57034ab948983432d095400fc, type: 3}
+  m_Name: LobbyFloor
+  m_Shader: {fileID: 4800000, guid: 7e85ddf83e963ea409ead4848c694131, type: 3}
   m_ShaderKeywords: _MK_ALBEDO_MAP _MK_OUTLINE_HULL_CLIP _NORMALMAP _PARALLAXMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -114,7 +114,7 @@ Material:
     - _DstBlend: 0
     - _Exposure: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.65
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _Gradient1Height: 0.4
     - _Gradient1Intensity: 0.8
@@ -139,7 +139,7 @@ Material:
     - _OutlineSize: 5
     - _OutlineTab: 1
     - _Parallax: 0.005
-    - _ReflectionFactor: 0.65
+    - _ReflectionFactor: 1
     - _RenderFace: 2
     - _RenderPriority: 0
     - _RotationSpeed: 0.1

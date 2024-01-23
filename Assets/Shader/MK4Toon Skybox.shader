@@ -16,7 +16,7 @@ Shader "MK4 Toon/Skybox"
 		_Gradient2Smoothness("Gradient 2 Smoothness", Range( 0 , 1)) = 0
 		_Gradient2Intensity("Gradient 2 Intensity", Range( 0 , 1)) = 0.5
 		_MainRotation("Main Rotation", Range( 0 , 360)) = 0
-		_RotationSpeed("Rotation Speed", Range( 0 , 1)) = 0.1
+		_RotationSpeed("Rotation Speed", Range( 0 , 10)) = 0.1
 		[HDR][NoScaleOffset]_Background("Background", CUBE) = "gray" {}
 		[Toggle(_BACKGRONDTEXTURE_ON)] _BackgrondTexture("Backgrond Texture", Float) = 0
 		[HDR]_BacgroundColor("Bacground Color", Color) = (0.2627451,0.5490196,0.9960785,0)
