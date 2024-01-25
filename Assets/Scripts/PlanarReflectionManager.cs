@@ -42,6 +42,9 @@ public class PlanarReflectionManager : MonoBehaviour
         // 從主相機複製相機設置
         m_ReflectionCamera.CopyFrom(m_MainCamera);
 
+        // 將反射相機設為只渲染天空盒
+        m_ReflectionCamera.cullingMask = 0;
+
         // 從主相機獲取世界空間中的相機方向、相機上方向和相機位置
         Vector3 cameraDirectionWorldSpace = m_MainCamera.transform.forward;
         Vector3 cameraUpWorldSpace = m_MainCamera.transform.up;
