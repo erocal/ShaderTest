@@ -66,6 +66,9 @@
     <Compile Include="Assets\Scripts\PostProcessOutline.cs" />
     <Compile Include="Assets\Scripts\NormalPlay.cs" />
     <Compile Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflectionsProbe.cs" />
+    <Compile Include="Assets\Scripts\Resolution\CameraResolution.cs" />
+    <Compile Include="Assets\Scripts\Resolution\CanvasScalerResolution.cs" />
+    <Compile Include="Assets\Scripts\Resolution\ResolutionUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Outline.shader" />
@@ -73,6 +76,7 @@
     <None Include="Assets\Shader\FadeInOut.shader" />
     <None Include="Assets\Shader\PropertiesChallenge3.shader" />
     <None Include="Assets\Shader\Lava.shader" />
+    <None Include="Assets\VFX\Shaders\FresnelAddDiss.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Shader\Properties Challenge 4.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
@@ -94,6 +98,7 @@
     <None Include="Assets\Shader\NormalPlay.shader" />
     <None Include="Assets\Shader\UseProperties.shader" />
     <None Include="Assets\Shader\Outline2.shader" />
+    <None Include="Assets\Shader\Dissolve\Dissolve_Simple.shader" />
     <None Include="Assets\Shader\PackedPractice.shader" />
     <None Include="Assets\Shader\BumpDiffuse.shader" />
     <None Include="Assets\Shader\SkyboxReflection.shader" />

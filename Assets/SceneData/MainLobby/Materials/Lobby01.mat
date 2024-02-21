@@ -102,7 +102,7 @@ Material:
     - _BlendSrc: 1
     - _Brightness: 1
     - _BumpScale: 0.2
-    - _BumpSlider: 0.5
+    - _BumpSlider: 1.77
     - _ColorGrading: 0
     - _Contrast: 1
     - _Cutoff: 0.5
@@ -139,7 +139,7 @@ Material:
     - _OutlineSize: 5
     - _OutlineTab: 1
     - _Parallax: 0.005
-    - _ReflectionFactor: 0.65
+    - _ReflectionFactor: 0.61
     - _RenderFace: 2
     - _RenderPriority: 0
     - _RotationSpeed: 0.1
@@ -157,6 +157,7 @@ Material:
     - _StencilZFail: 0
     - _StylizeTab: 0
     - _Surface: 0
+    - _TextureBumpSlider: 0.75
     - _UVSec: 0
     - _VertexAnimation: 0
     - _VertexAnimationIntensity: 0.05

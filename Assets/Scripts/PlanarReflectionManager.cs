@@ -45,6 +45,8 @@ public class PlanarReflectionManager : MonoBehaviour
         // 將反射相機設為只渲染天空盒
         m_ReflectionCamera.cullingMask = 0;
 
+        m_ReflectionCamera.rect = new Rect(0f, 0f, 1f, 1f);
+
         // 從主相機獲取世界空間中的相機方向、相機上方向和相機位置
         Vector3 cameraDirectionWorldSpace = m_MainCamera.transform.forward;
         Vector3 cameraUpWorldSpace = m_MainCamera.transform.up;
@@ -80,7 +82,8 @@ public class PlanarReflectionManager : MonoBehaviour
         m_ReflectionCamera.targetTexture = m_RenderTarget;
         m_ReflectionCamera.Render();
 
-        DrawQuad();
+        m_FloorMaterial.SetTexture("_ReflectionTex", m_RenderTarget);
+
     }
 
     /// <summary>
@@ -99,39 +102,4 @@ public class PlanarReflectionManager : MonoBehaviour
         return new Vector4(viewNormal.x, viewNormal.y, viewNormal.z, w);
     }
 
-    /// <summary>
-    /// 繪製帶有指定地板材質和反射紋理的四邊形。
-    /// </summary>
-    private void DrawQuad()
-    {
-        // 保存當前矩陣狀態
-        GL.PushMatrix();
-
-        // 設置渲染通道
-        m_FloorMaterial.SetPass(0);
-        // 將反射紋理設置到地板材質
-        m_FloorMaterial.SetTexture("_ReflectionTex", m_RenderTarget);
-
-        // 載入正交投影矩陣
-        GL.LoadOrtho();
-
-        // 開始繪製
-        GL.Begin(GL.QUADS);
-
-        // 定義四邊形頂點和紋理坐標
-        GL.TexCoord2(1.0f, 0.0f);
-        GL.Vertex3(0.0f, 0.0f, 0.0f);
-        GL.TexCoord2(1.0f, 1.0f);
-        GL.Vertex3(0.0f, 1.0f, 0.0f);
-        GL.TexCoord2(0.0f, 1.0f);
-        GL.Vertex3(1.0f, 1.0f, 0.0f);
-        GL.TexCoord2(0.0f, 0.0f);
-        GL.Vertex3(1.0f, 0.0f, 0.0f);
-
-        // 結束繪製
-        GL.End();
-
-        // 恢復之前的矩陣狀態
-        GL.PopMatrix();
-    }
 }

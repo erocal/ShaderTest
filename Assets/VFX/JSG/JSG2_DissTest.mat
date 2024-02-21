@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: JSG2_DissTest
+  m_Shader: {fileID: 4800000, guid: 9157e80fbbb804f4a81fbcb8002098c0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DecorativeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 2800000, guid: 6066e5a39fd0e724f8b9f3286e0c93b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 02daf0920e87bca45b5d3ad3ff44fc6a, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AllEmission: 0
+    - _DecorTexEmission: 1.23
+    - _DecorTexPower: 1
+    - _DissolveRange: 0.447
+    - _DissolveRangey: 0.17
+    - _Edge1: 0.1
+    - _EdgeRange: 4.29
+    - _EmissionTexPower: 0.5
+    - _FlowMapSize: 0
+    - _FresnelPower: 4.64
+    - _FresnelScale: 7.64
+    - _UseCustomData: 0
+    - _UseDecorTex: 0
+    - _UseDissolveEdge: 0
+    - _UseEmissionTex: 0
+    - __dirty: 0
+    m_Colors:
+    - _DecorColor: {r: 0.38679248, g: 0, b: 0.007349447, a: 0}
+    - _DecorSpeed: {r: 0, g: -0.5, b: 0, a: 0}
+    - _DissolveColor: {r: 6.9559407, g: 0, b: 6.863026, a: 1}
+    - _EdgeColor: {r: 5.2101374, g: 3.1245258, b: 1.4008387, a: 1}
+    - _EmissionColor: {r: 1, g: 0.93928254, b: 0.4198113, a: 1}
+    - _EmissionSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 0.7490196, g: 0, b: 0.4, a: 1}
+  m_BuildTextureStacks: []

@@ -59,7 +59,7 @@
             float2 uv = IN.screenPos.xy / IN.screenPos.w;
             uv.x = 1 - uv.x;
 
-            fixed4 mainTexColor = tex2D(_MainTex, IN.uv_MainTex) * _Color; // 主紋理顏色
+            fixed4 mainTexColor = tex2D(_MainTex, IN.uv_MainTex) * _Color * (1.0 - _ReflectionFactor); // 主紋理顏色
             fixed4 reflectionColor = tex2D(_ReflectionTex, uv) * _ReflectionFactor * _ReflectionColor; // 反射的顏色，同時乘以 _ReflectionFactor 調整強度
 
             // 添加一个 smoothstep 方法，控制 reflectionColor 只留取白色部分
