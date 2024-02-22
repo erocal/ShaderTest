@@ -58,25 +58,28 @@
   <ItemGroup>
     <Compile Include="Assets\ThirdParty\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\ShowNormals.cs" />
+    <Compile Include="Assets\Scripts\Resolution\CameraResolution.cs" />
     <Compile Include="Assets\Scripts\PlanarReflection.cs" />
     <Compile Include="Assets\Scripts\RenderReplacementShaderToTexture.cs" />
     <Compile Include="Assets\Scripts\PlanarReflectionManager.cs" />
     <Compile Include="Assets\Scripts\OutlineController.cs" />
     <Compile Include="Assets\ThirdParty\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
+    <Compile Include="Assets\Scripts\Resolution\CanvasScalerResolution.cs" />
     <Compile Include="Assets\Scripts\PostProcessOutline.cs" />
+    <Compile Include="Assets\Scripts\Resolution\ResolutionUtility.cs" />
     <Compile Include="Assets\Scripts\NormalPlay.cs" />
     <Compile Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflectionsProbe.cs" />
-    <Compile Include="Assets\Scripts\Resolution\CameraResolution.cs" />
-    <Compile Include="Assets\Scripts\Resolution\CanvasScalerResolution.cs" />
-    <Compile Include="Assets\Scripts\Resolution\ResolutionUtility.cs" />
+    <Compile Include="Assets\Shader\FakeLight\FakeLight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Outline.shader" />
     <None Include="Assets\Shader\PropertiesChallenge2.shader" />
+    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Run.shader" />
     <None Include="Assets\Shader\FadeInOut.shader" />
     <None Include="Assets\Shader\PropertiesChallenge3.shader" />
     <None Include="Assets\Shader\Lava.shader" />
     <None Include="Assets\VFX\Shaders\FresnelAddDiss.shader" />
+    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTransparent.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Shader\Properties Challenge 4.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
@@ -88,10 +91,12 @@
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\ReadMe.txt" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarReflections.cginc" />
     <None Include="Assets\Shader\PlanarReflectionFloor.shader" />
+    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_GLOW.shader" />
     <None Include="Assets\Shader\OcclusionShader.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
+    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Pet.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
     <None Include="Assets\Shader\MK4Toon Skybox.shader" />
     <None Include="Assets\Shader\FloorStencil.shader" />
@@ -100,12 +105,15 @@
     <None Include="Assets\Shader\Outline2.shader" />
     <None Include="Assets\Shader\Dissolve\Dissolve_Simple.shader" />
     <None Include="Assets\Shader\PackedPractice.shader" />
+    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseColor.shader" />
     <None Include="Assets\Shader\BumpDiffuse.shader" />
     <None Include="Assets\Shader\SkyboxReflection.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\Shader\Floor.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
+    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\Water.shader" />
+    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseBumpTexture.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
