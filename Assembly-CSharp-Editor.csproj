@@ -716,6 +716,10 @@
       <Project>{3443BF3C-EAD6-E465-BADD-506AA56CA658}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="AmplifyShaderEditor.csproj">
+      <Project>{B09B058A-7E02-302E-36FF-6D333D56C71B}</Project>
+      <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="MK.Toon.csproj">
       <Project>{862A16A8-9A17-2B73-33C7-3B725C0BEADF}</Project>
       <Name>MK.Toon</Name>
@@ -735,10 +739,6 @@
     <ProjectReference Include="PathCreator.csproj">
       <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>
       <Name>PathCreator</Name>
-    </ProjectReference>
-    <ProjectReference Include="AmplifyShaderEditor.csproj">
-      <Project>{B09B058A-7E02-302E-36FF-6D333D56C71B}</Project>
-      <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

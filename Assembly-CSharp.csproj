@@ -61,10 +61,12 @@
     <Compile Include="Assets\Scripts\ShowNormals.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
     <Compile Include="Assets\Shader\FakeLight\FakeLight.cs" />
+    <Compile Include="Assets\ThirdParty\River And Lake\Scripts\RiverGenerator.cs" />
     <Compile Include="Assets\Scripts\Resolution\CameraResolution.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathPlacer.cs" />
     <Compile Include="Assets\Scripts\PlanarReflection.cs" />
     <Compile Include="Assets\Scripts\RenderReplacementShaderToTexture.cs" />
+    <Compile Include="Assets\ThirdParty\River And Lake\Scripts\LakeGenerator.cs" />
     <Compile Include="Assets\Scripts\PlanarReflectionManager.cs" />
     <Compile Include="Assets\Scripts\OutlineController.cs" />
     <Compile Include="Assets\ThirdParty\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
@@ -76,9 +78,8 @@
     <Compile Include="Assets\Scripts\NormalPlay.cs" />
     <Compile Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflectionsProbe.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
-    <Compile Include="Assets\ThirdParty\River And Lake\Scripts\LakeGenerator.cs" />
-    <Compile Include="Assets\ThirdParty\River And Lake\Scripts\RiverGenerator.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
+    <Compile Include="Assets\Scripts\Billboard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Outline.shader" />
@@ -96,6 +97,7 @@
     <None Include="Assets\Shader\Properties Challenge 4.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineMask.shader" />
+    <None Include="Assets\Shader\RunLight.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
     <None Include="Assets\Shader\PlannerReflection.shader" />
     <None Include="Assets\Shader\Outline 1.shader" />
@@ -111,6 +113,7 @@
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Pet.shader" />
+    <None Include="Assets\Shader\NeonLight.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_07DepthFade.shader" />
     <None Include="Assets\Shader\MK4Toon Skybox.shader" />
@@ -122,6 +125,7 @@
     <None Include="Assets\ThirdParty\CZ_B\cz_02hardDiss.shader" />
     <None Include="Assets\Shader\Outline2.shader" />
     <None Include="Assets\Shader\Dissolve\Dissolve_Simple.shader" />
+    <None Include="Assets\Shader\ScoreBoard.shader" />
     <None Include="Assets\Shader\PackedPractice.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseColor.shader" />
     <None Include="Assets\Shader\BumpDiffuse.shader" />
@@ -751,6 +755,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AmplifyShaderEditor.csproj">
+      <Project>{B09B058A-7E02-302E-36FF-6D333D56C71B}</Project>
+      <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="MK.Toon.csproj">
       <Project>{862A16A8-9A17-2B73-33C7-3B725C0BEADF}</Project>
       <Name>MK.Toon</Name>
@@ -770,10 +778,6 @@
     <ProjectReference Include="PathCreator.csproj">
       <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>
       <Name>PathCreator</Name>
-    </ProjectReference>
-    <ProjectReference Include="AmplifyShaderEditor.csproj">
-      <Project>{B09B058A-7E02-302E-36FF-6D333D56C71B}</Project>
-      <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
