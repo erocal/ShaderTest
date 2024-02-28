@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\PlanarReflectionManager.cs" />
     <Compile Include="Assets\Scripts\OutlineController.cs" />
     <Compile Include="Assets\ThirdParty\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
+    <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathSceneTool.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathFollower.cs" />
     <Compile Include="Assets\Scripts\Resolution\CanvasScalerResolution.cs" />
@@ -79,7 +80,6 @@
     <Compile Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflectionsProbe.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
-    <Compile Include="Assets\Scripts\Billboard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Outline.shader" />

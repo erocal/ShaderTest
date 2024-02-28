@@ -5,6 +5,7 @@ Shader "Unlit/NeonLight"
         _MainTex ("Texture", 2D) = "white" {}
         _MainColor ("Main Color",color) = (1,1,1,1)
         _LightTex ("LightTexture", 2D) = "white" {}
+        _LightTex2 ("LightTexture2", 2D) = "white" {}
     }
     SubShader
     {
@@ -27,12 +28,14 @@ Shader "Unlit/NeonLight"
 
         sampler2D _MainTex;
         sampler2D _LightTex;
+        sampler2D _LightTex2;
         fixed4 _MainColor;
 
         struct Input
         {
             float2 uv_MainTex;
             float2 uv2_LightTex;
+            float2 uv3_LightTex2;
         };
             
         void surf (Input IN, inout SurfaceOutput o)
@@ -42,12 +45,15 @@ Shader "Unlit/NeonLight"
 
             fixed4 lightTexColor = tex2D(_LightTex, IN.uv2_LightTex);
 
-            //c *= _MainColor;
-            lightTexColor.rgb = lerp(c.rgb, lightTexColor.rgb, lightTexColor.a);
+            fixed4 lightTex2Color = tex2D(_LightTex2, IN.uv3_LightTex2);
 
+            fixed4 mixedColor1 = lerp(c, lightTexColor, lightTexColor.a);
+            fixed4 mixedColor2 = lerp(c, lightTex2Color, lightTex2Color.a);
 
-            o.Albedo = lightTexColor.rgb;
-            o.Alpha = lightTexColor.a;
+            fixed4 finalColor = lerp(mixedColor1, mixedColor2, lightTex2Color.a);
+
+            o.Albedo = finalColor.rgb;
+            o.Alpha = finalColor.a;
         }
         ENDCG
     }

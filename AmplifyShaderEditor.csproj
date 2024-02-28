@@ -492,8 +492,8 @@
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\Log10OpNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Wires\WireReference.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Menu\Tools\ToolsMenuButtonSep.cs" />
-    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Utils\GeneratorUtils.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Various\FaceVariableNode.cs" />
+    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Utils\GeneratorUtils.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\DdyOpNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\InverseOpNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\AdditionalSurfaceOptionsHelper.cs" />
