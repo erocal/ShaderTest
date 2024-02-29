@@ -6,6 +6,7 @@ Shader "Unlit/NeonLight"
         _MainColor ("Main Color",color) = (1,1,1,1)
         _LightTex ("LightTexture", 2D) = "white" {}
         _LightTex2 ("LightTexture2", 2D) = "white" {}
+        _Speed("Scroll Speed",Range(-4,4))=1
     }
     SubShader
     {
@@ -30,6 +31,7 @@ Shader "Unlit/NeonLight"
         sampler2D _LightTex;
         sampler2D _LightTex2;
         fixed4 _MainColor;
+        fixed _Speed;
 
         struct Input
         {
@@ -43,9 +45,11 @@ Shader "Unlit/NeonLight"
             // Albedo comes from a texture tinted by color
             fixed4 c = tex2D(_MainTex, IN.uv_MainTex);
 
-            fixed4 lightTexColor = tex2D(_LightTex, IN.uv2_LightTex);
+            fixed2 scrollValue = fixed2(0,_Speed) * _Time;
 
-            fixed4 lightTex2Color = tex2D(_LightTex2, IN.uv3_LightTex2);
+            fixed4 lightTexColor = tex2D(_LightTex, IN.uv2_LightTex + scrollValue);
+
+            fixed4 lightTex2Color = tex2D(_LightTex2, IN.uv3_LightTex2 + scrollValue);
 
             fixed4 mixedColor1 = lerp(c, lightTexColor, lightTexColor.a);
             fixed4 mixedColor2 = lerp(c, lightTex2Color, lightTex2Color.a);
