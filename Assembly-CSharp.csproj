@@ -92,6 +92,8 @@
     <None Include="Assets\ThirdParty\CZ_B\cz_03EmissDiss.shader" />
     <None Include="Assets\VFX\Shaders\FresnelAddDiss.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_10SoftDissolve.shader" />
+    <None Include="Assets\VFX\Shaders\MK_Particle Add.shader" />
+    <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 1.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTransparent.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Shader\Properties Challenge 4.shader" />
@@ -110,6 +112,7 @@
     <None Include="Assets\Shader\OcclusionShader.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex.shader" />
+    <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 2.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Pet.shader" />

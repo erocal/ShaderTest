@@ -40,13 +40,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightTex:
-        m_Texture: {fileID: 2800000, guid: 9f49084b669de584db22846a59863faa, type: 3}
-        m_Scale: {x: 10, y: 0.7}
-        m_Offset: {x: 0, y: 0.1}
+        m_Texture: {fileID: 2800000, guid: fa5403ae6bc5a484a8551f13959a44e5, type: 3}
+        m_Scale: {x: 1.36, y: 1.63}
+        m_Offset: {x: 1.47, y: -0.14}
     - _LightTex2:
-        m_Texture: {fileID: 2800000, guid: dd3ce00b652963141b8eb77c0927164c, type: 3}
-        m_Scale: {x: 2.23, y: 0.7}
-        m_Offset: {x: -0.26, y: 1.15}
+        m_Texture: {fileID: 2800000, guid: fa5403ae6bc5a484a8551f13959a44e5, type: 3}
+        m_Scale: {x: 1.36, y: 1.63}
+        m_Offset: {x: 0.02, y: -0.14}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 784a3d73adf6f694bb0ff59788c2dc69, type: 3}
         m_Scale: {x: -0.27, y: 0.7}
