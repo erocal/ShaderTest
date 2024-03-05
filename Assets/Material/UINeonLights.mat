@@ -100,12 +100,12 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PassValue: 0.06
-    - _SingleLightTextureScrollSpeed: 0.559998
+    - _SingleLightTextureScrollSpeed: 0.83999807
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: -0.027228236
     - _SrcBlend: 1
-    - _TriangleLightTextureScrollSpeed: 0.559998
+    - _TriangleLightTextureScrollSpeed: 0.83999807
     - _UVSec: 0
     - _UseLight2Tex: 1
     - _UseLight3Tex: 1
