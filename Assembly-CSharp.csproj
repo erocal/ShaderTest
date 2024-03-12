@@ -162,6 +162,7 @@
     <None Include="Assets\ThirdParty\CZ_B\cz_06Fire.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\Water.shader" />
+    <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex_2.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseBumpTexture.shader" />
   </ItemGroup>
   <ItemGroup>
