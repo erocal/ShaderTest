@@ -156,3 +156,4 @@ Received Import Request.
   path: Assets/Shader/Pratice/Rim.shader
   artifactKey: Guid(8e762d058226a36449cec9756be6fbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Shader/Pratice/Rim.shader using Guid(8e762d058226a36449cec9756be6fbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626c06b0800edd8f46280b93fe0d4d4b') in 0.077350 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
