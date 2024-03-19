@@ -153,6 +153,7 @@
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\Shader\PlanarReflection\Floor.shader" />
+    <None Include="Assets\Shader\Pratice\Rim.shader" />
     <None Include="Assets\Shader\Pratice\BumpedEnviromentChallenge.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_08VertexColor&amp;&amp;SoftParticle.shader" />
