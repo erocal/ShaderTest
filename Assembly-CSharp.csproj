@@ -83,6 +83,7 @@
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shader\Pratice\CutoffWithDiffuse.shader" />
     <None Include="Assets\Shader\Outline\Outline.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\Seaside\Info.txt" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Double.shader" />
@@ -125,6 +126,7 @@
     <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 2.shader" />
     <None Include="Assets\Shader\OutLightting.shader" />
+    <None Include="Assets\Shader\Pratice\Cutoff.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
     <None Include="Assets\Shader\Pratice\BumpRefChallenge.shader" />
