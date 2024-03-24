@@ -14,13 +14,9 @@ Shader "Lava Flowing Shader/Diffuse/Lava_Flowing_OnlyLavaTex"
 		Tags { "RenderType"="Opaque" }
 		LOD 150
 
-			ZWrite On
-			//ColorMask 0
-
-
-			ZWrite Off
 			CGPROGRAM
-			#pragma surface surf Lambert noforwardadd
+
+			#pragma surface surf BlinnPhong
 
 			sampler2D _Distort;
 			sampler2D _LavaTex;
@@ -46,6 +42,7 @@ Shader "Lava Flowing Shader/Diffuse/Lava_Flowing_OnlyLavaTex"
 				o.Albedo = tex2.rgb;
 				o.Alpha = tex2.a;
 			}
+
 			ENDCG
 }
 

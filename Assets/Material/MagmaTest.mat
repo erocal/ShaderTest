@@ -73,14 +73,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
+    - _Compress: 0.25
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DistortX: 0.91
     - _DistortY: 0.41
     - _DstBlend: 0
+    - _Gain: 1.56
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Knee: 0.35
     - _LavaNormalIntensity: 1
     - _Metallic: 0
     - _Mode: 0
