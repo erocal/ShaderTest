@@ -68,9 +68,9 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutSideRimIntensity: 0.72
-    - _OutSideRimPower: 0.18
-    - _OutSideRimSize: 0.25
+    - _OutSideRimIntensity: 1.46
+    - _OutSideRimPower: 0.88
+    - _OutSideRimSize: 0.17
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

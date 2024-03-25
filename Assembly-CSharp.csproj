@@ -85,6 +85,7 @@
   <ItemGroup>
     <None Include="Assets\Shader\Pratice\CutoffWithDiffuse.shader" />
     <None Include="Assets\Shader\Outline\Outline.shader" />
+    <None Include="Assets\Shader\Pratice\Leaves.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\Seaside\Info.txt" />
     <None Include="Assets\Shader\Pratice\BasicLambert.shader" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Double.shader" />
@@ -110,6 +111,7 @@
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\Shader\NeonLight\RunLight.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
+    <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
     <None Include="Assets\Shader\PlanarReflection\PlannerReflection.shader" />
     <None Include="Assets\Shader\Outline\Outline 1.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\MuirWood\Info.txt" />
@@ -136,6 +138,7 @@
     <None Include="Assets\Shader\NeonLight\NeonLight.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_07DepthFade.shader" />
+    <None Include="Assets\Shader\Pratice\BasicBlinnChanllenge.shader" />
     <None Include="Assets\VFX\Shaders\FresnelAddDiss.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_05RimLight 1.shader" />
     <None Include="Assets\Shader\PlanarReflection\FloorStencil.shader" />
