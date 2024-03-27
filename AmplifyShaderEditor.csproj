@@ -54,7 +54,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="D:\Program Files\UnityProject\ShaderTest\Assets\ThirdParty\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\LinearDepthNode.cs" />
@@ -176,8 +175,8 @@
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateData.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Utils\ASEPPSHelperTool.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Utils\ASESaveBundleTool.cs" />
-    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Menu\Tools\ToolsMenuButton.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\SRP\URP\ReflectionProbeNode.cs" />
+    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Menu\Tools\ToolsMenuButton.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\Vector3Node.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\DeterminantOpNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\Tessellation\DistanceBasedTessNode.cs" />
@@ -203,10 +202,10 @@
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\ProjectionMatrixNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Templates\TemplatesBlendModule.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ATanOpNode.cs" />
-    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\InverseProjectionMatrixNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Utils\InvalidDataChecker.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Native\FallbackString.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\LogOpNode.cs" />
+    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\InverseProjectionMatrixNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\Matrix4X4Node.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\ScreenDepthNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\TangentVertexDataNode.cs" />
@@ -466,12 +465,12 @@
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Menu\ConsoleLogWindow.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ParallaxOcclusionMappingNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Native\FallbackVariable.cs" />
-    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Menu\MenuParent.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\VariablePortTypeOpNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\EncodeFloatRGHlpNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ComputeGrabScreenPosHlpNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\PreMadeShaders.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\SamplerNode.cs" />
+    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Menu\MenuParent.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\FallbackPickerHelper.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\SimplexNoiseNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\Exp2OpNode.cs" />
@@ -976,6 +975,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="StarterAssetsPackageChecker">
+      <HintPath>Assets\ThirdParty\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -987,9 +989,6 @@
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="StarterAssetsPackageChecker">
-      <HintPath>Assets\ThirdParty\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
