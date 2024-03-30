@@ -182,6 +182,7 @@
     <None Include="Assets\Shader\Pratice\Properties Challenge 4.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\TreasureIsland\Info.txt" />
+    <None Include="Assets\Shader\Pratice\VFMat.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
@@ -195,10 +196,13 @@
     <None Include="Assets\Shader\Pratice\NormalShader-1.shader" />
     <None Include="Assets\Shader\UI\LightText.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\ReadMe.txt" />
+    <None Include="Assets\Shader\Pratice\StencilWindow.shader" />
     <None Include="Assets\ThirdParty\River And Lake\Shaders\River.shader" />
     <None Include="Assets\Shader\NormalPlay.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Shader\Pratice\BumpDiffuseStencil.shader" />
     <None Include="Assets\Shader\UI\UINeonLight.shader" />
+    <None Include="Assets\Shader\Pratice\Hole.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarReflections.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
@@ -267,12 +271,14 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
     <None Include="Assets\Shader\Pratice\BumpDiffuse.shader" />
+    <None Include="Assets\Shader\Pratice\VFDiffuse.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\Gareoult\Info.txt" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Soft.shader" />
     <None Include="Assets\Shader\PlanarReflection\SkyboxReflection.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\Shader\Pratice\ColourVF.shader" />
     <None Include="Assets\Shader\BoxWorld.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\Shader\PlanarReflection\Floor.shader" />
@@ -286,6 +292,7 @@
     <None Include="Assets\Shader\Pratice\ToonRamp.shader" />
     <None Include="Assets\ThirdParty\FrostedGlass\FrostedGlass\Shaders\SeparableBlur.shader" />
     <None Include="Assets\Shader\Pratice\OwnedBasicBlinn.shader" />
+    <None Include="Assets\Shader\Pratice\VFDiffuseShadows.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_06Fire.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture.shader" />
     <None Include="Assets\Shader\Pratice\DotProduct.shader" />
