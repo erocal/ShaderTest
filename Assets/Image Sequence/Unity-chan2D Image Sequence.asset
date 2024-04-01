@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546069fd762786f4da89225e1989d105, type: 3}
+  m_Name: Unity-chan2D Image Sequence
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - 529e1a55c063d314499f78edb1ce8051
+  - cbdd800165e63644fb4450a1a1bdc091
+  - 862631bab68e26f4b938c6bb0cd98f74
+  - e42fcf49d873cb3488f5e5ff0134cd71
+  - 03995015ad67b3b4c813ec11e9602e9b
+  - 1b10394dd1503744fb6c5280255d73f3
+  - b7f7d0a4a696438489637e72a6380484
+  - ebdf54251cbb0134db054338e391dd9e
+  - 56cbafa2ad17cdd47afc0251fb2f140f
+  - 47c94835c4fc3dd4abbf3be9a738f60e
+  - b0ddc594ec1b60c4ea3b83342656f390
+  - a058c0079f6e3fd478f053e2ba5b5dcb
+  - 71a060e49bde5e644b2204b708b5acc5
+  - a6c2bda2959743549aaf711a8a24c9da
+  - ef6aa940703280943b9eea2bcef8d9df
+  - 581cb85ad217ca742a13b1c869d13cbb
+  - f6082234d102d4346a7f52965991d7cc
+  - ceb835abc6536b24a98ecc8251b1e8b2
+  - c98a5940f9c1d54468dc30c3cc4c6e31
+  - 45dc07d78be514542a7f7c2968b35373
+  processorInfos:
+  - {fileID: 1997705844291154339}
+  exportSettings:
+    fileName: 
+    frameCount: 1
+    exportMode: 2
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &1997705844291154339
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fd70c9b64e53a4e8702dbd00412a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Settings: {fileID: 2901973460693262286}
+--- !u!114 &2901973460693262286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77e015c9f1a1eb44a23bc84ec1b265d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 5
+  FlipbookNumV: 4
+  Mode: 0

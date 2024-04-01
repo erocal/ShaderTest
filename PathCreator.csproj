@@ -57,15 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\PathSpace.cs" />
-    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Utility\VertexPathUtility.cs" />
-    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\PathCreator.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\MinMax3D.cs" />
-    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\PathCreatorData.cs" />
-    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\BezierPath.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\EndOfPathInstruction.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Utility\MathUtility.cs" />
-    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\GlobalDisplaySettings.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Utility\CubicBezierUtility.cs" />
+    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Utility\VertexPathUtility.cs" />
+    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\PathCreator.cs" />
+    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\PathCreatorData.cs" />
+    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\BezierPath.cs" />
+    <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\GlobalDisplaySettings.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Core\Runtime\Objects\VertexPath.cs" />
   </ItemGroup>
   <ItemGroup>
