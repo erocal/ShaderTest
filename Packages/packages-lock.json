@@ -117,11 +117,10 @@
       }
     },
     "com.unity.vfx-toolbox": {
-      "version": "https://github.com/Unity-Technologies/VFXToolbox.git#2.0.0-preview",
+      "version": "file:C:/Users/User/Desktop/VFXToolbox-master",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "b256da4fae64c3bca299096ce0cafb45a13ca2c3"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

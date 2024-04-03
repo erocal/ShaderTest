@@ -3,7 +3,14 @@
   "WorkspaceRootPath": "D:\\ShaderTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\shadertest\\assets\\thirdparty\\gaussianblur\\gaussianblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\shadertest\\assets\\shader\\sequenceframeanimation.shader||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\shader\\sequenceframeanimation.shader||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\ShaderTest\\assets\\thirdparty\\gaussianblur\\gaussianblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\thirdparty\\gaussianblur\\gaussianblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,6 +28,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ShaderTest\\Assets\\ThirdParty\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ThirdParty\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +57,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Unity.VFXToolbox.Editor.asmdef",
+              "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
+              "RelativeDocumentMoniker": "Assets\\ThirdParty\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
+              "ToolTip": "D:\\ShaderTest\\Assets\\ThirdParty\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
+              "RelativeToolTip": "Assets\\ThirdParty\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001874|",
+              "WhenOpened": "2024-04-03T07:39:36.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Unity.VFXToolbox.Editor.asmdef",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
+              "ToolTip": "C:\\Users\\User\\Desktop\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001874|",
+              "WhenOpened": "2024-04-03T07:39:28.857Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SequenceFrameAnimation.shader",
+              "DocumentMoniker": "D:\\ShaderTest\\Assets\\Shader\\SequenceFrameAnimation.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\SequenceFrameAnimation.shader",
+              "ToolTip": "D:\\ShaderTest\\Assets\\Shader\\SequenceFrameAnimation.shader",
+              "RelativeToolTip": "Assets\\Shader\\SequenceFrameAnimation.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-04-02T06:01:27.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GaussianBlur.cs",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
@@ -54,12 +100,11 @@
               "RelativeToolTip": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T03:40:31.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T03:40:31.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GaussianBlurFilter.shader",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlurFilter.shader",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlurFilter.shader",
@@ -71,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "OutLightting.shader",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\Shader\\OutLightting.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\OutLightting.shader",
@@ -83,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GaussianBlur.shader",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader",
@@ -95,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FilterTest.cs",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\FilterTest.cs",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\FilterTest.cs",
