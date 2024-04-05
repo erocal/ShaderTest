@@ -52,7 +52,7 @@ namespace UnityEngine.PostProcessing
                 ? RenderTextureFormat.Default
                 : RenderTextureFormat.DefaultHDR;
 
-            // Determine the iteration count
+            // Determine the iteration mobPsycho100Count
             float logh = Mathf.Log(th, 2f) + bloom.radius - 8f;
             int logh_i = (int)logh;
             int iterations = Mathf.Clamp(logh_i, 1, k_MaxPyramidBlurLevel);

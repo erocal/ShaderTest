@@ -8,6 +8,7 @@ Shader "Holistic/BlendTest"
     {
         Tags { "Queue"="Transparent" }
         Blend One One 
+        ZWrite Off
         Pass {
             SetTexture [_MainTex] { combine texture }
         }

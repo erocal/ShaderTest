@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5435327473882694469
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7730ccd3ea29594798a3308a227e5d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Settings: {fileID: 6700095237476329706}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3192c2e19a0c9294987be46b5930a9c7, type: 3}
+  m_Name: MobPsycho100
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - 5e8723faadc124942be5a7fbc190e694
+  - ab2f1ec262c386e4789fe54ef7818378
+  - f06093b576788c047b818a6d82877e0e
+  - fd1724dd46b054c47ad45b376fff0bc7
+  - 3cea921f69c63e2409132c31ee5cba36
+  - 75906a2c74adf6e49a1d022a95c12613
+  - c6888045c1e9d88419bcdb75167a81ee
+  - ed53bfdc64d2fe149ba1d24a743bdcda
+  - 22e0c90bb1932bf45bf7cd2d5e196d8f
+  - f230cde5eaf5a894ea0c153f2e6a398e
+  - 5ea55761d58fed841a43d4a611a89c60
+  processorInfos:
+  - {fileID: -5435327473882694469}
+  exportSettings:
+    fileName: Assets/Texture/MobPsycho100_11x1.png
+    frameCount: 1
+    outputShape: 0
+    exportMode: 2
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &6700095237476329706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf6dc9b809928942b98794408961a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 11
+  FlipbookNumV: 1
+  Mode: 0

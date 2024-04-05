@@ -117,7 +117,7 @@
       }
     },
     "com.unity.vfx-toolbox": {
-      "version": "file:C:/Users/User/Desktop/VFXToolbox-master",
+      "version": "file:D:/Program Files/UnityProject/VFXToolbox-master",
       "depth": 0,
       "source": "local",
       "dependencies": {}
