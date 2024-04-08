@@ -75,6 +75,7 @@
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Scripts\MobPsycho100.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Scripts\Resolution\CanvasScalerResolution.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
@@ -144,7 +145,6 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\MobPsycho100.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Pratice\CutoffWithDiffuse.shader" />
@@ -227,6 +227,7 @@
     <None Include="Assets\Shader\OutLightting.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
     <None Include="Assets\ThirdParty\StarterAssets\license.txt" />
+    <None Include="Assets\Shader\Pratice\Extrude.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
     <None Include="Assets\Shader\Pratice\Cutoff.shader" />
@@ -236,6 +237,7 @@
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
     <None Include="Assets\Shader\Pratice\BumpRefChallenge.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Shader\Pratice\SimpleOutline.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Pet.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -305,6 +307,7 @@
     <None Include="Assets\Shader\Pratice\VFDiffuseShadows.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_06Fire.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture.shader" />
+    <None Include="Assets\Shader\Pratice\AdvOutline.shader" />
     <None Include="Assets\Shader\Pratice\DotProduct.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\Water.shader" />
     <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex_2.shader" />

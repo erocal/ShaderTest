@@ -3,6 +3,8 @@
     Properties
     {
         [PerRendererData]_MainTex("Image Sequence", 2D) = "white" {}
+        [Enum(UnityEngine.Rendering.BlendMode)] _BlendSrc ("Blend mode Source", Int) = 1
+        [Enum(UnityEngine.Rendering.BlendMode)] _BlendDst ("Blend mode Destination", Int) = 0
         _Color("Color", Color) = (1, 1, 1, 1)
         _Alpha("Alpha", Range(0, 1)) = 1
         _HorizontalAmount("Horizontal Amount", Float) = 2
@@ -19,7 +21,7 @@
         {
             Tags { "LightMode" = "ForwardBase" }
             ZWrite Off
-            Blend SrcAlpha One
+            Blend [_BlendSrc] [_BlendDst]
    
             CGPROGRAM
             #pragma vertex vert             
