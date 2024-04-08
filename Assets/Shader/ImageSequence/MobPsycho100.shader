@@ -6,7 +6,7 @@
         _Color("Color", Color) = (1, 1, 1, 1)
         _Alpha("Alpha", Range(0, 1)) = 1
         _HorizontalAmount("Horizontal Amount", Float) = 2
-        _VerticalAmount("VerticalAmount", Float) = 2
+        _VerticalAmount("VerticalAmount", Float) = 5
         _CurSequenceId("Current Sequence Id", Int) = 0
         [Toggle]_UseTime("Use Time to auto Animate", Float) = 0
         _Speed("Speed", Range(1, 30)) = 30
@@ -65,17 +65,18 @@
                 }
 				
 				//獲取處於哪一行
-                float posx = floor(_CurSequenceId % _HorizontalAmount);
+                float posx = floor(_CurSequenceId % _VerticalAmount);
+
                 //獲取處於哪一列
                 //Unity的紋理座標垂直方向的順序和序列幀紋理中垂直方向上的順序是相反的
                 //因此要倒過來取
-                float posy = _VerticalAmount - floor(_CurSequenceId / _HorizontalAmount) - 1;
+                float posy = _HorizontalAmount - floor(_CurSequenceId / _VerticalAmount) - 1;
 				
 				//添加到uv座標上
                 half2 uv = i.uv + half2(posx, posy);
                 //縮小範圍
-                uv.x /= _HorizontalAmount;
-                uv.y /= _VerticalAmount;
+                uv.x /= _VerticalAmount;
+                uv.y /= _HorizontalAmount;
 
                 fixed4 color = tex2D(_MainTex, uv);
                 color.rgb *= _Color;
@@ -86,5 +87,5 @@
             ENDCG
         }
     }
-    FallBack "Transparent/VertexLit"
+    FallBack "Diffuse"
 }
