@@ -240,6 +240,7 @@
     <None Include="Assets\Shader\Pratice\SimpleOutline.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Pet.shader" />
+    <None Include="Assets\Shader\Pratice\Glass.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\Shader\NeonLight\NeonLight.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
