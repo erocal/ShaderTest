@@ -189,6 +189,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
     <None Include="Assets\Shader\NeonLight\RunLight.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
     <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
@@ -311,6 +312,7 @@
     <None Include="Assets\Shader\Pratice\AdvOutline.shader" />
     <None Include="Assets\Shader\Pratice\DotProduct.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\Water.shader" />
+    <None Include="Assets\Shader\Pratice\Waves.shader" />
     <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex_2.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseBumpTexture.shader" />
   </ItemGroup>
