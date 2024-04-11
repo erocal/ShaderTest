@@ -2,12 +2,14 @@
 {
     Properties
     {
-        _Color("Color", Color) = (1, 1, 1, 1)
         [PerRendererData]_MainTex("Image Sequence", 2D) = "white" {}
-        _HorizontalAmount("Horizontal Amount", Float) = 2
+        _Color("Color", Color) = (1, 1, 1, 1)
+        _Alpha("Alpha", Range(0, 1)) = 1
+        _HorizontalAmount("Horizontal Amount", Float) = 5
         _VerticalAmount("VerticalAmount", Float) = 2
-        [HideInInspector]_CurSequenceId("Current Sequence Id", Int) = 0
-        _Speed("Speed", Range(1, 10)) = 30
+        _CurSequenceId("Current Sequence Id", Int) = 0
+        [Toggle]_UseTime("Use Time to auto Animate", Float) = 0
+        _Speed("Speed", Range(1, 30)) = 30
     }
     SubShader
     {
@@ -26,11 +28,13 @@
             #include "Lighting.cginc"
    
             fixed4 _Color;
+            float _UseTime;
             float _Speed;
             float _HorizontalAmount;
             float _VerticalAmount;
             float _CurSequenceId;
             sampler2D _MainTex;
+            float _Alpha;
 
             float4 _MainTex_ST;
             struct appdata
@@ -54,13 +58,17 @@
             fixed4 frag(v2f i) : SV_Target
             {
             	// 獲取時間，向下取整，以_Speed做調整
-                float time = floor(_Time.y * _Speed);
+                if (_UseTime == 1)
+                {
+                    _CurSequenceId = floor(_Time.y * _Speed);
+                    _CurSequenceId %= _HorizontalAmount * _VerticalAmount;
+                }
 
-                //獲取當前圖片ID
-                _CurSequenceId = time % (_HorizontalAmount * _VerticalAmount);
+                _CurSequenceId += 0.1;
 				
 				//獲取處於哪一行
                 float posx = floor(_CurSequenceId % _HorizontalAmount);
+
                 //獲取處於哪一列
                 //Unity的紋理座標垂直方向的順序和序列幀紋理中垂直方向上的順序是相反的
                 //因此要倒過來取
@@ -71,9 +79,10 @@
                 //縮小範圍
                 uv.x /= _HorizontalAmount;
                 uv.y /= _VerticalAmount;
-                
+
                 fixed4 color = tex2D(_MainTex, uv);
                 color.rgb *= _Color;
+                color.a *= _Alpha;
                 return color;
 
             }
@@ -82,3 +91,4 @@
     }
     FallBack "Transparent/VertexLit"
 }
+
