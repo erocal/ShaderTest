@@ -172,6 +172,7 @@
     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\Shader\Pratice\Transparent.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlurFilter.shader" />
+    <None Include="Assets\Shader\Pratice\UVScroll.shader" />
     <None Include="Assets\VFX\Shaders\MK_Particle Add.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Simple.shader" />
@@ -185,6 +186,7 @@
     <None Include="Assets\Shader\Pratice\Properties Challenge 4.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\TreasureIsland\Info.txt" />
+    <None Include="Assets\Shader\Pratice\UVScrollWaterWithWaves.shader" />
     <None Include="Assets\Shader\Pratice\VFMat.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineMask.shader" />
@@ -230,6 +232,7 @@
     <None Include="Assets\ThirdParty\StarterAssets\license.txt" />
     <None Include="Assets\Shader\Pratice\Extrude.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Shader\Pratice\UVScrollWater.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
     <None Include="Assets\Shader\Pratice\Cutoff.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
