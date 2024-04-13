@@ -193,8 +193,10 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
     <None Include="Assets\Shader\NeonLight\RunLight.shader" />
+    <None Include="Assets\Shader\Pratice\VFPlasma.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
     <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
+    <None Include="Assets\Shader\Pratice\Plasma.shader" />
     <None Include="Assets\Shader\PlanarReflection\PlannerReflection.shader" />
     <None Include="Assets\Shader\Outline\Outline 1.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\MuirWood\Info.txt" />
@@ -203,6 +205,7 @@
     <None Include="Assets\Shader\UI\LightText.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\ReadMe.txt" />
     <None Include="Assets\Shader\Pratice\StencilWindow.shader" />
+    <None Include="Assets\Shader\Pratice\PrimitiveSphere.shader" />
     <None Include="Assets\Shader\ImageSequence\SequenceFrameAnimation.shader" />
     <None Include="Assets\Shader\Pratice\VFColouredMat.shader" />
     <None Include="Assets\ThirdParty\River And Lake\Shaders\River.shader" />
