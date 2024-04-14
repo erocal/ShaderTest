@@ -12,17 +12,20 @@ Shader "Holistic/PrimitiveSphere"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
+            #include "UnityLightingCommon.cginc"
 
             struct appdata
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
+                //float3 normal : NORMAL;
             };
 
             struct v2f
             {
                 float3 wPos : TEXCOORD0;
                 float4 pos : SV_POSITION;
+                //fixed4 diff : COLOR0;
             };
 
             v2f vert (appdata v)
@@ -30,6 +33,7 @@ Shader "Holistic/PrimitiveSphere"
                 v2f o;
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.wPos = mul(unity_ObjectToWorld, v.vertex).xyz;
+                
                 return o;
             }
 
@@ -41,7 +45,7 @@ Shader "Holistic/PrimitiveSphere"
                 return distance(p, center) < radius;
             }
 
-            float RaymarchHit (float3 position, float3 direction)
+            float3 RaymarchHit (float3 position, float3 direction)
             {
                 for (int i = 0; i < STEPS; i++)
                 {
@@ -51,16 +55,23 @@ Shader "Holistic/PrimitiveSphere"
                     position += direction * STEP_SIZE;
                 }
 
-                return 0;
+                return float3(0, 0, 0);
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
                 float3 viewDirection = normalize(i.wPos - _WorldSpaceCameraPos);
                 float3 worldPosition = i.wPos;
-                float depth = RaymarchHit(worldPosition, viewDirection);
+                float3 depth = RaymarchHit(worldPosition, viewDirection);
 
-                if ( depth != 0) return fixed4(1, 0, 0, 1);
+                half3 worldNormal = depth - unity_ObjectToWorld._m03_m13_m23;
+                half nl = max(0, dot(worldNormal, _WorldSpaceLightPos0.xyz));
+
+                if ( length(depth) != 0)
+                {
+                    depth *= nl * _LightColor0;
+                    return fixed4(depth, 1);
+                } 
                 else return fixed4(1, 1 , 1, 0);
             }
             ENDCG

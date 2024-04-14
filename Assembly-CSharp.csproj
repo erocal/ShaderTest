@@ -184,6 +184,7 @@
     <None Include="Assets\Shader\Pratice\BumpedEnviroment.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Shader\Pratice\Properties Challenge 4.shader" />
+    <None Include="Assets\Shader\Pratice\RayMarchCloudsP1.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\TreasureIsland\Info.txt" />
     <None Include="Assets\Shader\Pratice\UVScrollWaterWithWaves.shader" />
@@ -239,6 +240,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
     <None Include="Assets\Shader\Pratice\Cutoff.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Shader\Pratice\SphericalFog.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\Shader\ImageSequence\Sequence.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
