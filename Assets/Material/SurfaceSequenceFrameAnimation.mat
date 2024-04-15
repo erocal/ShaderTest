@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: lambert2
-  m_Shader: {fileID: 4800000, guid: 8d05b1c3e3cf7c844a360e52221da786, type: 3}
+  m_Name: SurfaceSequenceFrameAnimation
+  m_Shader: {fileID: 4800000, guid: 1547b663353eafd4c9047d8473b2abf9, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -39,12 +39,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _EmissiveTex:
-        m_Texture: {fileID: 2800000, guid: aedc6a82c9860fe48aff6fdb98b6cb7c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 40312db5f0b41d340a92c4a150cf3d25, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -59,47 +55,30 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _myBump:
-        m_Texture: {fileID: 2800000, guid: daa1ea949844c88489bfadf3f529b249, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _myCube:
-        m_Texture: {fileID: 8900000, guid: d4c8dc343ae5d4673b7720ffdb1ddf00, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _myDiffuse:
-        m_Texture: {fileID: 2800000, guid: 41e018950e9b8d744b61b8eaf96cb25e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _myTex:
-        m_Texture: {fileID: 2800000, guid: f6f091837e73d8e4390f22d547ac8d0c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Alpha: 1
     - _BumpScale: 1
+    - _CurSequenceId: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HorizontalAmount: 5
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: 30
     - _SrcBlend: 1
     - _UVSec: 0
+    - _UseTime: 0
+    - _VerticalAmount: 2
     - _ZWrite: 1
-    - _myFloat: 0.5
-    - _myRange: 1.17
-    - _mySlider: 3.01
-    - _myTextureBumpSlider: 0.897
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _myColor: {r: 1, g: 0, b: 0.9606123, a: 1}
-    - _myColour: {r: 1, g: 0.638, b: 0, a: 1}
-    - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
