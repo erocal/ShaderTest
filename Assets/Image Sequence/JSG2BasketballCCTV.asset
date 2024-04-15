@@ -27,20 +27,22 @@ MonoBehaviour:
   m_Name: JSG2BasketballCCTV
   m_EditorClassIdentifier: 
   inputFrameGUIDs:
-  - 485e5046c4dcd954ca366d8c8c364ce6
-  - d3ed99c42d5268b4e98aa9b4115b0edc
-  - c855d2539d9458e4db3a270498dfdc9e
-  - 84aa6dc1951fad543b722172bdf419ea
-  - 5866383360864944b9061fc552ca9f68
-  - 70840451b96e89a4490828d4aeaaa65e
-  - ce3f07d52e6163448adfdb56c0019965
-  - 285a345ec28cc694c9b8fcb03e2f0a8f
-  - 395518ed28691a0408a7b676cb8c45ec
-  - e6891eef784f3c14a93e3d3ec7cf3e5e
+  - 71777bdb4324bf34cab6bea0e14fe2ab
+  - 71777bdb4324bf34cab6bea0e14fe2ab
+  - 71777bdb4324bf34cab6bea0e14fe2ab
+  - 7745be4843dde8546a6641534cb4b7cc
+  - 7745be4843dde8546a6641534cb4b7cc
+  - 7745be4843dde8546a6641534cb4b7cc
+  - ebfadef51a4468040bdc3e3f5b43c22e
+  - ebfadef51a4468040bdc3e3f5b43c22e
+  - ebfadef51a4468040bdc3e3f5b43c22e
+  - 7814db9c4052ea846bbd0ea3352e664e
+  - 7814db9c4052ea846bbd0ea3352e664e
+  - 7814db9c4052ea846bbd0ea3352e664e
   processorInfos:
   - {fileID: -2704194308722394221}
   exportSettings:
-    fileName: Assets/Texture/Number/RunLight/Image_Target_Score_0_5x2.png
+    fileName: Assets/Texture/JSG2BasketballCCTV/JSG2BasketballCCTV_4x3.png
     frameCount: 1
     outputShape: 0
     exportMode: 2
@@ -48,8 +50,8 @@ MonoBehaviour:
     exportSeparateAlpha: 0
     sRGB: 1
     highDynamicRange: 0
-    compress: 1
-    generateMipMaps: 1
+    compress: 0
+    generateMipMaps: 0
     wrapMode: 0
     filterMode: 1
     dataContents: 0
@@ -69,6 +71,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf6dc9b809928942b98794408961a3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlipbookNumU: 5
-  FlipbookNumV: 2
+  FlipbookNumU: 4
+  FlipbookNumV: 3
   Mode: 0
