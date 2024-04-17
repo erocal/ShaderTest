@@ -184,7 +184,6 @@
     <None Include="Assets\Shader\Pratice\BumpedEnviroment.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Shader\Pratice\Properties Challenge 4.shader" />
-    <None Include="Assets\Shader\Pratice\RayMarchCloudsP1.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\TreasureIsland\Info.txt" />
     <None Include="Assets\Shader\Pratice\UVScrollWaterWithWaves.shader" />
@@ -201,6 +200,7 @@
     <None Include="Assets\Shader\PlanarReflection\PlannerReflection.shader" />
     <None Include="Assets\Shader\Outline\Outline 1.shader" />
     <None Include="Assets\ThirdParty\UnityTechnologies\UnityHDRI\MuirWood\Info.txt" />
+    <None Include="Assets\Shader\ImageSequence\SurfaceSequenceFrameAnimation.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\Shader\Pratice\NormalShader-1.shader" />
     <None Include="Assets\Shader\UI\LightText.shader" />
@@ -212,6 +212,7 @@
     <None Include="Assets\ThirdParty\River And Lake\Shaders\River.shader" />
     <None Include="Assets\Shader\NormalPlay.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Shader\Pratice\RaymarchCloudsVolume.shader" />
     <None Include="Assets\Shader\Pratice\BumpDiffuseStencil.shader" />
     <None Include="Assets\Shader\UI\UINeonLight.shader" />
     <None Include="Assets\Shader\Pratice\Hole.shader" />
@@ -266,6 +267,7 @@
     <None Include="Assets\ThirdParty\CZ_B\cz_01mask.shader" />
     <None Include="Assets\Shader\Pratice\BasicBlinn.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Shader\ParticleAddWithScrollingTex.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
     <None Include="Assets\Shader\Pratice\BlendTest.shader" />
     <None Include="Assets\Shader\Pratice\NormalPlay.shader" />
