@@ -20,12 +20,12 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _FadeDist: 0
-    - _MaxHeight: 10
+    - _FadeDist: 10
+    - _MaxHeight: 25.5
     - _MinHeight: 0
-    - _Scale: 1.7
-    - _StepScale: 1
-    - _Steps: 200
+    - _Scale: 0.1
+    - _StepScale: 13.8
+    - _Steps: 171
     m_Colors:
-    - _SunDir: {r: -1.02, g: 0, b: 0, a: 0}
+    - _SunDir: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

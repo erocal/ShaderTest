@@ -6,7 +6,7 @@ Shader "Holistic/RaymarchCloudsVolume"
         _StepScale ("Step Scale", Range(0.1, 100.0)) = 1
         _Steps ("Steps", Range(1, 200)) = 60
         _MinHeight ("Min Height", Range(0.0, 5.0)) = 0
-        _MaxHeight ("Max Height", Range(6.0, 10.0)) = 10
+        _MaxHeight ("Max Height", Range(6.0, 100.0)) = 10
         _FadeDist ("Fade Distance", Range(0.0, 10.0)) = 0.5
         _SunDir ("Sun Direction", Vector) = (1, 0, 0, 0)
     }
@@ -93,6 +93,18 @@ Shader "Holistic/RaymarchCloudsVolume"
 
             }
 
+            fixed4 integrate(fixed4 sum, float diffuse, float density, fixed4 bgcol, float t)
+            {
+                fixed3 lighting = fixed3(1, 0.68, 0.7) * 1.3 + 0.5 * fixed3(0.7, 0.5, 0.3) * diffuse;
+                fixed3 colrgb = lerp(fixed3(1.0, 0.95, 0.8), fixed3(0.65, 0.65, 0.65), density);
+                fixed4 col = fixed4(colrgb.r, colrgb.g, colrgb.b, density);
+                col.rgb *= lighting;
+                col.rgb = lerp(col.rgb, bgcol, 1.0 - exp(-0.003*t*t));
+                col.a *= 0.5;
+                col.rgb *= col.a;
+                return sum + col*(1.0 - sum.a);
+            }
+
             #define MARCH(steps, noiseMap, cameraPos, viewDir, bgcol, sum, depth, t) { \
                 for (int i = 0; i < steps + 1; i++) \
                 { \
@@ -112,7 +124,7 @@ Shader "Holistic/RaymarchCloudsVolume"
                         \// 計算出的密度減去noiseMap (pos+ 0.3乘以太陽方向 ) / 0.6
                         \// 它所做的是以稍微不同的偏移量再次計算噪音密度，其中包括太陽，根據實際太陽的方向為我們提供不同的密度。
                         float diffuse = clamp((density - noiseMap(pos + 0.3 * _SunDir)) / 0.6, 0.0, 1.0); \
-                        sum = diffuse; \
+                        sum = integrate(sum, diffuse, density, bgcol, t); \
                     } \
                     \
                     t += max(0.1, 0.02*t); \
