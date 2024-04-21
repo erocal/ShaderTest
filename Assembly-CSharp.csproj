@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\ThirdParty\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathSpawner.cs" />
+    <Compile Include="Assets\Scripts\Drive.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
@@ -145,6 +146,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\Clouds.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Pratice\CutoffWithDiffuse.shader" />
@@ -194,6 +196,7 @@
     <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
     <None Include="Assets\Shader\NeonLight\RunLight.shader" />
     <None Include="Assets\Shader\Pratice\VFPlasma.shader" />
+    <None Include="Assets\Shader\Pratice\CloudCamera.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
     <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
     <None Include="Assets\Shader\Pratice\Plasma.shader" />

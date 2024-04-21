@@ -1,4 +1,4 @@
-Shader "Holistic/RaymarchCloudsVolume"
+Shader "Holistic/CloudCamera"
 {
     Properties
     {

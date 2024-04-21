@@ -21,11 +21,11 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _FadeDist: 10
-    - _MaxHeight: 25.5
+    - _MaxHeight: 24
     - _MinHeight: 0
-    - _Scale: 0.1
-    - _StepScale: 13.8
-    - _Steps: 171
+    - _Scale: 2.97
+    - _StepScale: 37.1
+    - _Steps: 1
     m_Colors:
-    - _SunDir: {r: 1, g: 0, b: 0, a: 0}
+    - _SunDir: {r: 1, g: 0, b: 0.24, a: 0}
   m_BuildTextureStacks: []
