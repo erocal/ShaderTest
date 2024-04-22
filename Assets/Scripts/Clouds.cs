@@ -20,7 +20,7 @@ public class Clouds : MonoBehaviour
 
     Camera _Cam;
 
-    Material _Material;
+    [SerializeField] Material _Material;
 
     public Material Material
     {
@@ -49,6 +49,7 @@ public class Clouds : MonoBehaviour
     private void Start()
     {
         if (_Material) DestroyImmediate(_Material);
+        _Material = Material;
     }
 
     #endregion
@@ -71,8 +72,7 @@ public class Clouds : MonoBehaviour
     }
 
     [ImageEffectOpaque]
-
-    private void OnRenderImage(RenderTexture source, RenderTexture destination)
+    void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         if (_Material == null || ValueNoiseImage == null)
         {

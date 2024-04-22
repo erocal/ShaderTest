@@ -23,9 +23,9 @@ Material:
     - _FadeDist: 10
     - _MaxHeight: 24
     - _MinHeight: 0
-    - _Scale: 2.97
-    - _StepScale: 37.1
-    - _Steps: 1
+    - _Scale: 2.21
+    - _StepScale: 19.9
+    - _Steps: 9
     m_Colors:
     - _SunDir: {r: 1, g: 0, b: 0.24, a: 0}
   m_BuildTextureStacks: []

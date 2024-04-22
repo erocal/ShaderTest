@@ -73,6 +73,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Scripts\OutlineController.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\Scripts\Clouds.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
@@ -146,7 +147,6 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\Clouds.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Pratice\CutoffWithDiffuse.shader" />
@@ -177,6 +177,7 @@
     <None Include="Assets\Shader\Pratice\UVScroll.shader" />
     <None Include="Assets\VFX\Shaders\MK_Particle Add.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Shader\Pratice\CloudsCamera.shader" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Simple.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 1.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
@@ -196,7 +197,6 @@
     <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
     <None Include="Assets\Shader\NeonLight\RunLight.shader" />
     <None Include="Assets\Shader\Pratice\VFPlasma.shader" />
-    <None Include="Assets\Shader\Pratice\CloudCamera.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
     <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
     <None Include="Assets\Shader\Pratice\Plasma.shader" />
@@ -221,6 +221,7 @@
     <None Include="Assets\Shader\Pratice\Hole.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarReflections.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Shader\DayAndNight.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\ThirdParty\GaussianBlur\Readme.txt" />
     <None Include="Assets\ThirdParty\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
