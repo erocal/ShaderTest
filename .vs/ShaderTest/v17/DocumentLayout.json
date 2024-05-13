@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\ShaderTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\shadertest\\assets\\scripts\\planarreflectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\planarreflectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\shadertest\\assets\\scripts\\lod\\lodchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lod\\lodchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\shadertest\\assets\\scripts\\lod\\lodutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\ShaderTest\\assets\\scripts\\lod\\lodutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lod\\lodutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -49,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,7 +69,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PlanarReflectionManager.cs",
+              "DocumentMoniker": "D:\\ShaderTest\\Assets\\Scripts\\PlanarReflectionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlanarReflectionManager.cs",
+              "ToolTip": "D:\\ShaderTest\\Assets\\Scripts\\PlanarReflectionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlanarReflectionManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwFQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:30:10.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LODUtils.cs",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\Scripts\\LOD\\LODUtils.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LOD\\LODUtils.cs",
@@ -73,12 +90,11 @@
               "RelativeToolTip": "Assets\\Scripts\\LOD\\LODUtils.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T03:39:43.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T03:39:43.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LODChanger.cs",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\Scripts\\LOD\\LODChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LOD\\LODChanger.cs",
@@ -91,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Unity.VFXToolbox.Editor.asmdef",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Unity.VFXToolbox.Editor.asmdef",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
               "ToolTip": "C:\\Users\\User\\Desktop\\VFXToolbox-master\\Editor\\Unity.VFXToolbox.Editor.asmdef",
@@ -113,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SequenceFrameAnimation.shader",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\Shader\\SequenceFrameAnimation.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\SequenceFrameAnimation.shader",
@@ -125,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GaussianBlur.cs",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
@@ -137,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GaussianBlurFilter.shader",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlurFilter.shader",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlurFilter.shader",
@@ -149,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OutLightting.shader",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\Shader\\OutLightting.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\OutLightting.shader",
@@ -161,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GaussianBlur.shader",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader",
@@ -173,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FilterTest.cs",
               "DocumentMoniker": "D:\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\FilterTest.cs",
               "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\FilterTest.cs",
