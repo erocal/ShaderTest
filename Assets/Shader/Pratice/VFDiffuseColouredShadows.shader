@@ -57,10 +57,10 @@ Shader "Holistic/VFDiffuseColouredShadows"
                 fixed4 col = tex2D(_MainTex, i.uv);
                 fixed shadow = SHADOW_ATTENUATION(i);
 
-                // shadow ªº­È¦b­¼ªk¹Bºâ¤§«e´N³Q¨Ï¥Î
+                // shadow çš„å€¼åœ¨ä¹˜æ³•é‹ç®—ä¹‹å‰å°±è¢«ä½¿ç”¨
                 col.rgb *= i.diff * shadow + (shadow < 0.2 ? float3(1, 0, 0) : 0);
 
-                // shadow ªº­È¦b­¼ªk¹Bºâ«á¤~³Q¨Ï¥Î¡A·|³y¦¨®t²§
+                // shadow çš„å€¼åœ¨ä¹˜æ³•é‹ç®—å¾Œæ‰è¢«ä½¿ç”¨ï¼Œæœƒé€ æˆå·®ç•°
                 //col.rgb *= i.diff * shadow ;
                 //col.rgb += (shadow < 0.2 ? float3(1, 0, 0) : 0);
                 return col;

@@ -9,6 +9,8 @@ Shader "Unlit/WormHole"
         _Speed ( "_Speed" , Range( 0,10 ) ) = 0
         _Strength ( "_Strength" , Range( -50,5 ) ) = 2
         _Test( "_Test", Vector) = (0, 0, 0, 0)
+        _DistanceFactor ( "_DistanceFactor" , Range( -2,2 ) ) = 2
+        _Progress ( "_Progress" , Float) = 1
     
     }
     SubShader
@@ -37,6 +39,8 @@ Shader "Unlit/WormHole"
             float _Strength;            //波的強度
             float _FragVertexZ;
             vector _Test;
+            float _DistanceFactor;
+            float _Progress;
 
             struct MeshData
             {
@@ -64,6 +68,27 @@ Shader "Unlit/WormHole"
                 return wave;
             }
 
+            float2 CenterExpand ( float2 inputuv )
+            {
+                float2 newUV = inputuv - float2(.5, .5);
+                float2 norNewUV = normalize ( newUV);
+                float2 offset = norNewUV * (frac(_DistanceFactor - _Time.y * .002 )*10* _Speed - 6);
+                newUV = offset + inputuv;
+                return newUV;
+            }
+
+            // 塌陷
+            float2 CenterProgress ( float2 inputuv )
+            {
+                float2 newUV = inputuv - float2(.5f, .5f);
+                
+                float dis = length(newUV);
+
+                newUV = inputuv + normalize(newUV) * (1 - length(inputuv)) * _Progress;
+
+                return newUV;
+            }
+
             Interpolators vert ( MeshData v)
             {
                 Interpolators o;
@@ -82,7 +107,7 @@ Shader "Unlit/WormHole"
                 float time = _Time.y*_Speed;
                 float2 uv_MainTex = float2(i.uv_MainTex.x + _Test.x*time, i.uv_MainTex.y + _Test.y*time);
 
-                return GetWave(i.uv) * tex2D(_MainTex, uv_MainTex);          
+                return GetWave(i.uv) * tex2D(_MainTex, CenterExpand( i.uv_MainTex ));          
             }
 
             ENDCG

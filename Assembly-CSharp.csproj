@@ -161,9 +161,11 @@
     <None Include="Assets\Shader\Pratice\Leaves.shader" />
     <None Include="Assets\Shaders\HSVRangeShader.shader" />
     <None Include="Assets\Shader\Pratice\BasicLambert.shader" />
+    <None Include="Assets\Shader\WormHoleTest.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Double.shader" />
     <None Include="Assets\Shader\Pratice\PropertiesChallenge2.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson03\TestMulti 8.shader" />
     <None Include="Assets\Shaders\BasicBlinnPhong 1.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Run.shader" />
     <None Include="Assets\Shader\Pratice\StandardPBR.shader" />
@@ -181,10 +183,14 @@
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_10SoftDissolve.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 6.shader" />
     <None Include="Assets\Shader\Pratice\Transparent.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlurFilter.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 5.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 7.shader" />
     <None Include="Assets\Shader\Pratice\UVScroll.shader" />
     <None Include="Assets\VFX\Shaders\MK_Particle Add.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson03\CGLighting(9).cginc" />
     <None Include="Assets\Shader\LOD\LODSphere.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\Shader\Pratice\CloudsCamera.shader" />
@@ -200,6 +206,7 @@
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Shaders\BasicLambert.shader" />
     <None Include="Assets\Shader\Pratice\Properties Challenge 4.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson03\TestMulti 9.shader" />
     <None Include="Assets\Shaders\VFPlasma.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
     <None Include="Assets\Shaders\VFDiffuse.shader" />
@@ -223,11 +230,14 @@
     <None Include="Assets\Shader\Outline\Outline 1.shader" />
     <None Include="Assets\Shader\ImageSequence\SurfaceSequenceFrameAnimation.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 1.shader" />
     <None Include="Assets\Shader\Pratice\NormalShader-1.shader" />
     <None Include="Assets\Shader\UI\LightText.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 4.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\ReadMe.txt" />
     <None Include="Assets\Shader\Pratice\StencilWindow.shader" />
     <None Include="Assets\Shader\Pratice\PrimitiveSphere.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson01\VertexOffset.shader" />
     <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
     <None Include="Assets\Shader\ImageSequence\SequenceFrameAnimation.shader" />
     <None Include="Assets\Shaders\RimLightingShader.shader" />
@@ -253,12 +263,14 @@
     <None Include="Assets\Shader\Pratice\BasicTextureBlend.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_GLOW.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlur.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 2.shader" />
     <None Include="Assets\Shaders\BasicLambert 1.shader" />
     <None Include="Assets\Shader\Pratice\VFDiffuseColouredShadows.shader" />
     <None Include="Assets\Shader\OcclusionShader.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\Shaders\BumpEnviroment.shader" />
     <None Include="Assets\Shader\Pratice\Hologram.shader" />
+    <None Include="Assets\Shader\WormHole.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 2.shader" />
@@ -325,10 +337,12 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\Shader\Dissolve\Dissolve_Simple.shader" />
+    <None Include="Assets\ShaderLab_Jeff\UnlitMulti.shader" />
     <None Include="Assets\Shader\NeonLight\ScoreBoard.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\Shader\Pratice\BumpedEnv.shader" />
     <None Include="Assets\Shader\Pratice\PackedPractice.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson03\CGLighting(8).cginc" />
     <None Include="Assets\Shaders\BlendShader.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
     <None Include="Assets\Shader\DistanceFade.shader" />
@@ -346,6 +360,7 @@
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\Shader\Pratice\ColourVF.shader" />
+    <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 3.shader" />
     <None Include="Assets\Shader\BoxWorld.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\Shader\PlanarReflection\Floor.shader" />
@@ -1023,6 +1038,10 @@
     <ProjectReference Include="PathCreator.csproj">
       <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>
       <Name>PathCreator</Name>
+    </ProjectReference>
+    <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
+      <Project>{E2D39756-1899-F96B-71A8-FB54498BF1B9}</Project>
+      <Name>AllIn1SpriteShaderAssembly</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
