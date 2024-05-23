@@ -20,7 +20,7 @@ Shader "Custom/SurfaceSequenceFrameAnimation"
         Tags { "Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Opaque"}     
    
         CGPROGRAM
-        #pragma surface surf Standard
+        #pragma surface surf Standard alpha:blend
         
         half _Glossiness;
         half _Metallic;
@@ -69,7 +69,7 @@ Shader "Custom/SurfaceSequenceFrameAnimation"
 
             o.Albedo = c.rgb;
             o.Normal = UnpackNormal(tex2D(_NormalTex, IN.uv_NormalTex));
-            o.Alpha = c.a;
+            o.Alpha = c.a * _Alpha;
             o.Emission = c.rgb * _Color;
             o.Smoothness = _Glossiness * c.a;
             o.Metallic = _Metallic;

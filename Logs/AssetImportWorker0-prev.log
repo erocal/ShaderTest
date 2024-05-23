@@ -15,11 +15,11 @@ D:/ShaderTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55110
+62554
 Successfully changed project path to: D:/ShaderTest
 D:/ShaderTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 98.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.43f1 (75bff06b76bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/Resources/UnitySubsystems
@@ -35,77 +35,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002609 seconds.
+Registered in 0.002746 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
+- Completed reload, in  0.673 seconds
 Domain Reload Profiling:
-	ReloadAssembly (668ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (673ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (521ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (237ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002443 seconds.
+Registered in 0.002883 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 102.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.487 seconds
+- Completed reload, in  1.488 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1488ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1489ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1287ms)
+		EndReloadAssembly (1285ms)
 			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (334ms)
+			SetupTypeCache (308ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (638ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (662ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (126ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 260.5 MB.
-System memory in use after: 260.5 MB.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 260.6 MB.
+System memory in use after: 260.6 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3816.
-Total: 3.564100 ms (FindLiveObjects: 0.381400 ms CreateObjectMapping: 0.100100 ms MarkObjects: 2.750100 ms  DeleteObjects: 0.331400 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3817.
+Total: 3.975700 ms (FindLiveObjects: 0.454000 ms CreateObjectMapping: 0.134800 ms MarkObjects: 3.041500 ms  DeleteObjects: 0.344200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,211 +134,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shader/WormHoleTest.shader
-  artifactKey: Guid(503fff5e0e5b2fc40aa5c693689e1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/WormHoleTest.shader using Guid(503fff5e0e5b2fc40aa5c693689e1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c25998c6f2db1df496cee0bf208275a') in 0.037445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.946155 seconds.
-  path: Assets/ShaderLab自習
-  artifactKey: Guid(268907db31e3d1a45afe4606c2ec64c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderLab自習 using Guid(268907db31e3d1a45afe4606c2ec64c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8abf01b5e7e6717ded9bb6ebb46358') in 0.002600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.917249 seconds.
-  path: Assets/ShaderLab_Jeff
-  artifactKey: Guid(ead8c7f867242684abcb9b2907bb7c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderLab_Jeff using Guid(ead8c7f867242684abcb9b2907bb7c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4485d735cd2616a0ad42825b791c789f') in 0.002659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/ShaderLab_Jeff/high_plane.FBX
-  artifactKey: Guid(3709898b210ec884f8c6c72cf8244907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderLab_Jeff/high_plane.FBX using Guid(3709898b210ec884f8c6c72cf8244907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5ae92adeb4391dbc0e3aaabd44c4e4') in 0.123840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/ShaderLab_Jeff/1.mat
-  artifactKey: Guid(87be0df6435df454597a22912ab09fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderLab_Jeff/1.mat using Guid(87be0df6435df454597a22912ab09fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab032848305e3ccd309cb42ad5436c28') in 0.037801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/ShaderLab_Jeff/Unlit_TestMulti.mat
-  artifactKey: Guid(d869f99843e55b84ab521ad67fdbfcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderLab_Jeff/Unlit_TestMulti.mat using Guid(d869f99843e55b84ab521ad67fdbfcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a3951534990d333370e476c80d60f9') in 0.019247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000517 seconds.
-  path: Assets/ShaderLab_Jeff/2.mat
-  artifactKey: Guid(ddab4a9e912aec144bbb7cdb2aebb340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderLab_Jeff/2.mat using Guid(ddab4a9e912aec144bbb7cdb2aebb340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4ae40af0f69e941240130421adfe02') in 0.009257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.083051 seconds.
   path: Assets/Material/WormHoleTest.mat
   artifactKey: Guid(88fd30a71949ff44cb7c0f3ee5f585c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/WormHoleTest.mat using Guid(88fd30a71949ff44cb7c0f3ee5f585c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e279a708413ca4e4e1d1a8ae4acebc') in 0.028485 seconds 
+Start importing Assets/Material/WormHoleTest.mat using Guid(88fd30a71949ff44cb7c0f3ee5f585c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aa1d64c62e93c160d764b590c22403') in 0.118436 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 402.292292 seconds.
-  path: Assets/Shader/WormHoleTest.shader
-  artifactKey: Guid(503fff5e0e5b2fc40aa5c693689e1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/WormHoleTest.shader using Guid(503fff5e0e5b2fc40aa5c693689e1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8c87db46c1b1fef83eb6b755683458') in 0.001923 seconds 
+  Time since last request: 43.758329 seconds.
+  path: Assets/Materials/AdvOutline.mat
+  artifactKey: Guid(ad3cb0b56fc90554b8481af52ed8a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/AdvOutline.mat using Guid(ad3cb0b56fc90554b8481af52ed8a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738d825e29b4c0ebbac8639f8bd1dbb4') in 0.096868 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 81.520230 seconds.
-  path: Assets/Shader/WormHoleTest.shader
-  artifactKey: Guid(503fff5e0e5b2fc40aa5c693689e1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/WormHoleTest.shader using Guid(503fff5e0e5b2fc40aa5c693689e1ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4df26cb001594cccf0733f819e3723f') in 0.001696 seconds 
+  Time since last request: 0.000209 seconds.
+  path: Assets/Materials/BasicTextureBlend.mat
+  artifactKey: Guid(b5d6ce21b1da0d742ad98192dd78f3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicTextureBlend.mat using Guid(b5d6ce21b1da0d742ad98192dd78f3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8375f4e73641b4d3bee4c480ab60aab7') in 0.053250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.503186 seconds.
+  path: Assets/Materials/BumpDiffuseStencil.mat
+  artifactKey: Guid(1b33f088dc8bdae458f918b1ef9a5d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BumpDiffuseStencil.mat using Guid(1b33f088dc8bdae458f918b1ef9a5d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803f70509c3449d560e5feeca91c0311') in 0.010336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392427 seconds.
+  path: Assets/Materials/CutoffWithDiffuse.mat
+  artifactKey: Guid(c1c4637e715c18345ba5a6e77b582f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CutoffWithDiffuse.mat using Guid(c1c4637e715c18345ba5a6e77b582f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84a6992340780f81f190d35de3607a8') in 0.049777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Materials/Extrude.mat
+  artifactKey: Guid(e809dd09030c02143ab8f7b3bf8d991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Extrude.mat using Guid(e809dd09030c02143ab8f7b3bf8d991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe0f51b51d8119d091674b2ec46e138') in 0.008819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030827 seconds.
+  path: Assets/Materials/HoleMat.mat
+  artifactKey: Guid(33d827ccc126b3b41bf69c9f3f7411c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HoleMat.mat using Guid(33d827ccc126b3b41bf69c9f3f7411c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae6f17f9365f1c6520c4b678d98cb66') in 0.084133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Materials/lambert2.mat
+  artifactKey: Guid(d0aa98d17b6829240883054a272c749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lambert2.mat using Guid(d0aa98d17b6829240883054a272c749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd42ed74085e9a97062867af7b95e00') in 0.184669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.701825 seconds.
+  path: Assets/Material/DistanceFade.mat
+  artifactKey: Guid(4c9acb7e7cfa811449258aa9c286a0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/DistanceFade.mat using Guid(4c9acb7e7cfa811449258aa9c286a0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019a55ed8a100a1c77b894ff7eadd34d') in 0.009203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Material/DitheredLighting.mat
+  artifactKey: Guid(6f893107d93d8ba4a916af516a9b96e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/DitheredLighting.mat using Guid(6f893107d93d8ba4a916af516a9b96e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3856af32914f2226c511763a52b73363') in 0.012522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039264 seconds.
+  path: Assets/Material/FakeLight_DiffuseTexture.mat
+  artifactKey: Guid(2f9e89f72d268d7489578f964f0c4478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/FakeLight_DiffuseTexture.mat using Guid(2f9e89f72d268d7489578f964f0c4478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1035a998e77d80153ca0c4c4d586a37d') in 0.027345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007361 seconds.
+  path: Assets/Material/FakeLight_DiffuseTexture_Pet.mat
+  artifactKey: Guid(9322b9d790ff79b46b8a576e2d843485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/FakeLight_DiffuseTexture_Pet.mat using Guid(9322b9d790ff79b46b8a576e2d843485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f9bb1e6591f5a1c2925b38a2fbe452') in 0.007118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Material/FakeLight_DiffuseTexture_Run.mat
+  artifactKey: Guid(83dd2fef3c4f9a642897e4145a85fefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/FakeLight_DiffuseTexture_Run.mat using Guid(83dd2fef3c4f9a642897e4145a85fefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc89b1b869cbf2dedfc55e1f2beaab65') in 0.007316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Material/FakeLight_DiffuseTransparent.mat
+  artifactKey: Guid(1e1c97b6caa9f6747b9fbafdacbe0831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/FakeLight_DiffuseTransparent.mat using Guid(1e1c97b6caa9f6747b9fbafdacbe0831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80cc8cb3c71f1d1e2434036f09469c2') in 0.010468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201255 seconds.
+  path: Assets/Material/HSVRangeShader.mat
+  artifactKey: Guid(094aa4475a926034d8aaf9c81a49eb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/HSVRangeShader.mat using Guid(094aa4475a926034d8aaf9c81a49eb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7cdfcd5cff1df94e304e2fa665493c') in 0.041051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Material/Lava_Flowing_OnlyLavaTex.mat
+  artifactKey: Guid(22122ac77b1a05c4d9b918c8b0c619f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Lava_Flowing_OnlyLavaTex.mat using Guid(22122ac77b1a05c4d9b918c8b0c619f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4015ee232486b601f81bdd8cad99a50c') in 0.012097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.849079 seconds.
+  path: Assets/Material/WormHole.mat
+  artifactKey: Guid(edf0b7c4b20e53d46bf3ce38e10c2c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WormHole.mat using Guid(edf0b7c4b20e53d46bf3ce38e10c2c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee8793e4dad2d69447c554e1d74c281') in 0.031651 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002687 seconds.
+Registered in 0.003045 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
+- Completed reload, in  1.495 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1324ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1123ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (508ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.6 MB.
-System memory in use after: 210.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3863.
-Total: 3.384200 ms (FindLiveObjects: 0.378900 ms CreateObjectMapping: 0.098000 ms MarkObjects: 2.656300 ms  DeleteObjects: 0.250000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002931 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.277 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1278ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (1496ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1092ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (1283ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (515ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (199ms)
+			SetupLoadedEditorAssemblies (544ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.7 MB.
-System memory in use after: 210.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3866.
-Total: 3.710400 ms (FindLiveObjects: 0.388000 ms CreateObjectMapping: 0.108200 ms MarkObjects: 2.885400 ms  DeleteObjects: 0.327700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002766 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.265 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1266ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1082ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (507ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (125ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
@@ -346,11 +274,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.7 MB.
-System memory in use after: 210.7 MB.
+System memory in use before: 210.6 MB.
+System memory in use after: 210.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3869.
-Total: 3.554200 ms (FindLiveObjects: 0.401400 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.758800 ms  DeleteObjects: 0.296800 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 4.004900 ms (FindLiveObjects: 0.425000 ms CreateObjectMapping: 0.104900 ms MarkObjects: 3.212800 ms  DeleteObjects: 0.261100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -363,36 +291,984 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 14457.765119 seconds.
+  path: Assets/Model/Magma.fbx
+  artifactKey: Guid(d1060df438c2bea45b54e8c44917a5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Magma.fbx using Guid(d1060df438c2bea45b54e8c44917a5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9c7b182774bc5424c750a7f6dbe4c4') in 0.669070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Model/Magma_Test.fbx
+  artifactKey: Guid(879b771fb8dbee642a62ff0f36e5898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Magma_Test.fbx using Guid(879b771fb8dbee642a62ff0f36e5898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ae5fc16918ae0b0daedbcd7e32477b') in 0.055232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.423809 seconds.
+  path: Assets/Model/Cone.fbx
+  artifactKey: Guid(230849ba939b97c4eb991ac88deaf317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Cone.fbx using Guid(230849ba939b97c4eb991ac88deaf317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3186728fa9b2255c4ce16f36fa76fa') in 0.025105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 790.932339 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRope.mat
+  artifactKey: Guid(89c36ff7b1b230c4ca69e78a1fca51cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRope.mat using Guid(89c36ff7b1b230c4ca69e78a1fca51cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01697c403bd5d021551c044433ba8a2') in 0.792647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Materials/Section08/ZomBunnySimpleOutlineMat 1.mat
+  artifactKey: Guid(449d788596bf4bc4685ddc4d6b57b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Section08/ZomBunnySimpleOutlineMat 1.mat using Guid(449d788596bf4bc4685ddc4d6b57b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8b857d88ecab33ab2941858a56d38c') in 0.322694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRoof0.mat
+  artifactKey: Guid(c8ffe170b02a2dc41b422f73f88ee2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRoof0.mat using Guid(c8ffe170b02a2dc41b422f73f88ee2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe7bbdd8f63928f5d8976d6e5e07917') in 0.016816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRoof1.mat
+  artifactKey: Guid(81ecef339d10fa34091458a51b522a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRoof1.mat using Guid(81ecef339d10fa34091458a51b522a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c681d200cf980b26dce807c65ad888') in 0.015479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellStructure0.mat
+  artifactKey: Guid(153451dab84fb4d4faafc58683091e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellStructure0.mat using Guid(153451dab84fb4d4faafc58683091e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f59828ba05bac0dcd0b2d145b84909d') in 0.011431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRoof0.mat
+  artifactKey: Guid(63072135501b5e44ba15cfed9c004358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRoof0.mat using Guid(63072135501b5e44ba15cfed9c004358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1c8c0cf4816fbbed13227489fb8e1d') in 0.007987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellStructure0.mat
+  artifactKey: Guid(6a615faf34c3e064cb52b4189302f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellStructure0.mat using Guid(6a615faf34c3e064cb52b4189302f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2381ebceedfce1cc4c9994bdbf180413') in 0.007031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRope.mat
+  artifactKey: Guid(8d35032172998d144b65163782b1cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRope.mat using Guid(8d35032172998d144b65163782b1cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e492e1aaee0c9c31e150d2b71ace8e7') in 0.004523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRope.mat
+  artifactKey: Guid(4f1ff955f57045249ae1a1fdb2b7903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRope.mat using Guid(4f1ff955f57045249ae1a1fdb2b7903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41090ddbe8ff10119154b23a9ee025d3') in 0.030203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Materials/Section08/ZomBunnyAdvancedOutlineMat.mat
+  artifactKey: Guid(bf6a8979495efad4fbe8d4527e7c7bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Section08/ZomBunnyAdvancedOutlineMat.mat using Guid(bf6a8979495efad4fbe8d4527e7c7bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019c05f23fe5ec933fc0d718a36599e9') in 0.013460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRope.mat
+  artifactKey: Guid(c0515466d46d991448ca9191020e8ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRope.mat using Guid(c0515466d46d991448ca9191020e8ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9716835322d9b0f35d5aaecdd83ea06d') in 0.014539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRoof2.mat
+  artifactKey: Guid(90b19512b889c744a8fd9fdbe0e112ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRoof2.mat using Guid(90b19512b889c744a8fd9fdbe0e112ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a36eba0f88d11a947118a8e8dd2ec6a') in 0.018194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRope.mat
+  artifactKey: Guid(ad902a82523a28748b50b642a60f0f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRope.mat using Guid(ad902a82523a28748b50b642a60f0f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482626b7536c1e77a60f968e78df8211') in 0.006550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRoof1.mat
+  artifactKey: Guid(5560dc810a803bf4d8ba2a58da0605b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRoof1.mat using Guid(5560dc810a803bf4d8ba2a58da0605b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0561e3cf15b60138a1c7e609beb36c') in 0.008775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellStructure1.mat
+  artifactKey: Guid(dbe85adee049f744fbdb2a8aa02ece24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellStructure1.mat using Guid(dbe85adee049f744fbdb2a8aa02ece24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb9d4bdf3242f338b3a510fa5c56e1b') in 0.006898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRoof2.mat
+  artifactKey: Guid(e39d5aa5181c4394ba928417badab858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRoof2.mat using Guid(e39d5aa5181c4394ba928417badab858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4b59aadb6d252a0c21e515cf8bd89e') in 0.008353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRoof2.mat
+  artifactKey: Guid(a2ae48dacb5a7884aaab09e1ac1208ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRoof2.mat using Guid(a2ae48dacb5a7884aaab09e1ac1208ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80b70a35a0a1e44206cdce6295bc7b8') in 0.006440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRope.mat
+  artifactKey: Guid(49baee3df2cbb0d4a8ce58ff0a133065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRope.mat using Guid(49baee3df2cbb0d4a8ce58ff0a133065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0053c56535b8525a66d057d151ec46a7') in 0.006919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRoof1.mat
+  artifactKey: Guid(56885160fb9b4b7418c8283ac21aa53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRoof1.mat using Guid(56885160fb9b4b7418c8283ac21aa53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3273a8c54def44c1b72127bcdc91543e') in 0.006440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellStructure1.mat
+  artifactKey: Guid(6237b4ef02116af4a855b8a6fb77c383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellStructure1.mat using Guid(6237b4ef02116af4a855b8a6fb77c383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c676824c3492180c5faf669292f3243') in 0.008176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellStructure1.mat
+  artifactKey: Guid(44f5d7cfe399df8448698c601d6bc850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellStructure1.mat using Guid(44f5d7cfe399df8448698c601d6bc850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b93424ae8e8262df89d84ccda42c10') in 0.017426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRoof1.mat
+  artifactKey: Guid(845c0aa0995e8a147b57185f741f477e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRoof1.mat using Guid(845c0aa0995e8a147b57185f741f477e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f92c1aea7ea3282fd5afae7f213fd72') in 0.006702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRope.mat
+  artifactKey: Guid(1537391ce2f05694695b263f60711b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRope.mat using Guid(1537391ce2f05694695b263f60711b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442da17673fd8b4c9d0295f57e368649') in 0.009871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRoof2.mat
+  artifactKey: Guid(43db898262994b1468c847f59b2f7a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRoof2.mat using Guid(43db898262994b1468c847f59b2f7a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d9ed2be74ec160e71422c7fd7f6f4e') in 0.006248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRoof2.mat
+  artifactKey: Guid(291795a934468e6428930a0a8d762e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRoof2.mat using Guid(291795a934468e6428930a0a8d762e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee4320ffce6cc38c315e02336629f1d') in 0.006552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRoof2.mat
+  artifactKey: Guid(de26354bcb1d3fd43b4798eb4ea71d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRoof2.mat using Guid(de26354bcb1d3fd43b4798eb4ea71d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90eea2698d3baa4d6e42fd47af892052') in 0.019428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellStructure0.mat
+  artifactKey: Guid(ecf15de7359bf4041ac4281228b12c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellStructure0.mat using Guid(ecf15de7359bf4041ac4281228b12c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3528c74ef0a8e21507e35826aaa5356b') in 0.006292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellStructure0.mat
+  artifactKey: Guid(03579b0491b1c0c469b6f58ebef87c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellStructure0.mat using Guid(03579b0491b1c0c469b6f58ebef87c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45baabc9e67bdee87ed746c06b411f65') in 0.007322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRope.mat
+  artifactKey: Guid(408a0a8f86d16ea4a94ed8953c44a9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRope.mat using Guid(408a0a8f86d16ea4a94ed8953c44a9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dde7985814a3f672e79d27fcb4f1cf0') in 0.020385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellStructure0.mat
+  artifactKey: Guid(7d5a442dd26f5994e86ee31fa63ff189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellStructure0.mat using Guid(7d5a442dd26f5994e86ee31fa63ff189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a7362acdb3c395135d91bc0f48aec6') in 0.014317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRoof2.mat
+  artifactKey: Guid(378ce91ebc57dab4c9accdc8b50f482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRoof2.mat using Guid(378ce91ebc57dab4c9accdc8b50f482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5188fa32cb79c16d82ebcffb5fb51e6d') in 0.006407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellStructure1.mat
+  artifactKey: Guid(96d2b4ed92ec63c43a1efc10fadede82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellStructure1.mat using Guid(96d2b4ed92ec63c43a1efc10fadede82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3bfbe01f51d0a4ab1bbb165b32e255') in 0.007168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRoof0.mat
+  artifactKey: Guid(1fd44d9854dcf3c4a8d918961c1bcf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRoof0.mat using Guid(1fd44d9854dcf3c4a8d918961c1bcf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a34e2fbcc9b92cfb96a8efe6bccfa8a') in 0.006948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRoof0.mat
+  artifactKey: Guid(d4c827425610eab4c92d079180d410e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRoof0.mat using Guid(d4c827425610eab4c92d079180d410e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825848f35091de9dda920dbd6cd89810') in 0.006598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellStructure0.mat
+  artifactKey: Guid(02337ada8612aa44fa873cf6cd92538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellStructure0.mat using Guid(02337ada8612aa44fa873cf6cd92538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6b68c153e71d1d1ba6b4831452c794') in 0.006289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/Materials/WheelMotionVectors.mat
+  artifactKey: Guid(055f7217f136349d9b68e82b9e987dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/Materials/WheelMotionVectors.mat using Guid(055f7217f136349d9b68e82b9e987dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834c5e6f7b64534e56b3a9aca798086a') in 0.016765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRoof1.mat
+  artifactKey: Guid(ad6386a9c6844114b8bfa43d0ee52600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRoof1.mat using Guid(ad6386a9c6844114b8bfa43d0ee52600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7ca381774444c6f6333dbd531909d1') in 0.007522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellStructure0.mat
+  artifactKey: Guid(aa64847b2556ad44bac50018d614a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellStructure0.mat using Guid(aa64847b2556ad44bac50018d614a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5c3e83be537f450cce33ce9d9cf4ad') in 0.006612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellStructure1.mat
+  artifactKey: Guid(3296e17d971572040b0a6813548818aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellStructure1.mat using Guid(3296e17d971572040b0a6813548818aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3eb1279821fa16f5c1ed0bdfec274d6') in 0.006327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellStructure1.mat
+  artifactKey: Guid(4fdbf7a9e5497d84e972db63a5dcc6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellStructure1.mat using Guid(4fdbf7a9e5497d84e972db63a5dcc6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5422704c4db9e930453373e6728f7c') in 0.006968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRoof1.mat
+  artifactKey: Guid(6d96f400b459e654da99d4b0b6cc21fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRoof1.mat using Guid(6d96f400b459e654da99d4b0b6cc21fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd4779c567789279a8d7224c8ea152e') in 0.006995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRoof1.mat
+  artifactKey: Guid(9f37ed7fbe7a3524eb97939fc74e3f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRoof1.mat using Guid(9f37ed7fbe7a3524eb97939fc74e3f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d9c4ae51ec8a5e3f9b963242c094ee') in 0.006100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRoof0.mat
+  artifactKey: Guid(054c6e15a87e1f64f9bf6f3022654e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRoof0.mat using Guid(054c6e15a87e1f64f9bf6f3022654e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd005758e4cc5c9ea233c0778935e623') in 0.006331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRoof1.mat
+  artifactKey: Guid(9e82559e273057f4ca35f5a8dadad28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRoof1.mat using Guid(9e82559e273057f4ca35f5a8dadad28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd09ebf0018945d8a95f59024db4093') in 0.006343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRoof1.mat
+  artifactKey: Guid(4df2417f23528c94bbbf80aa8c88c829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRoof1.mat using Guid(4df2417f23528c94bbbf80aa8c88c829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bd3cc6a7fb1e7a04baa93fcdf7cdc9') in 0.006397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRoof1.mat
+  artifactKey: Guid(fefd983c904f97c4e8d8c38d0fd22411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRoof1.mat using Guid(fefd983c904f97c4e8d8c38d0fd22411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad4d8c52476c3d7c11beba2955e1ec3') in 0.006505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRope.mat
+  artifactKey: Guid(906e370a9b0d4ae41b0f44f4fb33cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRope.mat using Guid(906e370a9b0d4ae41b0f44f4fb33cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc112dc60e27323eecf9e872f353d57a') in 0.007886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellStructure0.mat
+  artifactKey: Guid(505809f0ece99f84a819b716aa673ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellStructure0.mat using Guid(505809f0ece99f84a819b716aa673ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346f92c084b4ca75bb581bb562090699') in 0.006300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellStructure1.mat
+  artifactKey: Guid(0e1cffd9c9f8a0a4ea6e73768b9af3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellStructure1.mat using Guid(0e1cffd9c9f8a0a4ea6e73768b9af3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4517aacd2cd5d022ea447de522f1170') in 0.008507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Shader/MKToon/Examples/Spectate/Materials/Floor/WindowMaterials/Border/WindowBorder.mat
+  artifactKey: Guid(e4a2eeabf2852f44087d4561b157e33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/Spectate/Materials/Floor/WindowMaterials/Border/WindowBorder.mat using Guid(e4a2eeabf2852f44087d4561b157e33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974d88ddc361e5e619afb6c504d042c0') in 0.019370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Materials/Stencils/ZomBunny.mat
+  artifactKey: Guid(2e909464a42ad184982fd3298484c388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stencils/ZomBunny.mat using Guid(2e909464a42ad184982fd3298484c388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469f24de783ae41c882fe2b0c8d385bf') in 0.094272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Shader/MKToon/Examples/DefaultMaterials/WitchLab.mat
+  artifactKey: Guid(e2fd4a3a3311790488676b0ec36e1cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/DefaultMaterials/WitchLab.mat using Guid(e2fd4a3a3311790488676b0ec36e1cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4a79a5900148b2bd4a9f8c375947d9') in 0.025820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellStructure1.mat
+  artifactKey: Guid(eb48465f1540fcb4e841b2784fb20450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellStructure1.mat using Guid(eb48465f1540fcb4e841b2784fb20450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccb6b7e6e47f406ccf4bbbd053c33cd') in 0.004842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellStructure1.mat
+  artifactKey: Guid(d4d78b1bd448557459c4a94575af7193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellStructure1.mat using Guid(d4d78b1bd448557459c4a94575af7193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d209ae3e214fb706b350ca04ec06616') in 0.009697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRoof2.mat
+  artifactKey: Guid(6a17b68e6119edf4d9aa8ddb65c0bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRoof2.mat using Guid(6a17b68e6119edf4d9aa8ddb65c0bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec72ef0e4e10ad5457d07bf74a9718c') in 0.004683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellStructure0.mat
+  artifactKey: Guid(16bc2f833a3db6e488c712557ea305c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellStructure0.mat using Guid(16bc2f833a3db6e488c712557ea305c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58425a1442c417400c5b0d2063c959f') in 0.010418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRope.mat
+  artifactKey: Guid(11b23e6ff15ebdf4ab30e0d682ca6134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRope.mat using Guid(11b23e6ff15ebdf4ab30e0d682ca6134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2556cd391309e4f1c4af5d83cb04ba9b') in 0.025099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRoof2.mat
+  artifactKey: Guid(c6ec3ebcc8ae2aa409bd3d0aa2e0f17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRoof2.mat using Guid(c6ec3ebcc8ae2aa409bd3d0aa2e0f17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bf917b14bebb13a39cfffed3573886') in 0.027445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellStructure1.mat
+  artifactKey: Guid(33f693c75cbb43b4b9e3a4168710d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellStructure1.mat using Guid(33f693c75cbb43b4b9e3a4168710d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e840fa1b49e0cc25a810cb6b1e771b') in 0.011607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellStructure0.mat
+  artifactKey: Guid(ad9945a8f95bab843913276065f9b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellStructure0.mat using Guid(ad9945a8f95bab843913276065f9b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846081e2b2b9b436b2fc1afbecb3bb37') in 0.004947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRoof2.mat
+  artifactKey: Guid(2b291387efc1def4bbbf537ffbafb2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRoof2.mat using Guid(2b291387efc1def4bbbf537ffbafb2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bec5da6a87d93a2726445f4c980d9b6') in 0.004574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.615894 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRoller.mat
+  artifactKey: Guid(9bed877029cc0274ca9a1234ea4414d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRoller.mat using Guid(9bed877029cc0274ca9a1234ea4414d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15c1b0fb303857e8f193b2d18e80d66') in 0.010991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRoof0.mat
+  artifactKey: Guid(f72ac31ca8ae786419e662e4ca63bc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRoof0.mat using Guid(f72ac31ca8ae786419e662e4ca63bc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9544fb1110e93486b93659b7752db84') in 0.009869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRoof0.mat
+  artifactKey: Guid(77bce99e37685134991dc3a59b96e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRoof0.mat using Guid(77bce99e37685134991dc3a59b96e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ad0e70ea145280b60dc9792e71728e') in 0.009257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRoller.mat
+  artifactKey: Guid(6dc46e65f85794a4bba31da6c6806dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellRoller.mat using Guid(6dc46e65f85794a4bba31da6c6806dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6a5ca1dbd933c274ac0595472ff896') in 0.018780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRoller.mat
+  artifactKey: Guid(22a3cfce18335144aa4d1c2b61747242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellRoller.mat using Guid(22a3cfce18335144aa4d1c2b61747242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a5849f16fad2e876862837222ef2c3') in 0.007348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRoof0.mat
+  artifactKey: Guid(fa2f6b7d469bfd54c9da7b32f02440a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRoof0.mat using Guid(fa2f6b7d469bfd54c9da7b32f02440a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaa15eded88e1d97acb5e6ba09cd276') in 0.006749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRoller.mat
+  artifactKey: Guid(a882088822634084f97fd1933f680d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellRoller.mat using Guid(a882088822634084f97fd1933f680d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70daec089ac9d119a3fa0ea0fe1a420f') in 0.007418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRoof0.mat
+  artifactKey: Guid(fcb5fe74710fc9d4aa22ff13b7735c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellRoof0.mat using Guid(fcb5fe74710fc9d4aa22ff13b7735c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa53fb53157ec1402b1586040624df6') in 0.007792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRoof0.mat
+  artifactKey: Guid(1ec32a06734ce4949b84aa12c256902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRoof0.mat using Guid(1ec32a06734ce4949b84aa12c256902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b054c3c4ac9d7b27a277a72554541c0e') in 0.012174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078760 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellInner.mat
+  artifactKey: Guid(255ea1d1c7e4a514693c30bd2b0cfe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellInner.mat using Guid(255ea1d1c7e4a514693c30bd2b0cfe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785180a518051c96fc4fa9d79f814af5') in 0.012132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRoller.mat
+  artifactKey: Guid(0ddaf4235fc7910449f7f164beb0171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellRoller.mat using Guid(0ddaf4235fc7910449f7f164beb0171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86e5f8d411ab461e73b003f9987459c') in 0.010454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRoller.mat
+  artifactKey: Guid(e6e3ded9f6bde1e49a109e8e0590e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellRoller.mat using Guid(e6e3ded9f6bde1e49a109e8e0590e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad74a27fb3c277beb63c25b5e67b042') in 0.007216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRoller.mat
+  artifactKey: Guid(fce0714655199204690da20d82d89826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellRoller.mat using Guid(fce0714655199204690da20d82d89826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1e3da898dc3e20e87290f57d557f48') in 0.006549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellInner.mat
+  artifactKey: Guid(0ede0fa54ebd9f246ba785dada193128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellInner.mat using Guid(0ede0fa54ebd9f246ba785dada193128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0914684dbd2c5635287cbb4b0666c1eb') in 0.026889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellInner.mat
+  artifactKey: Guid(61de93c3b96e5bb4e9522aa039e9f8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellInner.mat using Guid(61de93c3b96e5bb4e9522aa039e9f8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b355b77ffd2209b29aca8161b4e08f7f') in 0.006113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellBricks2.mat
+  artifactKey: Guid(66bca0bfaf2cd614ba886631bc6bc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellBricks2.mat using Guid(66bca0bfaf2cd614ba886631bc6bc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f288f5877a9882bcc33f59308b3fee') in 0.006213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellInner.mat
+  artifactKey: Guid(85d0182f8eaa1f249949f32596e769af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellInner.mat using Guid(85d0182f8eaa1f249949f32596e769af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e32e918126fa3a8f4e069e95aba144') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellBricks2.mat
+  artifactKey: Guid(6dd23ada314302645905714539bc7861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellBricks2.mat using Guid(6dd23ada314302645905714539bc7861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5363893ed775de54de958eed4ca65203') in 0.007203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellBricks1.mat
+  artifactKey: Guid(e8791a974f30867439183d0cf9d77ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellBricks1.mat using Guid(e8791a974f30867439183d0cf9d77ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca5f71f7be8304e61db124faab235d3') in 0.006777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellInner.mat
+  artifactKey: Guid(7de1a3892b2fe194f9852cadf7623085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellInner.mat using Guid(7de1a3892b2fe194f9852cadf7623085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6540f53450029a06e6e0dfc5f167afc') in 0.006778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellInner.mat
+  artifactKey: Guid(f123f55ff7425674da8bd68443ee629d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellInner.mat using Guid(f123f55ff7425674da8bd68443ee629d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6e0a83fad52971faf5fc16622432bd') in 0.006288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellBricks2.mat
+  artifactKey: Guid(425e22bed139515498ba470472d57159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellBricks2.mat using Guid(425e22bed139515498ba470472d57159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f8ddefc3a4fa3456fcefb35019de1b') in 0.006340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellInner.mat
+  artifactKey: Guid(db2d740912dfc9d4086a7a4aa204a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellInner.mat using Guid(db2d740912dfc9d4086a7a4aa204a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1172fdf011c2d1d73dae434b3ac4a70') in 0.006658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellBricks2.mat
+  artifactKey: Guid(17c6d5ed7df9a0c4ca15eaca3a4c9ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellBricks2.mat using Guid(17c6d5ed7df9a0c4ca15eaca3a4c9ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6314d6efea6e0f583b5fa5e00d127a4b') in 0.006665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellBricks2.mat
+  artifactKey: Guid(2f40cf10f07360a4597b371a7c954e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellBricks2.mat using Guid(2f40cf10f07360a4597b371a7c954e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c5d8c785340d1072d137bbc1a1e5bd') in 0.007731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellInner.mat
+  artifactKey: Guid(54ff3275aae10bb4e9bfb3fc762c5d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellInner.mat using Guid(54ff3275aae10bb4e9bfb3fc762c5d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4017f9ee14b4a3d2270fe15d650eb85a') in 0.006261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellBricks2.mat
+  artifactKey: Guid(d076860f0b84de3458bed2ccf597a2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellBricks2.mat using Guid(d076860f0b84de3458bed2ccf597a2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfbb214569e03681d15775eb66e1d50') in 0.011798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellInner.mat
+  artifactKey: Guid(6f9fa6ac9f3eb614bb208fa9bb8a195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellInner.mat using Guid(6f9fa6ac9f3eb614bb208fa9bb8a195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb80f9a78961b856332bd57bebd41019') in 0.006901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellInner.mat
+  artifactKey: Guid(08155aa932d4ac442a4e9747a2bc9457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellInner.mat using Guid(08155aa932d4ac442a4e9747a2bc9457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae89a7b50dd3bebb9ea6691e77b56fac') in 0.005975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRoller.mat
+  artifactKey: Guid(acd48726a093ce44daa0b06d27b52170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellRoller.mat using Guid(acd48726a093ce44daa0b06d27b52170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6193baf9f458c07eb17c6d282fcc44a5') in 0.022986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellBricks2.mat
+  artifactKey: Guid(6fbc3f5faa7f38b419a54d02e90140fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellBricks2.mat using Guid(6fbc3f5faa7f38b419a54d02e90140fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea55f77aff5ec1ecbe421be78d65e70') in 0.009840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRoller.mat
+  artifactKey: Guid(a4036b38c0da3644ead8e6e59de2d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellRoller.mat using Guid(a4036b38c0da3644ead8e6e59de2d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bc836b04ffcbd8cc6ba281f2076843') in 0.006296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellBricks2.mat
+  artifactKey: Guid(a419ae72657d5254c8e9404d0e95fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellBricks2.mat using Guid(a419ae72657d5254c8e9404d0e95fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dc034dbeb6ca465047b8ff52cd77c4') in 0.014261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellBricks1.mat
+  artifactKey: Guid(8106fb35d95983e4886d44090fe8f13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellBricks1.mat using Guid(8106fb35d95983e4886d44090fe8f13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd30c719e1a1f8be8e93881aceb2fa72') in 0.010874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellBricks1.mat
+  artifactKey: Guid(3b75452a1dba59a40811988d40b4eb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellBricks1.mat using Guid(3b75452a1dba59a40811988d40b4eb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de48ff5fd5f6302b801cb3953b8b5aba') in 0.006611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellBricks0.mat
+  artifactKey: Guid(cdaf867fadf6c9e4fa4d9997683fd46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellBricks0.mat using Guid(cdaf867fadf6c9e4fa4d9997683fd46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45b276a52ad8a959e56c016ad1ac70c') in 0.012558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/Water.mat
+  artifactKey: Guid(55f4b48cc4ddd8c409012ef5cb1ed122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/Water.mat using Guid(55f4b48cc4ddd8c409012ef5cb1ed122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd9528e6e34d773ca60d83fd03e365f') in 0.016812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellBricks0.mat
+  artifactKey: Guid(e0528d30ab7c91548b019020adfe1bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellBricks0.mat using Guid(e0528d30ab7c91548b019020adfe1bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca00952c39d73bb1f2372588ba1459d9') in 0.006921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Materials/Advanced/WavesMat.mat
+  artifactKey: Guid(bcbd343190a4a474f84655fed6feef57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Advanced/WavesMat.mat using Guid(bcbd343190a4a474f84655fed6feef57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d12c6337cb69a5a8aadbae21a5a6455') in 0.112630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellBricks0.mat
+  artifactKey: Guid(b4577729d786a9341bbfb37ca551426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellBricks0.mat using Guid(b4577729d786a9341bbfb37ca551426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ba2fce5aa7f133709aca03e70c2f17') in 0.008025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellBricks0.mat
+  artifactKey: Guid(e69e218819f1c2949b01f6014bd6f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellBricks0.mat using Guid(e69e218819f1c2949b01f6014bd6f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697bce9a6c2cdb38cfc7cec3916ada84') in 0.004367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Shader/MKToon/Examples/WitchLab/WitchLab/Materials/Wax.mat
+  artifactKey: Guid(7e30abce23957f64d96bdb058db2ec93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/WitchLab/WitchLab/Materials/Wax.mat using Guid(7e30abce23957f64d96bdb058db2ec93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68f3dc17b6e73e53b60ffa3c94a58ae') in 0.036400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/Water.mat
+  artifactKey: Guid(0b71ccec4abfc6d4babf70eeaf9f3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/Water.mat using Guid(0b71ccec4abfc6d4babf70eeaf9f3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050cd24f34c850e072e8e3e282feab88') in 0.014340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellBricks0.mat
+  artifactKey: Guid(8b8ef2e4a8889d245be409b6a5daf830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellBricks0.mat using Guid(8b8ef2e4a8889d245be409b6a5daf830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8e823a2ec94bff47cee1e7bf19473b') in 0.005517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellBricks1.mat
+  artifactKey: Guid(ee822938a1a14564289ccc50bd6aa111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/WellBricks1.mat using Guid(ee822938a1a14564289ccc50bd6aa111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dc21ef7eb28a454a649c831888a3a3') in 0.011326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellBricks1.mat
+  artifactKey: Guid(4dbfce5ebce473b47a94209e0d324853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellBricks1.mat using Guid(4dbfce5ebce473b47a94209e0d324853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7048a11ee004a614ce363e4e272d5c82') in 0.004687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellBricks1.mat
+  artifactKey: Guid(658a596764ea2b04b91429636a06f927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellBricks1.mat using Guid(658a596764ea2b04b91429636a06f927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c16b4735cd5c7a2bd3ecaaf143f0e1') in 0.010403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellBricks0.mat
+  artifactKey: Guid(a433d8777d4916343b34896f3e6ca719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellBricks0.mat using Guid(a433d8777d4916343b34896f3e6ca719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9766feff3aff5d5a9a23422afd7284') in 0.005269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/Water.mat
+  artifactKey: Guid(88aea30e1687ebe4dace81780a767764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/Water.mat using Guid(88aea30e1687ebe4dace81780a767764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac036f462d9949842e42de267161142') in 0.004562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellBricks0.mat
+  artifactKey: Guid(271228a8279eb9644b2415e7e6ad7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/WellBricks0.mat using Guid(271228a8279eb9644b2415e7e6ad7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace4c4698d3b13ab5ac3681c5a547c6a') in 0.005299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellBricks0.mat
+  artifactKey: Guid(bcf68134c2fa8e3469cd4ea0a5ec5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellBricks0.mat using Guid(bcf68134c2fa8e3469cd4ea0a5ec5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b1ff3ce3af461ea4e78a2ca025df13') in 0.010660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003463 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellBricks1.mat
+  artifactKey: Guid(99f96d01a569bff43ac7962853c5662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/WellBricks1.mat using Guid(99f96d01a569bff43ac7962853c5662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dbfc17834f233061ea174cfc893788') in 0.016867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellBricks1.mat
+  artifactKey: Guid(e5ab0a223fb82e145a64b174b53b2295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/WellBricks1.mat using Guid(e5ab0a223fb82e145a64b174b53b2295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a350efb0c1707457a379977564e132db') in 0.007124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellBricks0.mat
+  artifactKey: Guid(646ae02986aeaec44a03692ec2d8f581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/WellBricks0.mat using Guid(646ae02986aeaec44a03692ec2d8f581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57fdb8c73fa2f2d2a8dbf2e3fd3d159') in 0.009793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/Water.mat
+  artifactKey: Guid(99982ee60b45f2148ad0651bc45f3625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/Water.mat using Guid(99982ee60b45f2148ad0651bc45f3625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a72ffadbf418e8c4f5af0e899da0b8') in 0.021437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellBricks1.mat
+  artifactKey: Guid(0652c0d0d51325f45957e5cbc4bda412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/WellBricks1.mat using Guid(0652c0d0d51325f45957e5cbc4bda412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd157062ba371d259bd3b26b995d9b410') in 0.004972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellBricks1.mat
+  artifactKey: Guid(85944d1add4bba844a8c6b3c467e79cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/WellBricks1.mat using Guid(85944d1add4bba844a8c6b3c467e79cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4574d5008a4215b61c0cbb3042d03eb0') in 0.005122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Materials/Waves.mat
+  artifactKey: Guid(d5e94102198712d42ab5038d23e71106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Waves.mat using Guid(d5e94102198712d42ab5038d23e71106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0077c36c818d7c6ac61b86693aba129b') in 0.026061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellBricks2.mat
+  artifactKey: Guid(e8df5fbd1f613c140a7d24942594d3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/WellBricks2.mat using Guid(e8df5fbd1f613c140a7d24942594d3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec3b94453f6d1a086e18b37137f9dc3') in 0.004712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellBricks2.mat
+  artifactKey: Guid(c911cec23f4d83742a508df91c4a4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/WellBricks2.mat using Guid(c911cec23f4d83742a508df91c4a4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906c3522392bedd26e3446423506d4e6') in 0.004893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/Water.mat
+  artifactKey: Guid(c9bb26de5772b1049b0f334d103601ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/Water.mat using Guid(c9bb26de5772b1049b0f334d103601ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ca4bea53550311c6fb403ee11f4711') in 0.026309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRoller.mat
+  artifactKey: Guid(eee7d9d1438c97441a11e326a12d1670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellRoller.mat using Guid(eee7d9d1438c97441a11e326a12d1670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a722354f49578aa08ce100106c5bd8e') in 0.027390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellBricks0.mat
+  artifactKey: Guid(d74c24489d642b84c88de95fec035940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/WellBricks0.mat using Guid(d74c24489d642b84c88de95fec035940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f38130cccad822f657935dc7994c2c') in 0.009532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.708418 seconds.
+  path: Assets/Texture/Number/CountDown/Materials/Image_ScoreAndTime_Light_2x5.mat
+  artifactKey: Guid(2e272b00f901b6141ae51e4f35dbacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Number/CountDown/Materials/Image_ScoreAndTime_Light_2x5.mat using Guid(2e272b00f901b6141ae51e4f35dbacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bb204b5427ccc7e8f89ea5e70362be') in 0.029243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/Landscape.mat
+  artifactKey: Guid(36b724f005def154c831325bf69c83e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/AllSkyDemoEnvironment/Materials/Landscape.mat using Guid(36b724f005def154c831325bf69c83e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f025455e08d2b0cfcdbcff06a1ba23') in 0.025884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/ThirdParty/AmplifyShaderEditor/Examples/Built-In/ScreenSpaceDetail/ScreenSpaceDetail.mat
+  artifactKey: Guid(3a0163d12fede4d47a1f818a66a115de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AmplifyShaderEditor/Examples/Built-In/ScreenSpaceDetail/ScreenSpaceDetail.mat using Guid(3a0163d12fede4d47a1f818a66a115de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a0642008603b8988a207b53093ca00') in 0.083592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Materials/UVScrollWaterWithWaves.mat
+  artifactKey: Guid(bc8bb0616b803f84289d39cdfb5c86ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UVScrollWaterWithWaves.mat using Guid(bc8bb0616b803f84289d39cdfb5c86ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503ca7bac452f1a6d5189541b53b5c1e') in 0.015496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/ThirdParty/AmplifyShaderEditor/Examples/Built-In/ScaleIndependentTile/ScaleIndependentTile.mat
+  artifactKey: Guid(f2d1bf42901a95f41acb7d7f37fb408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AmplifyShaderEditor/Examples/Built-In/ScaleIndependentTile/ScaleIndependentTile.mat using Guid(f2d1bf42901a95f41acb7d7f37fb408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11946dfc7b174d37d1433af8c2ece1f3') in 0.053805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/ThirdParty/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/Landscape.mat
+  artifactKey: Guid(1045d2cff7dde4d3ab5feb4f0dbc7f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/Landscape.mat using Guid(1045d2cff7dde4d3ab5feb4f0dbc7f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08346ba08cc919afe5be6f39428688dd') in 0.015287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.786320 seconds.
+  path: Assets/Materials/SimpleOutline.mat
+  artifactKey: Guid(05240eb6634916949b6022ec82c71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SimpleOutline.mat using Guid(05240eb6634916949b6022ec82c71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c48726300a559a2efbd24e29cb2efc') in 0.011045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Shader/MKToon/Examples/Spectate/Materials/Floor/ShaderBallMaterials/ArtisticSketchVariant0/Sphere.mat
+  artifactKey: Guid(2b7fdfa0f6e4bd04b8c3788856a4599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/Spectate/Materials/Floor/ShaderBallMaterials/ArtisticSketchVariant0/Sphere.mat using Guid(2b7fdfa0f6e4bd04b8c3788856a4599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd101128314476d83d4f930b189da076') in 0.084113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 223.791849 seconds.
+  path: Assets/Material/WormHole
+  artifactKey: Guid(e03dd36ef41677a41bfb3bd069ab1f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WormHole using Guid(e03dd36ef41677a41bfb3bd069ab1f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccec30d9f975e32d07a9f03bd47b2f88') in 0.001635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.096798 seconds.
+  path: Assets/Material/WormHole/WormHoleUVScroll.mat
+  artifactKey: Guid(3e7559a05252d13459a180a1744057b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WormHole/WormHoleUVScroll.mat using Guid(3e7559a05252d13459a180a1744057b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939844a033114eac69ffe81ad826818e') in 0.006768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6771.118451 seconds.
+  path: Assets/ThirdParty/VFXToolbox-master
+  artifactKey: Guid(adc18b1fb6b88ed4ab3bf18f3f110db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VFXToolbox-master using Guid(adc18b1fb6b88ed4ab3bf18f3f110db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df545959646f3d2539e62484fc3ad80d') in 0.002027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.275984 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/HouseWoodBright.mat
+  artifactKey: Guid(93794e58606ff6949a2087b25c59d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/HouseWoodBright.mat using Guid(93794e58606ff6949a2087b25c59d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495d5241ef86f8d7719effbc5e13987d') in 0.045885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/HouseWoodDark.mat
+  artifactKey: Guid(4376ba4690441374eb0673a85f8dfb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/HouseWoodDark.mat using Guid(4376ba4690441374eb0673a85f8dfb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256613565408e03c096d232d47b07966') in 0.035228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/HouseWoodBright.mat
+  artifactKey: Guid(295de8142c6c1214ba790f3eb523a4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Sketch/HouseWoodBright.mat using Guid(295de8142c6c1214ba790f3eb523a4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154d6382e1ffcbfe625d507bf3fa5d8c') in 0.013247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/HouseWoodDark.mat
+  artifactKey: Guid(611d63cd111fb17468c70f864f185fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Drawn/HouseWoodDark.mat using Guid(611d63cd111fb17468c70f864f185fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7924f0fdfa8d542b359835ba559f9e93') in 0.024818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/HouseWoodBright.mat
+  artifactKey: Guid(7e44bd36169f90d439ffc873ff3a51f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/HouseWoodBright.mat using Guid(7e44bd36169f90d439ffc873ff3a51f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f36fe9a1f8e1d1996d1cf22d82f5745') in 0.039286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/HouseWoodBright.mat
+  artifactKey: Guid(a30f93bb2d54c2e44a1fdab93ce0ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/HouseWoodBright.mat using Guid(a30f93bb2d54c2e44a1fdab93ce0ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0d392ee1fb6e3c1a72b2b17e1367f3') in 0.011262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/HouseWoodDark.mat
+  artifactKey: Guid(36a81c10aa32340449983c8d92474b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/HouseWoodDark.mat using Guid(36a81c10aa32340449983c8d92474b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d449de71e7c8c0b33270ad674d24e0') in 0.005974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/HouseWoodBright.mat
+  artifactKey: Guid(a6c87934d47d6cc4c9c7c5e1107917f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/HouseWoodBright.mat using Guid(a6c87934d47d6cc4c9c7c5e1107917f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c1155bf0e20e72d87b88c7a3b40825') in 0.017223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/HouseWoodBright.mat
+  artifactKey: Guid(0053fcabe8cd28c47b00d9ba7aef5527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching1/HouseWoodBright.mat using Guid(0053fcabe8cd28c47b00d9ba7aef5527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b414251126a8f931fe8ce62304a3c271') in 0.008977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/HouseWoodDark.mat
+  artifactKey: Guid(981bea672972e5144b49485e925be2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/CelOutline/HouseWoodDark.mat using Guid(981bea672972e5144b49485e925be2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0d410b8b32b1cd386ded6970b708e4') in 0.007342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/HouseWoodBright.mat
+  artifactKey: Guid(95c8488c0b95e194e8fa9dbdc303072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/HouseWoodBright.mat using Guid(95c8488c0b95e194e8fa9dbdc303072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cdf7e5094cfdc71cdd8fff0235386b') in 0.007441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/HouseWoodBright.mat
+  artifactKey: Guid(2eec90c4a402afa428ce0e93d23b70b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/HouseWoodBright.mat using Guid(2eec90c4a402afa428ce0e93d23b70b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e661699655f634cb83f51f2fbdc1422c') in 0.031792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/HouseWoodDark.mat
+  artifactKey: Guid(ee2b72f72f2661c4eb000c8db1cf7682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Painted/HouseWoodDark.mat using Guid(ee2b72f72f2661c4eb000c8db1cf7682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd36db03c3320de8d86df9506b80794e') in 0.010366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/HouseWoodBright.mat
+  artifactKey: Guid(79eb9cdc8d618e346b70bb14eefc62a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/HouseWoodBright.mat using Guid(79eb9cdc8d618e346b70bb14eefc62a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b196b53968a0a24d7f25b4e3e0ccca') in 0.029317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/HouseWoodDark.mat
+  artifactKey: Guid(d0f4e44d21af34f46a4a1d05572b886b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Hatching0/HouseWoodDark.mat using Guid(d0f4e44d21af34f46a4a1d05572b886b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c09ccdd40aab1a9e0adbf39e9317396') in 0.017734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/HouseWoodDark.mat
+  artifactKey: Guid(8b5c5bc178fd29145bf184588fafe8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Ramp/HouseWoodDark.mat using Guid(8b5c5bc178fd29145bf184588fafe8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd882b37df79052d619537fc30e8c4ffc') in 0.006977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/HouseWoodDark.mat
+  artifactKey: Guid(d3c8e4455e5205e48877ecf20f8687aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/HouseWoodDark.mat using Guid(d3c8e4455e5205e48877ecf20f8687aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf5e8e9f714f5e6adb63df3c14e059d') in 0.015002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/HouseWoodDark.mat
+  artifactKey: Guid(3d5dba078e811774e9167f38d56ba777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Manga/HouseWoodDark.mat using Guid(3d5dba078e811774e9167f38d56ba777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cd74645cfd1d56aa41b71ed1ad7f54') in 0.011294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/HouseWoodDark.mat
+  artifactKey: Guid(9de9015b5ba6972458871ea52660ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Paper/HouseWoodDark.mat using Guid(9de9015b5ba6972458871ea52660ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95794408cf9c2cfaa581c0780cfca7ce') in 0.024471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/HouseWoodBright.mat
+  artifactKey: Guid(d9debe312f458a442a69959951dad897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/MKToon/Examples/FlyingIsle/Materials/Cel/HouseWoodBright.mat using Guid(d9debe312f458a442a69959951dad897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f4d0a46632b51289b3f1d5f48e2af') in 0.006126 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002862 seconds.
+Registered in 0.002901 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
+- Completed reload, in  1.326 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1262ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1327ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1098ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (104ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
 			SetupLoadedEditorAssemblies (510ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
+				BeforeProcessingInitializeOnLoad (86ms)
 				ProcessInitializeOnLoadAttributes (285ms)
 				ProcessInitializeOnLoadMethodAttributes (125ms)
 				AfterProcessingInitializeOnLoad (7ms)
@@ -400,14 +1276,14 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.7 MB.
-System memory in use after: 210.7 MB.
+System memory in use before: 211.0 MB.
+System memory in use after: 211.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3872.
-Total: 3.444000 ms (FindLiveObjects: 0.400400 ms CreateObjectMapping: 0.098800 ms MarkObjects: 2.648300 ms  DeleteObjects: 0.295400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3868.
+Total: 3.466800 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.095700 ms MarkObjects: 2.667200 ms  DeleteObjects: 0.326500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -422,49 +1298,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002823 seconds.
+Registered in 0.002991 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.244 seconds
+- Completed reload, in  1.224 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1245ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1224ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1074ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (509ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (508ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (287ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (282ms)
 				ProcessInitializeOnLoadMethodAttributes (124ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.7 MB.
-System memory in use after: 210.8 MB.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.3 MB.
+System memory in use after: 212.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3875.
-Total: 3.438200 ms (FindLiveObjects: 0.382400 ms CreateObjectMapping: 0.101400 ms MarkObjects: 2.635800 ms  DeleteObjects: 0.317600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3891.
+Total: 3.705400 ms (FindLiveObjects: 0.381600 ms CreateObjectMapping: 0.098800 ms MarkObjects: 2.736600 ms  DeleteObjects: 0.487400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -477,165 +1353,141 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 3588.271649 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader
+  artifactKey: Guid(9158fcd6f634a3a46a1d89217f983475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader using Guid(9158fcd6f634a3a46a1d89217f983475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fcc2d42400e2b6a7d28dfc885f993e') in 0.007928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069215 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/AllIn1SpriteShaderAssembly.asmdef
+  artifactKey: Guid(91de482a0a233614ab5962ea5f6c24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/AllIn1SpriteShaderAssembly.asmdef using Guid(91de482a0a233614ab5962ea5f6c24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5468139f21571624656e1f8b828197d') in 0.005844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.954123 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo
+  artifactKey: Guid(8547c35f10eb6ad4697607cdde60ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo using Guid(8547c35f10eb6ad4697607cdde60ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9326c3ee7947d837ee5937791e4f9e') in 0.032477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.605492 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Demo.unity
+  artifactKey: Guid(aa7236836849adb4285d82814f472ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Demo.unity using Guid(aa7236836849adb4285d82814f472ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11133ea70d4d9c3dab7b3fdc95cad27d') in 0.001753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.871141 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldier.png
+  artifactKey: Guid(519dafacd208bb64c83d5124be03b09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldier.png using Guid(519dafacd208bb64c83d5124be03b09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228702faa07c5f5ab5cead1f629c183e') in 0.346393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.299326 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/snowFlake.png
+  artifactKey: Guid(ab4465ab72ca5544da8e8dd1110b6973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/snowFlake.png using Guid(ab4465ab72ca5544da8e8dd1110b6973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e37d2eaa2ac6449c6301e21e53848ea') in 0.007433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldierNormal.png
+  artifactKey: Guid(994e4deee74379d4c83bcf0f27585f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldierNormal.png using Guid(994e4deee74379d4c83bcf0f27585f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86430516beb33ecc330b7efaac43a091') in 0.009109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldierHelmetTopMask.png
+  artifactKey: Guid(3d311990b7c2c59478bacea537a60a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldierHelmetTopMask.png using Guid(3d311990b7c2c59478bacea537a60a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d13dd3df418ce75b58b64809c3d569') in 0.007567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Textures/NormalMaps/spaceSoldierNormalMap.png
+  artifactKey: Guid(115ee11beb34a5247bc5bd53377a08f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Textures/NormalMaps/spaceSoldierNormalMap.png using Guid(115ee11beb34a5247bc5bd53377a08f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9a303295be75dad3edbc3b2206eb35') in 0.005384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/splotch.png
+  artifactKey: Guid(51caeab4d98b55046a9013cc2da7e427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/splotch.png using Guid(51caeab4d98b55046a9013cc2da7e427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc90e9f26307e2a44c4ce16275fcbf3b') in 0.009668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spark.png
+  artifactKey: Guid(b382c41f6a534374390fe6d5e6e82ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spark.png using Guid(b382c41f6a534374390fe6d5e6e82ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16c8699050c23d478a541794761a6d4') in 0.006662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldierColorSwap.png
+  artifactKey: Guid(065da6c7b90ca904dab9cbc6b415fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldierColorSwap.png using Guid(065da6c7b90ca904dab9cbc6b415fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c9f70f830614d29fd5a3bb9004e966') in 0.007348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldierGlow.png
+  artifactKey: Guid(8608ef90f91271745a17f7210fe1e7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/spaceSoldierGlow.png using Guid(8608ef90f91271745a17f7210fe1e7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c43b30a792d753eae3dbeb26ca4c74') in 0.010114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/Square.png
+  artifactKey: Guid(fab06e0be9375cc4d823efa71629885c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures/Square.png using Guid(fab06e0be9375cc4d823efa71629885c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d60401d8cbaa25e06ff2dffafb1decf') in 0.008769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.722734 seconds.
+  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures
+  artifactKey: Guid(2079251647b8b824abecc812d174a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Textures using Guid(2079251647b8b824abecc812d174a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a523f6a17c4dd68676adc5b6fb528641') in 0.001525 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002818 seconds.
+Registered in 0.003215 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
+- Completed reload, in  1.279 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1304ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1117ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1087ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (514ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (515ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
+				BeforeProcessingInitializeOnLoad (92ms)
 				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (129ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.8 MB.
-System memory in use after: 210.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3878.
-Total: 3.999500 ms (FindLiveObjects: 0.416400 ms CreateObjectMapping: 0.104100 ms MarkObjects: 3.142000 ms  DeleteObjects: 0.335700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002817 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1287ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1124ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (530ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.8 MB.
-System memory in use after: 210.8 MB.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.4 MB.
+System memory in use after: 212.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3881.
-Total: 3.653200 ms (FindLiveObjects: 0.400300 ms CreateObjectMapping: 0.100600 ms MarkObjects: 2.845900 ms  DeleteObjects: 0.305000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.300 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1300ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1115ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (514ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (125ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.8 MB.
-System memory in use after: 210.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3884.
-Total: 3.518400 ms (FindLiveObjects: 0.397600 ms CreateObjectMapping: 0.100100 ms MarkObjects: 2.696300 ms  DeleteObjects: 0.323400 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3903.
+Total: 4.086600 ms (FindLiveObjects: 0.630100 ms CreateObjectMapping: 0.105300 ms MarkObjects: 2.808700 ms  DeleteObjects: 0.541100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
