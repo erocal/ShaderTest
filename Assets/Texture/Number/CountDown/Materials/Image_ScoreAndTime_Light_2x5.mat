@@ -24,15 +24,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d35eb6ff994a9e743a8c090cd14dfdc6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Alpha: 1
     - _CurSequenceId: 0
-    - _Glossiness: 0
+    - _Glossiness: 1
     - _HorizontalAmount: 5
-    - _Metallic: 0
+    - _Metallic: 0.109
     - _Speed: 30
     - _UseTime: 0
     - _VerticalAmount: 2

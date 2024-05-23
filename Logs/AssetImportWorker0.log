@@ -425,3 +425,4 @@ Received Import Request.
   path: Assets/Texture/Number/CountDown/Materials
   artifactKey: Guid(b5a4468c2ee170746927a06155638436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Texture/Number/CountDown/Materials using Guid(b5a4468c2ee170746927a06155638436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118c0e5352e03b6bb43f5a353448a12d') in 0.001657 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
