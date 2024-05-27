@@ -56,155 +56,155 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RemoveBackgroundProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\RemoveBackgroundProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RotateProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\RotateProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomShaderTemplateFactory.cs">
-      <Link>Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomShaderTemplateFactory.cs</Link>
-    </Compile>
     <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingNode.cs">
       <Link>Editor\ImageSequencer\ProcessingNode.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\CustomMaterialProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\CustomMaterialProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomProcessorTemplateFactory.cs">
-      <Link>Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomProcessorTemplateFactory.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.GUI.cs">
-      <Link>Editor\ImageSequencer\ImageSequencer.GUI.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\CurveToTextureUtility.cs">
-      <Link>Editor\Common\Utility\CurveToTextureUtility.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\ColorCorrectionProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\ColorCorrectionProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\CropProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\CropProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequenceAssetEditor.cs">
-      <Link>Editor\ImageSequencer\ImageSequenceAssetEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\CurveDrawer.cs">
-      <Link>Editor\Common\Utility\CurveDrawer.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\PremultiplyAlphaProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\PremultiplyAlphaProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.cs">
-      <Link>Editor\ImageSequencer\ImageSequencer.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\VFXToolboxStyles.cs">
-      <Link>Editor\Common\Utility\VFXToolboxStyles.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingNodeStack.Serialization.cs">
-      <Link>Editor\ImageSequencer\ProcessingNodeStack.Serialization.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\ImageSequence.cs">
-      <Link>Editor\ImageSequencer\Serialization\ImageSequence.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RetimeProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\RetimeProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Attributes\ProcessorAttribute.cs">
-      <Link>Editor\ImageSequencer\Attributes\ProcessorAttribute.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\FixBordersProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\FixBordersProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Canvas\VFXToolboxCanvas.cs">
-      <Link>Editor\Common\Canvas\VFXToolboxCanvas.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\AlphaFromRGBProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\AlphaFromRGBProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RemapColorProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\RemapColorProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.Styles.cs">
-      <Link>Editor\ImageSequencer\ImageSequencer.Styles.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\PropertyAttributes\FloatSliderAttribute.cs">
-      <Link>Editor\Common\PropertyAttributes\FloatSliderAttribute.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\BreakFlipbookProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\BreakFlipbookProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequenceAssetFactory.cs">
-      <Link>Editor\ImageSequencer\ImageSequenceAssetFactory.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\ProcessorInfo.cs">
-      <Link>Editor\ImageSequencer\Serialization\ProcessorInfo.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\VFXToolboxUtility.cs">
-      <Link>Editor\Common\Utility\VFXToolboxUtility.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencerCanvas.cs">
-      <Link>Editor\ImageSequencer\ImageSequencerCanvas.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.Processors.cs">
-      <Link>Editor\ImageSequencer\ImageSequencer.Processors.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\ResizeProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\ResizeProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\AssembleProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\AssembleProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\FilterPopupWindow.cs">
-      <Link>Editor\Common\Utility\FilterPopupWindow.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\Splitter.cs">
-      <Link>Editor\Common\Utility\Splitter.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\LoopingProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\LoopingProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Exporters\MiniTGA.cs">
-      <Link>Editor\ImageSequencer\Exporters\MiniTGA.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\FilterPopup\ProcessorDataProvider.cs">
-      <Link>Editor\ImageSequencer\FilterPopup\ProcessorDataProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.Export.cs">
-      <Link>Editor\ImageSequencer\ImageSequencer.Export.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\VFXToolboxGUIUtility.cs">
-      <Link>Editor\Common\Utility\VFXToolboxGUIUtility.cs</Link>
-    </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\FloatSliderPropertyDrawer.cs">
-      <Link>Editor\Common\Utility\FloatSliderPropertyDrawer.cs</Link>
     </Compile>
     <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\ProcessorBase.cs">
       <Link>Editor\ImageSequencer\Serialization\ProcessorBase.cs</Link>
     </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.InputFrames.cs">
-      <Link>Editor\ImageSequencer\ImageSequencer.InputFrames.cs</Link>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequenceAssetEditor.cs">
+      <Link>Editor\ImageSequencer\ImageSequenceAssetEditor.cs</Link>
     </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\FadeProcessor.cs">
-      <Link>Editor\ImageSequencer\Serialization\Processors\FadeProcessor.cs</Link>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\FixBordersProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\FixBordersProcessor.cs</Link>
     </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingFrame.cs">
-      <Link>Editor\ImageSequencer\ProcessingFrame.cs</Link>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\AlphaFromRGBProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\AlphaFromRGBProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\BreakFlipbookProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\BreakFlipbookProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\VFXToolboxUtility.cs">
+      <Link>Editor\Common\Utility\VFXToolboxUtility.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RemoveBackgroundProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\RemoveBackgroundProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Attributes\ProcessorAttribute.cs">
+      <Link>Editor\ImageSequencer\Attributes\ProcessorAttribute.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\ColorCorrectionProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\ColorCorrectionProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingNodeStack.cs">
+      <Link>Editor\ImageSequencer\ProcessingNodeStack.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\PropertyAttributes\FloatSliderAttribute.cs">
+      <Link>Editor\Common\PropertyAttributes\FloatSliderAttribute.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\FilterPopup\ProcessorDataProvider.cs">
+      <Link>Editor\ImageSequencer\FilterPopup\ProcessorDataProvider.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\CropProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\CropProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.Styles.cs">
+      <Link>Editor\ImageSequencer\ImageSequencer.Styles.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\FilterPopupWindow.cs">
+      <Link>Editor\Common\Utility\FilterPopupWindow.cs</Link>
     </Compile>
     <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\External\CurveEditor.cs">
       <Link>Editor\Common\External\CurveEditor.cs</Link>
     </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Exporters\MiniEXR.cs">
-      <Link>Editor\ImageSequencer\Exporters\MiniEXR.cs</Link>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Exporters\MiniTGA.cs">
+      <Link>Editor\ImageSequencer\Exporters\MiniTGA.cs</Link>
     </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingFrameSequence.cs">
-      <Link>Editor\ImageSequencer\ProcessingFrameSequence.cs</Link>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RemapColorProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\RemapColorProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingNodeStack.Serialization.cs">
+      <Link>Editor\ImageSequencer\ProcessingNodeStack.Serialization.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\PremultiplyAlphaProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\PremultiplyAlphaProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RetimeProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\RetimeProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Canvas\VFXToolboxCanvas.cs">
+      <Link>Editor\Common\Canvas\VFXToolboxCanvas.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\FloatSliderPropertyDrawer.cs">
+      <Link>Editor\Common\Utility\FloatSliderPropertyDrawer.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.GUI.cs">
+      <Link>Editor\ImageSequencer\ImageSequencer.GUI.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingFrame.cs">
+      <Link>Editor\ImageSequencer\ProcessingFrame.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\LoopingProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\LoopingProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\CurveToTextureUtility.cs">
+      <Link>Editor\Common\Utility\CurveToTextureUtility.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencerCanvas.cs">
+      <Link>Editor\ImageSequencer\ImageSequencerCanvas.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\ImageSequence.cs">
+      <Link>Editor\ImageSequencer\Serialization\ImageSequence.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\VFXToolboxGUIUtility.cs">
+      <Link>Editor\Common\Utility\VFXToolboxGUIUtility.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.cs">
+      <Link>Editor\ImageSequencer\ImageSequencer.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomShaderTemplateFactory.cs">
+      <Link>Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomShaderTemplateFactory.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.Export.cs">
+      <Link>Editor\ImageSequencer\ImageSequencer.Export.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\VFXToolboxStyles.cs">
+      <Link>Editor\Common\Utility\VFXToolboxStyles.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RotateProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\RotateProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequenceAssetFactory.cs">
+      <Link>Editor\ImageSequencer\ImageSequenceAssetFactory.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\Splitter.cs">
+      <Link>Editor\Common\Utility\Splitter.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\ProcessorInfo.cs">
+      <Link>Editor\ImageSequencer\Serialization\ProcessorInfo.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\ResizeProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\ResizeProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.InputFrames.cs">
+      <Link>Editor\ImageSequencer\ImageSequencer.InputFrames.cs</Link>
     </Compile>
     <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\DecimateProcessor.cs">
       <Link>Editor\ImageSequencer\Serialization\Processors\DecimateProcessor.cs</Link>
     </Compile>
-    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingNodeStack.cs">
-      <Link>Editor\ImageSequencer\ProcessingNodeStack.cs</Link>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\Common\Utility\CurveDrawer.cs">
+      <Link>Editor\Common\Utility\CurveDrawer.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ProcessingFrameSequence.cs">
+      <Link>Editor\ImageSequencer\ProcessingFrameSequence.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Exporters\MiniEXR.cs">
+      <Link>Editor\ImageSequencer\Exporters\MiniEXR.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomProcessorTemplateFactory.cs">
+      <Link>Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomProcessorTemplateFactory.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\FadeProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\FadeProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\AssembleProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\AssembleProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\CustomMaterialProcessor.cs">
+      <Link>Editor\ImageSequencer\Serialization\Processors\CustomMaterialProcessor.cs</Link>
+    </Compile>
+    <Compile Include="D:\VFXToolbox-master\VFXToolbox-master\Editor\ImageSequencer\ImageSequencer.Processors.cs">
+      <Link>Editor\ImageSequencer\ImageSequencer.Processors.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

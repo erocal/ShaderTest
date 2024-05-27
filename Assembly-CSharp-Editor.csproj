@@ -848,6 +848,10 @@
       <Project>{B09B058A-7E02-302E-36FF-6D333D56C71B}</Project>
       <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
+      <Project>{E2D39756-1899-F96B-71A8-FB54498BF1B9}</Project>
+      <Name>AllIn1SpriteShaderAssembly</Name>
+    </ProjectReference>
     <ProjectReference Include="PathCreatorEditor.csproj">
       <Project>{3E5982F4-E71D-2EAB-C24D-AD0D3A51734F}</Project>
       <Name>PathCreatorEditor</Name>

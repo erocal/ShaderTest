@@ -153,6 +153,8 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\ColorGradient\ColorAnimationCurveGradient.cs" />
+    <Compile Include="Assets\Scripts\ColorGradient\ColorGradient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\BasicBlinnPhong.shader" />
@@ -223,6 +225,7 @@
     <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
     <None Include="Assets\Shader\NeonLight\RunLight.shader" />
     <None Include="Assets\Shader\Pratice\VFPlasma.shader" />
+    <None Include="Assets\Shader\ColorGradient\ColorAnimationCurveGradient.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
     <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
     <None Include="Assets\Shader\Pratice\Plasma.shader" />
@@ -235,6 +238,7 @@
     <None Include="Assets\Shader\UI\LightText.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 4.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\ReadMe.txt" />
+    <None Include="Assets\Shader\ColorGradient\ColorGradient.shader" />
     <None Include="Assets\Shader\Pratice\StencilWindow.shader" />
     <None Include="Assets\Shader\Pratice\PrimitiveSphere.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson01\VertexOffset.shader" />
@@ -1015,6 +1019,10 @@
       <Project>{B09B058A-7E02-302E-36FF-6D333D56C71B}</Project>
       <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
+      <Project>{E2D39756-1899-F96B-71A8-FB54498BF1B9}</Project>
+      <Name>AllIn1SpriteShaderAssembly</Name>
+    </ProjectReference>
     <ProjectReference Include="PathCreatorEditor.csproj">
       <Project>{3E5982F4-E71D-2EAB-C24D-AD0D3A51734F}</Project>
       <Name>PathCreatorEditor</Name>
@@ -1038,10 +1046,6 @@
     <ProjectReference Include="PathCreator.csproj">
       <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>
       <Name>PathCreator</Name>
-    </ProjectReference>
-    <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
-      <Project>{E2D39756-1899-F96B-71A8-FB54498BF1B9}</Project>
-      <Name>AllIn1SpriteShaderAssembly</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
