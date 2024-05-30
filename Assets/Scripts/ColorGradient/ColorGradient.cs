@@ -25,7 +25,12 @@ public class ColorGradient : MonoBehaviour
     private void Awake()
 	{
 
+        meshRenderer = GetComponent<MeshRenderer>();
+        materialPropertyBlock = new MaterialPropertyBlock();
+
         SetGradientTex();
+
+        meshRenderer.SetPropertyBlock(materialPropertyBlock);
 
     }
 
@@ -33,7 +38,12 @@ public class ColorGradient : MonoBehaviour
 
     void OnValidate()
     {
+        meshRenderer = GetComponent<MeshRenderer>();
+        materialPropertyBlock = new MaterialPropertyBlock();
+
         SetGradientTex();
+
+        meshRenderer.SetPropertyBlock(materialPropertyBlock);
     }
 
 #endif
@@ -47,12 +57,9 @@ public class ColorGradient : MonoBehaviour
     /// </summary>
     private void SetGradientTex()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
-        materialPropertyBlock = new MaterialPropertyBlock();
         if (materialPropertyBlock != null && meshRenderer != null)
         {
             materialPropertyBlock.SetTexture("_GradientTex", GradientToTexture2D(gradient, width, height));
-            meshRenderer.SetPropertyBlock(materialPropertyBlock);
         }
     }
 

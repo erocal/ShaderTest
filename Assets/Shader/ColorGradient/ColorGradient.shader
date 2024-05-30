@@ -20,14 +20,7 @@ Shader "Custom/ColorGradient"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
-
-            float2 rotateUV (fixed2 uv, float rotation)
-            {
-                float sinX = sin (rotation);
-                float cosX = cos (rotation);
-                float2x2 rotationMatrix = float2x2( cosX, -sinX, sinX, cosX);
-                return mul (uv - fixed2 (0.5, 0.5), rotationMatrix) + fixed2 (0.5, 0.5);
-            }
+            #include "cginc_gradient_helper.cginc"
 
             struct appdata
             {
@@ -62,6 +55,9 @@ Shader "Custom/ColorGradient"
             {
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
+
+
+
                 fixed4 gradientCol = tex2D(_GradientTex, rotateUV(i.uv_GradientTex, _Angle));
                 return col * gradientCol;
             }
