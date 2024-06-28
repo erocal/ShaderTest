@@ -66,12 +66,14 @@
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\ColorCorrectionProcessor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\PremultiplyAlphaProcessor.cs" />
+    <Compile Include="Assets\Editor\CustomShaderGUI\PropertyDraw\PropertyGUI_Switch.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RemoveBackgroundProcessor.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\CropProcessor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Editor\StarterAssetsDeployMenu.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\Common\Utility\FloatSliderPropertyDrawer.cs" />
+    <Compile Include="Assets\Editor\CustomShaderGUI\PropertyDraw\ProppertyGUI_Range.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Exporters\MiniTGA.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\ImageSequenceAssetFactory.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
@@ -79,7 +81,9 @@
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\Common\Utility\FilterPopupWindow.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\ImageSequence.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\Editor\CustomShaderGUI\SimpleShaderGUI.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\Editor\CustomShaderGUI\PropertyDraw\PropertyGUI_Texture.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\ImageSequenceAssetEditor.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\RemapColorProcessor.cs" />
@@ -112,6 +116,7 @@
     <Compile Include="Assets\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\FilterPopup\ProcessorDataProvider.cs" />
+    <Compile Include="Assets\Editor\CustomShaderGUI\PropertyDraw\PropertyGUI_Foldout.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Utils\CurveEditor.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomShaderTemplateFactory.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs" />
@@ -143,6 +148,7 @@
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\Common\Utility\VFXToolboxStyles.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Attributes\ProcessorAttribute.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\EditorTemplates\ImageSequencerCustomProcessorTemplateFactory.cs" />
+    <Compile Include="Assets\Editor\CustomShaderGUI\PropertyDraw\PropertyGUI_Vector.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\ProcessingNode.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\FixBordersProcessor.cs" />

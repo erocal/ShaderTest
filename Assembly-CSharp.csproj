@@ -114,6 +114,7 @@
     <Compile Include="Assets\Scripts\MeshData.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Scripts\ColorGradient\ColorGradient.cs" />
     <Compile Include="Assets\ThirdParty\GaussianBlur\SimpleBlit.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
@@ -128,6 +129,7 @@
     <Compile Include="Assets\Scripts\PlanarReflectionManager.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\ThirdParty\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
+    <Compile Include="Assets\Scripts\ColorGradient\ColorAnimationCurveGradient.cs" />
     <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\ThirdParty\Samples\VFX Toolbox\2.1.0-preview\Vertex Animation Textures (VATs)\Script\VertexAnimationTextureMesh.cs" />
@@ -153,8 +155,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\ColorGradient\ColorAnimationCurveGradient.cs" />
-    <Compile Include="Assets\Scripts\ColorGradient\ColorGradient.cs" />
+    <Compile Include="Assets\Scripts\USB_Render_type\USBReplacementController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\BasicBlinnPhong.shader" />
@@ -174,6 +175,7 @@
     <None Include="Assets\ThirdParty\CZ_B\cz_09CustomData.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
     <None Include="Assets\Shader\FadeInOut.shader" />
+    <None Include="Assets\Shader\JacfitPratice\JacfitPratice1.shader" />
     <None Include="Assets\Shader\Pratice\PropertiesChallenge3.shader" />
     <None Include="Assets\Shader\Lava\Lava.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -289,6 +291,7 @@
     <None Include="Assets\Shaders\VFDiffuseShadows.shader" />
     <None Include="Assets\Shader\Pratice\Cutoff.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Shader\USB_Render_type\USB_replacement_shader.shader" />
     <None Include="Assets\Shader\Pratice\SphericalFog.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\Shader\ImageSequence\Sequence.shader" />
@@ -349,6 +352,7 @@
     <None Include="Assets\ShaderLab_Jeff\Lesson03\CGLighting(8).cginc" />
     <None Include="Assets\Shaders\BlendShader.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Shader\CustomShaderGUI\CustomShaderGUI.shader" />
     <None Include="Assets\Shader\DistanceFade.shader" />
     <None Include="Assets\Shader\Pratice\StandardSpecPBR.shader" />
     <None Include="Assets\ThirdParty\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
@@ -359,6 +363,7 @@
     <None Include="Assets\Shader\Pratice\BumpDiffuse.shader" />
     <None Include="Assets\Shader\Pratice\VFDiffuse.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Shader\ColorGradient\cginc_gradient_helper.cginc" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Soft.shader" />
     <None Include="Assets\Shader\PlanarReflection\SkyboxReflection.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow.shader" />
