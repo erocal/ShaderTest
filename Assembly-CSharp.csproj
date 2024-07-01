@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\LOD\LODChanger.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Scripts\USB_Render_type\USBReplacementController.cs" />
     <Compile Include="Assets\Scripts\DecalOnOff.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
@@ -155,7 +156,6 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\USB_Render_type\USBReplacementController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\BasicBlinnPhong.shader" />
@@ -226,11 +226,13 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
     <None Include="Assets\Shader\NeonLight\RunLight.shader" />
+    <None Include="Assets\Shader\NP_09_Test\NP09_disappear.shader" />
     <None Include="Assets\Shader\Pratice\VFPlasma.shader" />
     <None Include="Assets\Shader\ColorGradient\ColorAnimationCurveGradient.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
     <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
     <None Include="Assets\Shader\Pratice\Plasma.shader" />
+    <None Include="Assets\VFX\Shaders\VFX_Add_CenterGlow.shader" />
     <None Include="Assets\Shader\PlanarReflection\PlannerReflection.shader" />
     <None Include="Assets\Shader\Outline\Outline 1.shader" />
     <None Include="Assets\Shader\ImageSequence\SurfaceSequenceFrameAnimation.shader" />
@@ -299,6 +301,7 @@
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
     <None Include="Assets\Shader\Pratice\BumpRefChallenge.shader" />
     <None Include="Assets\Shaders\TransparentShader.shader" />
+    <None Include="Assets\VFX\Shaders\VFX_Blend4_FlowMap.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\Shader\HorizontalMarquee.shader" />
     <None Include="Assets\Shader\Pratice\SimpleOutline.shader" />
@@ -372,6 +375,7 @@
     <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 3.shader" />
     <None Include="Assets\Shader\BoxWorld.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineFill.shader" />
+    <None Include="Assets\VFX\Shaders\MK_Particle Alpha Blend.shader" />
     <None Include="Assets\Shader\PlanarReflection\Floor.shader" />
     <None Include="Assets\Shaders\PackedPractice.shader" />
     <None Include="Assets\Shader\Pratice\Rim.shader" />

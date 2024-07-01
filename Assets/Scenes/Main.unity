@@ -11925,7 +11925,7 @@ MonoBehaviour:
   Steps: 13.44
   ValueNoiseImage: {fileID: 2800000, guid: 9e03d0b755647f04dbef27b556378778, type: 3}
   Sun: {fileID: 487189586}
-  _Material: {fileID: 1432777464}
+  _Material: {fileID: 2099251597}
 --- !u!1 &991322509
 GameObject:
   m_ObjectHideFlags: 0
@@ -14494,32 +14494,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430305396}
   m_Mesh: {fileID: 4300000, guid: 1bb11dd749891494c810b72f86fbc2d2, type: 3}
---- !u!21 &1432777464
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Holistic/CloudsCamera
-  m_Shader: {fileID: 4800000, guid: a28c90b6bd59eb44eb758e6272ee086d, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1001 &1440763667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18855,6 +18829,32 @@ Transform:
   m_Father: {fileID: 1963826035}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &2099251597
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Holistic/CloudsCamera
+  m_Shader: {fileID: 4800000, guid: a28c90b6bd59eb44eb758e6272ee086d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!4 &2131150375 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2495935251218634876, guid: 16881631d76789d4fa08d9a44bf05a17, type: 3}

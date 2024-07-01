@@ -1,0 +1,1672 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &27613744153851919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2404547605774962324}
+  m_Layer: 0
+  m_Name: NP09_Treasure_Coin_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2404547605774962324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27613744153851919}
+  m_LocalRotation: {x: 0, y: 0, z: 0.06653995, w: 0.9977838}
+  m_LocalPosition: {x: -0.292332, y: 2.6247942, z: 0.7724582}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -0.05089396, y: 3.2817117e-11, z: 7.630553}
+--- !u!1 &183470237474792388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2472371287329439743}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_Fin_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2472371287329439743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183470237474792388}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.29382715, y: 0.32313326, z: -0.23013738}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 819661387419723105}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0.030027146, z: 0}
+--- !u!1 &184031375493020314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5051825998239399592}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_teeth_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5051825998239399592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184031375493020314}
+  m_LocalRotation: {x: -0.30391985, y: 0.6724802, z: -0.5259273, w: 0.42285177}
+  m_LocalPosition: {x: -0.6259581, y: 0.5327415, z: -0.2150374}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5613916932497148091}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 26.764555, y: 95.733185, z: -72.93167}
+--- !u!1 &249907550001711478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978981661576862886}
+  m_Layer: 0
+  m_Name: NP09_Bike_Spine_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &978981661576862886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249907550001711478}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.4353198e-16, y: 0.44231132, z: -5.32907e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4341360603886019639}
+  m_Father: {fileID: 887430235912918029}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.9834589, y: 0, z: 0}
+--- !u!1 &512676363287835187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6603648562151343725}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_Fin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6603648562151343725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512676363287835187}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.75524276, y: 0.09684756, z: -0.47013924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1900457976643879227}
+  m_Father: {fileID: 4157727457862616281}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0.37080896, z: 0}
+--- !u!1 &849101765308616544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5871719542170176706}
+  m_Layer: 0
+  m_Name: NP09_Bike_Seat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5871719542170176706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849101765308616544}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 2.6413743, z: 0.8422136}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7026540410965043204}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1295295361299385650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2116706655459837585}
+  m_Layer: 0
+  m_Name: NP09_Bike_Jaw_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2116706655459837585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295295361299385650}
+  m_LocalRotation: {x: -6.3108872e-30, y: 4.135903e-25, z: -2.646978e-23, w: 1}
+  m_LocalPosition: {x: 2.4203119e-18, y: 0.4400546, z: -7.105427e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8262911465391626272}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -3.1454782e-15, y: -4.2137278e-20, z: -5.8120384e-21}
+--- !u!1 &1696453304911308341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4406371276500280949}
+  m_Layer: 0
+  m_Name: NP09_Bike_Dorsal_Fin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4406371276500280949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696453304911308341}
+  m_LocalRotation: {x: 0.6239796, y: -0, z: -0, w: 0.7814406}
+  m_LocalPosition: {x: 9.498648e-16, y: 0.56281227, z: 0.65766144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3631735411067791649}
+  m_Father: {fileID: 4157727457862616281}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 77.22297, y: 0, z: 0}
+--- !u!1 &1916889526502103131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847999525827135809}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &847999525827135809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916889526502103131}
+  m_LocalRotation: {x: -0.094670616, y: 0.057606563, z: 0.51661986, w: 0.8490129}
+  m_LocalPosition: {x: -0.15136231, y: 0.017002592, z: -0.004743235}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2561264177629398276}
+  m_Father: {fileID: 4341360603886019639}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -12.8442745, y: -0.23992617, z: 62.696262}
+--- !u!1 &2117950093675357710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4238889998581534176}
+  m_Layer: 0
+  m_Name: NP09_Treasure_Coin_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4238889998581534176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117950093675357710}
+  m_LocalRotation: {x: 0, y: 0, z: 0.049238704, w: 0.99878705}
+  m_LocalPosition: {x: -0.35398442, y: 2.6109369, z: 0.8220426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -0.05089396, y: 0, z: 5.6446223}
+--- !u!1 &2148245014160190499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4157727457862616281}
+  m_Layer: 0
+  m_Name: NP09_Bike_Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4157727457862616281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2148245014160190499}
+  m_LocalRotation: {x: -0.7025867, y: 0, z: 1.6645063e-17, w: 0.7115982}
+  m_LocalPosition: {x: -6.383887e-18, y: 1.1180003, z: 0.5120028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4406371276500280949}
+  - {fileID: 5613916932497148091}
+  - {fileID: 3171477105756062807}
+  - {fileID: 6603648562151343725}
+  - {fileID: 3070515234626340366}
+  - {fileID: 355942610800876510}
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -89.29857, y: -10.575185, z: -10.575185}
+--- !u!1 &2606266427596354469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 848457848220703251}
+  m_Layer: 0
+  m_Name: NP09_Bike_Up_Mouth_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &848457848220703251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2606266427596354469}
+  m_LocalRotation: {x: 6.938894e-18, y: -8.51996e-22, z: -1.0587912e-22, w: 1}
+  m_LocalPosition: {x: 2.7105053e-21, y: 0.34754756, z: 3.5527135e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4270799009014091991}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.9095677e-14, y: 1.096788e-20, z: 1.7998571e-19}
+--- !u!1 &3051181659449628029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452341328435160360}
+  m_Layer: 0
+  m_Name: NP09_Bike_Refrence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452341328435160360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3051181659449628029}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8934800707222191055}
+  - {fileID: 4157727457862616281}
+  - {fileID: 4648842919111874518}
+  - {fileID: 5800096929953818046}
+  - {fileID: 3388737036698780724}
+  - {fileID: 9139753628215122019}
+  - {fileID: 353350325979803863}
+  - {fileID: 2404547605774962324}
+  - {fileID: 4238889998581534176}
+  m_Father: {fileID: 7026540410965043204}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3335591905518572282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4981272615466807358}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_Tail_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4981272615466807358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3335591905518572282}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0000017162572, y: -0.45954606, z: 0.0000017467421}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 536595234661788041}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.9757923, y: 0, z: 0}
+--- !u!1 &3427348390334574085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2561264177629398276}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_Tail_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2561264177629398276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3427348390334574085}
+  m_LocalRotation: {x: 0.018306445, y: -0.023587175, z: -0.18140435, w: 0.9829553}
+  m_LocalPosition: {x: -1.7763567e-16, y: 0.4669067, z: -1.7763567e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5841178215761188016}
+  m_Father: {fileID: 847999525827135809}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.66089857, y: -2.6894324, z: -20.972063}
+--- !u!1 &3510790069404861541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3388737036698780724}
+  m_Layer: 0
+  m_Name: NP09_Treasure_Coin_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3388737036698780724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510790069404861541}
+  m_LocalRotation: {x: 0, y: -0, z: -0.09530306, w: 0.9954483}
+  m_LocalPosition: {x: 0.36628523, y: 2.609936, z: 0.67549723}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -0.05089396, y: -6.563424e-11, z: -10.937525}
+--- !u!1 &3544277036965107881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3070515234626340366}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_Fin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3070515234626340366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3544277036965107881}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+  m_LocalPosition: {x: 0.75524294, y: 0.096847296, z: -0.4701397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2535124462786500695}
+  m_Father: {fileID: 4157727457862616281}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -6.479504e-15, y: 179.62918, z: 179.1821}
+--- !u!1 &3699147216461573680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5490378682082092705}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_teeth_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5490378682082092705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699147216461573680}
+  m_LocalRotation: {x: -0.00000027765154, y: 0.6347084, z: 0.77275175, w: -0.00000033804093}
+  m_LocalPosition: {x: 0.92402023, y: 0.04672905, z: -0.33205676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5613916932497148091}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -78.79672, y: -0.00023109326, z: -179.99976}
+--- !u!1 &3782036316600481071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4270799009014091991}
+  m_Layer: 0
+  m_Name: NP09_Bike_Up_Mouth_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4270799009014091991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3782036316600481071}
+  m_LocalRotation: {x: -0.12548669, y: -5.741654e-17, z: -0.00000045268337, w: 0.99209535}
+  m_LocalPosition: {x: -1.0444106e-16, y: 0.49354294, z: -5.32907e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 848457848220703251}
+  m_Father: {fileID: 5613916932497148091}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -14.417723, y: 0.000006647006, z: -0.000053055952}
+--- !u!1 &4061879838263361821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3631735411067791649}
+  m_Layer: 0
+  m_Name: NP09_Bike_Dorsal_Fin_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3631735411067791649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061879838263361821}
+  m_LocalRotation: {x: -0.14457096, y: 0, z: -0, w: 0.98949444}
+  m_LocalPosition: {x: 4.1082464e-16, y: 0.33187774, z: 4.4408918e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5120340191986031663}
+  m_Father: {fileID: 4406371276500280949}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -16.624868, y: 0, z: 0}
+--- !u!1 &4184954202786491235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2535124462786500695}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_Fin_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2535124462786500695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4184954202786491235}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.25550696, y: -0.09971201, z: 0.16840039}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4897273473766741673}
+  m_Father: {fileID: 3070515234626340366}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0.030027146, z: 0}
+--- !u!1 &4228833653216954346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5800096929953818046}
+  m_Layer: 0
+  m_Name: NP09_Treasure_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5800096929953818046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228833653216954346}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0000000021097093, y: 2.2864835, z: 0.57682586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.05089396, y: 0, z: 0}
+--- !u!1 &4289797383178717128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536595234661788041}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_Tail_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &536595234661788041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4289797383178717128}
+  m_LocalRotation: {x: 0.018306445, y: -0.023587175, z: -0.18140435, w: 0.9829553}
+  m_LocalPosition: {x: 0.0000011242895, y: -0.46690604, z: -0.0000017519774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4981272615466807358}
+  m_Father: {fileID: 5501988459825308847}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.66089857, y: -2.6894324, z: -20.972063}
+--- !u!1 &4417307361066130441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5613916932497148091}
+  m_Layer: 0
+  m_Name: NP09_Bike_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5613916932497148091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417307361066130441}
+  m_LocalRotation: {x: 0.000000039926746, y: -0.09126775, z: 0.9958264, w: 0.0000004356236}
+  m_LocalPosition: {x: -0.0000006367551, y: -0.73334223, z: -0.020085894}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4849860113072360794}
+  - {fileID: 5490378682082092705}
+  - {fileID: 5051825998239399592}
+  - {fileID: 6721729099364647432}
+  - {fileID: 4270799009014091991}
+  m_Father: {fileID: 4157727457862616281}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 10.479389, y: 0.00000061295873, z: 179.99994}
+--- !u!1 &4645270276926992057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 355942610800876510}
+  m_Layer: 0
+  m_Name: NP09_Bike_Spine_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &355942610800876510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645270276926992057}
+  m_LocalRotation: {x: -0.0049331305, y: 0, z: -0, w: 0.99998784}
+  m_LocalPosition: {x: -1.7209547e-17, y: 0.7264726, z: 3.5527135e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 887430235912918029}
+  m_Father: {fileID: 4157727457862616281}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -0.2527548, y: 0, z: 0}
+--- !u!1 &4720523814949694612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9139753628215122019}
+  m_Layer: 0
+  m_Name: NP09_Treasure_Coin_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9139753628215122019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720523814949694612}
+  m_LocalRotation: {x: 0, y: -0, z: -0.2243999, w: 0.97449714}
+  m_LocalPosition: {x: 0.24929002, y: 2.6301017, z: 0.6044645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -0.05089396, y: 0, z: -25.935184}
+--- !u!1 &4737465020595114844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5841178215761188016}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_Tail_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5841178215761188016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4737465020595114844}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.4408918e-16, y: 0.45954683, z: 1.7763567e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2561264177629398276}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.9757923, y: 0, z: 0}
+--- !u!1 &5014648867692367197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4341360603886019639}
+  m_Layer: 0
+  m_Name: NP09_Bike_Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4341360603886019639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5014648867692367197}
+  m_LocalRotation: {x: -0.02801238, y: 0, z: -0, w: 0.99960756}
+  m_LocalPosition: {x: -9.1404e-15, y: 0.32717425, z: -0.017380238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 847999525827135809}
+  - {fileID: 5501988459825308847}
+  m_Father: {fileID: 978981661576862886}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -4.180443, y: 0, z: 0}
+--- !u!1 &5031429264847876697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8015924584644685731}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_Fin_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8015924584644685731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5031429264847876697}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.29382998, y: -0.32313296, z: 0.23013745}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4897273473766741673}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0.030027146, z: 0}
+--- !u!1 &5648516656452798166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4897273473766741673}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_Fin_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4897273473766741673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5648516656452798166}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.29307, y: -0.21780278, z: 0.22436486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8015924584644685731}
+  m_Father: {fileID: 2535124462786500695}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0.030027146, z: 0}
+--- !u!1 &5863693821553337241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1289583394713716566}
+  m_Layer: 0
+  m_Name: NP09_Bike_Dorsal_Fin_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1289583394713716566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863693821553337241}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.8633297e-16, y: 0.36968702, z: -3.5527135e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5120340191986031663}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6287510714730985909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353350325979803863}
+  m_Layer: 0
+  m_Name: NP09_Treasure_Coin_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &353350325979803863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6287510714730985909}
+  m_LocalRotation: {x: 0, y: 0, z: 0.04379248, w: 0.99904066}
+  m_LocalPosition: {x: -0.43019894, y: 2.6150627, z: 0.5395658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -0.05089396, y: 3.281712e-11, z: 5.0198536}
+--- !u!1 &6729794062521628891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 82678016854231018}
+  - component: {fileID: 5382044813427922602}
+  m_Layer: 0
+  m_Name: NP09_Bike
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &82678016854231018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6729794062521628891}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7026540410965043204}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &5382044813427922602
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6729794062521628891}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1b2705446a89da5428f2441cf19a073b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -885000784833924083, guid: a12fb0398e90bd8439bcffdafe97add4, type: 3}
+  m_Bones:
+  - {fileID: 4648842919111874518}
+  - {fileID: 5800096929953818046}
+  - {fileID: 3388737036698780724}
+  - {fileID: 4238889998581534176}
+  - {fileID: 2404547605774962324}
+  - {fileID: 353350325979803863}
+  - {fileID: 9139753628215122019}
+  - {fileID: 8934800707222191055}
+  - {fileID: 4157727457862616281}
+  - {fileID: 355942610800876510}
+  - {fileID: 887430235912918029}
+  - {fileID: 978981661576862886}
+  - {fileID: 4341360603886019639}
+  - {fileID: 5501988459825308847}
+  - {fileID: 536595234661788041}
+  - {fileID: 4981272615466807358}
+  - {fileID: 847999525827135809}
+  - {fileID: 2561264177629398276}
+  - {fileID: 5841178215761188016}
+  - {fileID: 4406371276500280949}
+  - {fileID: 3631735411067791649}
+  - {fileID: 5120340191986031663}
+  - {fileID: 1289583394713716566}
+  - {fileID: 5613916932497148091}
+  - {fileID: 4270799009014091991}
+  - {fileID: 848457848220703251}
+  - {fileID: 5051825998239399592}
+  - {fileID: 6721729099364647432}
+  - {fileID: 5490378682082092705}
+  - {fileID: 4849860113072360794}
+  - {fileID: 6603648562151343725}
+  - {fileID: 1900457976643879227}
+  - {fileID: 819661387419723105}
+  - {fileID: 2472371287329439743}
+  - {fileID: 3171477105756062807}
+  - {fileID: 8262911465391626272}
+  - {fileID: 2116706655459837585}
+  - {fileID: 3070515234626340366}
+  - {fileID: 2535124462786500695}
+  - {fileID: 4897273473766741673}
+  - {fileID: 8015924584644685731}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4157727457862616281}
+  m_AABB:
+    m_Center: {x: 0.00000029802322, y: 0.4928587, z: 0.33022642}
+    m_Extent: {x: 1.600172, y: 2.3814569, z: 1.9456649}
+  m_DirtyAABB: 0
+--- !u!1 &7105533440296697966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8262911465391626272}
+  m_Layer: 0
+  m_Name: NP09_Bike_Jaw_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8262911465391626272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105533440296697966}
+  m_LocalRotation: {x: -0.3613333, y: -2.838775e-22, z: -0.00000017745145, w: 0.9324367}
+  m_LocalPosition: {x: 1.9481757e-21, y: 0.4890026, z: -1.11022296e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2116706655459837585}
+  m_Father: {fileID: 3171477105756062807}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -42.3642, y: 0.0000100027755, z: -0.000025714917}
+--- !u!1 &7300339718953805337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4849860113072360794}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_teeth_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4849860113072360794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7300339718953805337}
+  m_LocalRotation: {x: 0.42285126, y: 0.52592766, z: 0.67248046, w: 0.30391926}
+  m_LocalPosition: {x: 0.62595665, y: 0.5327444, z: -0.2150371}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5613916932497148091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -26.764652, y: 84.2668, z: 107.06833}
+--- !u!1 &7425593966131105956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1900457976643879227}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_Fin_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1900457976643879227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7425593966131105956}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.255508, y: 0.099711955, z: -0.16840084}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 819661387419723105}
+  m_Father: {fileID: 6603648562151343725}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0.030027146, z: 0}
+--- !u!1 &7587009532224693128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 887430235912918029}
+  m_Layer: 0
+  m_Name: NP09_Bike_Spine_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &887430235912918029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7587009532224693128}
+  m_LocalRotation: {x: -0.008964411, y: 0, z: -0, w: 0.9999598}
+  m_LocalPosition: {x: 2.7420672e-14, y: 0.5702008, z: -1.4210854e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 978981661576862886}
+  m_Father: {fileID: 355942610800876510}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.010718, y: 0, z: 0}
+--- !u!1 &7694569193962730174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7026540410965043204}
+  - component: {fileID: 7352672006975967201}
+  m_Layer: 0
+  m_Name: NP09_Drive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7026540410965043204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7694569193962730174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 82678016854231018}
+  - {fileID: 452341328435160360}
+  - {fileID: 5871719542170176706}
+  - {fileID: 6244891588650904211}
+  - {fileID: 1941974714468919356}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7352672006975967201
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7694569193962730174}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 153c28da88262d7419ec263a7294db34, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &8076438567192484800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 819661387419723105}
+  m_Layer: 0
+  m_Name: NP09_Bike_Left_Fin_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &819661387419723105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8076438567192484800}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.29307348, y: 0.21780261, z: -0.22436501}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2472371287329439743}
+  m_Father: {fileID: 1900457976643879227}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0.030027146, z: 0}
+--- !u!1 &8340735234988626134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5501988459825308847}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5501988459825308847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8340735234988626134}
+  m_LocalRotation: {x: 0.8490129, y: -0.51661986, z: 0.057606563, w: 0.094670616}
+  m_LocalPosition: {x: 0.15136199, y: 0.01700381, z: -0.004744397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 536595234661788041}
+  m_Father: {fileID: 4341360603886019639}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 12.844273, y: 179.37508, z: -117.30373}
+--- !u!1 &8582975035669072889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6721729099364647432}
+  m_Layer: 0
+  m_Name: NP09_Bike_Right_teeth_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6721729099364647432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8582975035669072889}
+  m_LocalRotation: {x: -0.00000033804093, y: 0.77275175, z: -0.6347084, w: 0.00000027765154}
+  m_LocalPosition: {x: -0.9240206, y: 0.046725623, z: -0.33205757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5613916932497148091}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 78.79672, y: 179.99976, z: -0.00023553368}
+--- !u!1 &8689749988492572717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3171477105756062807}
+  m_Layer: 0
+  m_Name: NP09_Bike_Jaw_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3171477105756062807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689749988492572717}
+  m_LocalRotation: {x: 0.9985247, y: -0.00000044374084, z: 0.000000024137083, w: 0.054298855}
+  m_LocalPosition: {x: -0.0000007064037, y: -0.6785943, z: -0.8105886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8262911465391626272}
+  m_Father: {fileID: 4157727457862616281}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 6.214748, y: 180, z: -179.99994}
+--- !u!1 &8780120326862504577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5120340191986031663}
+  m_Layer: 0
+  m_Name: NP09_Bike_Dorsal_Fin_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5120340191986031663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8780120326862504577}
+  m_LocalRotation: {x: -0.19134143, y: 0, z: -0, w: 0.9815236}
+  m_LocalPosition: {x: -6.22051e-16, y: 0.36705148, z: -1.7763567e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1289583394713716566}
+  m_Father: {fileID: 3631735411067791649}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -22.062159, y: 0, z: 0}
+--- !u!1 &8935358443300371239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4648842919111874518}
+  m_Layer: 0
+  m_Name: NP09_Treasure_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4648842919111874518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935358443300371239}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.000000097477134, y: 2.627013, z: 0.15244962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.055671614, y: 0, z: 0}
+--- !u!1 &9094512497793451349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8934800707222191055}
+  m_Layer: 0
+  m_Name: NP09_Anchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8934800707222191055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094512497793451349}
+  m_LocalRotation: {x: 0.86602545, y: 0, z: -0.00000034034935, w: 0.49999994}
+  m_LocalPosition: {x: -0.6669255, y: 2.5722582, z: 0.23867549}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 452341328435160360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 60.05088, y: -179.99992, z: -179.99995}
+--- !u!1001 &2408835451588770106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7026540410965043204}
+    m_Modifications:
+    - target: {fileID: 4296047712687952131, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_NP09_Ride_RD02_coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952131, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1526570043f7da40956be91a08e76ec, type: 3}
+--- !u!4 &1941974714468919356 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296047712687952134, guid: c1526570043f7da40956be91a08e76ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 2408835451588770106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2408835452163753285
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7026540410965043204}
+    m_Modifications:
+    - target: {fileID: 8631052774585020371, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_NP09_Ride_RD01_37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020371, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.775
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 795b8eca89840314591e61cec70d2896, type: 3}
+--- !u!4 &6244891588650904211 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8631052774585020374, guid: 795b8eca89840314591e61cec70d2896,
+    type: 3}
+  m_PrefabInstance: {fileID: 2408835452163753285}
+  m_PrefabAsset: {fileID: 0}
