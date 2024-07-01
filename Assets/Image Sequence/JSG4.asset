@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2704194308722394221
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7730ccd3ea29594798a3308a227e5d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Settings: {fileID: 4036656314487561591}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3192c2e19a0c9294987be46b5930a9c7, type: 3}
+  m_Name: Image_Target_Score_0
+  m_EditorClassIdentifier: 
+  inputFrameGUIDs:
+  - 485e5046c4dcd954ca366d8c8c364ce6
+  - d3ed99c42d5268b4e98aa9b4115b0edc
+  - c855d2539d9458e4db3a270498dfdc9e
+  - 84aa6dc1951fad543b722172bdf419ea
+  - 5866383360864944b9061fc552ca9f68
+  - 70840451b96e89a4490828d4aeaaa65e
+  - ce3f07d52e6163448adfdb56c0019965
+  - 285a345ec28cc694c9b8fcb03e2f0a8f
+  - 395518ed28691a0408a7b676cb8c45ec
+  - e6891eef784f3c14a93e3d3ec7cf3e5e
+  processorInfos:
+  - {fileID: -2704194308722394221}
+  exportSettings:
+    fileName: Assets/Texture/Number/RunLight/Image_Target_Score_0_5x2.png
+    frameCount: 1
+    outputShape: 0
+    exportMode: 2
+    exportAlpha: 1
+    exportSeparateAlpha: 0
+    sRGB: 1
+    highDynamicRange: 0
+    compress: 1
+    generateMipMaps: 1
+    wrapMode: 0
+    filterMode: 1
+    dataContents: 0
+  editSettings:
+    selectedProcessor: 0
+    lockedProcessor: -1
+  inheritSettingsReference: {fileID: 0}
+--- !u!114 &4036656314487561591
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf6dc9b809928942b98794408961a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipbookNumU: 5
+  FlipbookNumV: 2
+  Mode: 0
