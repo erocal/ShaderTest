@@ -281,6 +281,7 @@
     <None Include="Assets\Shader\WormHole.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex.shader" />
+    <None Include="Assets\Shader\StencilTest\StencilTest_Keep.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 2.shader" />
     <None Include="Assets\Shader\OutLightting.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
@@ -386,6 +387,7 @@
     <None Include="Assets\Shaders\StandardSpecPBR.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_04UV.shader" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Sphere.shader" />
+    <None Include="Assets\Shader\StencilTest\StencilTest_Replace.shader" />
     <None Include="Assets\Shader\Pratice\ToonRamp.shader" />
     <None Include="Assets\ThirdParty\FrostedGlass\FrostedGlass\Shaders\SeparableBlur.shader" />
     <None Include="Assets\Shader\Pratice\OwnedBasicBlinn.shader" />

@@ -1,4 +1,4 @@
-Shader "Unlit/NP09_disappear"
+Shader "Unlit/StencilTest_Keep"
 {
     Properties
     {
@@ -6,9 +6,14 @@ Shader "Unlit/NP09_disappear"
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
-        LOD 100
-        
+        Tags { "Queue"="Geometry" }
+        Stencil
+        {
+        Ref 2
+        Comp NotEqual
+        Pass Keep
+        }
+
         Pass
         {
             CGPROGRAM
@@ -16,7 +21,6 @@ Shader "Unlit/NP09_disappear"
             #pragma fragment frag
             // make fog work
             #pragma multi_compile_fog
-            
 
             #include "UnityCG.cginc"
 
@@ -31,7 +35,6 @@ Shader "Unlit/NP09_disappear"
                 float2 uv : TEXCOORD0;
                 UNITY_FOG_COORDS(1)
                 float4 vertex : SV_POSITION;
-                float3 worldPos : TEXCOORD1;
             };
 
             sampler2D _MainTex;
@@ -41,7 +44,6 @@ Shader "Unlit/NP09_disappear"
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                o.worldPos = mul(unity_ObjectToWorld ,v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 UNITY_TRANSFER_FOG(o,o.vertex);
                 return o;
@@ -53,9 +55,6 @@ Shader "Unlit/NP09_disappear"
                 fixed4 col = tex2D(_MainTex, i.uv);
                 // apply fog
                 UNITY_APPLY_FOG(i.fogCoord, col);
-
-                if (i.worldPos.y < 0) discard;
-
                 return col;
             }
             ENDCG
