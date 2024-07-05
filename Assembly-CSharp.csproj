@@ -169,6 +169,7 @@
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Double.shader" />
     <None Include="Assets\Shader\Pratice\PropertiesChallenge2.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson03\TestMulti 8.shader" />
+    <None Include="Assets\Shader\Noise\Noise3.shader" />
     <None Include="Assets\Shaders\BasicBlinnPhong 1.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Run.shader" />
     <None Include="Assets\Shader\Pratice\StandardPBR.shader" />
@@ -203,6 +204,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Shader\Noise\Noise1.shader" />
     <None Include="Assets\Shaders\WavesShader.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTransparent.shader" />
     <None Include="Assets\Shaders\MyFirstShader.shader" />
@@ -275,6 +277,7 @@
     <None Include="Assets\Shaders\BasicLambert 1.shader" />
     <None Include="Assets\Shader\Pratice\VFDiffuseColouredShadows.shader" />
     <None Include="Assets\Shader\OcclusionShader.shader" />
+    <None Include="Assets\Shader\Noise\Noise2.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\Shaders\BumpEnviroment.shader" />
     <None Include="Assets\Shader\Pratice\Hologram.shader" />
@@ -297,6 +300,7 @@
     <None Include="Assets\Shader\USB_Render_type\USB_replacement_shader.shader" />
     <None Include="Assets\Shader\Pratice\SphericalFog.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
+    <None Include="Assets\Shader\Noise\Noise4.shader" />
     <None Include="Assets\Shader\ImageSequence\Sequence.shader" />
     <None Include="Assets\Shaders\ExtrudeShader.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
