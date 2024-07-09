@@ -192,6 +192,7 @@
     <None Include="Assets\Shader\Pratice\Transparent.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlurFilter.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 5.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_CLAMP.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 7.shader" />
     <None Include="Assets\Shader\Pratice\UVScroll.shader" />
     <None Include="Assets\VFX\Shaders\MK_Particle Add.shader" />
@@ -215,6 +216,8 @@
     <None Include="Assets\ShaderLab_Jeff\Lesson03\TestMulti 9.shader" />
     <None Include="Assets\Shaders\VFPlasma.shader" />
     <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
+    <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\Shaders\VMod_Multiply.shader" />
+    <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\LICENCE.txt" />
     <None Include="Assets\Shaders\VFDiffuse.shader" />
     <None Include="Assets\Shaders\AdvancedOutlineShader.shader" />
     <None Include="Assets\Shaders\WallShader.shader" />
@@ -252,6 +255,7 @@
     <None Include="Assets\Shader\ImageSequence\SequenceFrameAnimation.shader" />
     <None Include="Assets\Shaders\RimLightingShader.shader" />
     <None Include="Assets\Shaders\PlasmaShader.shader" />
+    <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\HowToUse.txt" />
     <None Include="Assets\Shader\Pratice\VFColouredMat.shader" />
     <None Include="Assets\ThirdParty\River And Lake\Shaders\River.shader" />
     <None Include="Assets\Shader\NormalPlay.shader" />
@@ -284,8 +288,10 @@
     <None Include="Assets\Shader\WormHole.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex.shader" />
+    <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\Shaders\VMod_Opaque.shader" />
     <None Include="Assets\Shader\StencilTest\StencilTest_Keep.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 2.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_CEIL.shader" />
     <None Include="Assets\Shader\OutLightting.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
     <None Include="Assets\ThirdParty\StarterAssets\license.txt" />
@@ -297,7 +303,7 @@
     <None Include="Assets\Shaders\VFDiffuseShadows.shader" />
     <None Include="Assets\Shader\Pratice\Cutoff.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
-    <None Include="Assets\Shader\USB_Render_type\USB_replacement_shader.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_replacement_shader.shader" />
     <None Include="Assets\Shader\Pratice\SphericalFog.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\Shader\Noise\Noise4.shader" />
@@ -387,11 +393,13 @@
     <None Include="Assets\Shader\Pratice\BumpedEnviromentChallenge.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_08VertexColor&amp;&amp;SoftParticle.shader" />
+    <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\Shaders\VMod_Add.shader" />
     <None Include="Assets\Shaders\BasicVF.shader" />
     <None Include="Assets\Shaders\StandardSpecPBR.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_04UV.shader" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Sphere.shader" />
     <None Include="Assets\Shader\StencilTest\StencilTest_Replace.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_ABS.shader" />
     <None Include="Assets\Shader\Pratice\ToonRamp.shader" />
     <None Include="Assets\ThirdParty\FrostedGlass\FrostedGlass\Shaders\SeparableBlur.shader" />
     <None Include="Assets\Shader\Pratice\OwnedBasicBlinn.shader" />
