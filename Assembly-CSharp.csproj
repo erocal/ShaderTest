@@ -180,6 +180,7 @@
     <None Include="Assets\Shader\Pratice\PropertiesChallenge3.shader" />
     <None Include="Assets\Shader\Lava\Lava.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_CLAMP.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
     <None Include="Assets\ThirdParty\CZ_B\cz_03EmissDiss.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
@@ -192,7 +193,7 @@
     <None Include="Assets\Shader\Pratice\Transparent.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlurFilter.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 5.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_CLAMP.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_SINCOS.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 7.shader" />
     <None Include="Assets\Shader\Pratice\UVScroll.shader" />
     <None Include="Assets\VFX\Shaders\MK_Particle Add.shader" />
@@ -342,6 +343,7 @@
     <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
     <None Include="Assets\Shaders\MyLightModelBasciBlinnPhongShader.shader" />
     <None Include="Assets\Shaders\TemplateShader.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_TAN.shader" />
     <None Include="Assets\Shader\ParticleAddWithScrollingTex.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
     <None Include="Assets\Shader\Pratice\BlendTest.shader" />
