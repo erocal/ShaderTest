@@ -238,6 +238,7 @@
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
     <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
     <None Include="Assets\Shader\Pratice\Plasma.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_LENGTH.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Add_CenterGlow.shader" />
     <None Include="Assets\Shader\PlanarReflection\PlannerReflection.shader" />
     <None Include="Assets\Shader\Outline\Outline 1.shader" />
@@ -307,6 +308,7 @@
     <None Include="Assets\Shader\Shader_Bible\USB_replacement_shader.shader" />
     <None Include="Assets\Shader\Pratice\SphericalFog.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_STEP.shader" />
     <None Include="Assets\Shader\Noise\Noise4.shader" />
     <None Include="Assets\Shader\ImageSequence\Sequence.shader" />
     <None Include="Assets\Shaders\ExtrudeShader.shader" />
@@ -346,6 +348,7 @@
     <None Include="Assets\Shader\Shader_Bible\USB_function_TAN.shader" />
     <None Include="Assets\Shader\ParticleAddWithScrollingTex.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_FRAC.shader" />
     <None Include="Assets\Shader\Pratice\BlendTest.shader" />
     <None Include="Assets\Shader\Pratice\NormalPlay.shader" />
     <None Include="Assets\Shader\UI\Fonts.shader" />
@@ -392,6 +395,7 @@
     <None Include="Assets\Shader\PlanarReflection\Floor.shader" />
     <None Include="Assets\Shaders\PackedPractice.shader" />
     <None Include="Assets\Shader\Pratice\Rim.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_Time.shader" />
     <None Include="Assets\Shader\Pratice\BumpedEnviromentChallenge.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_08VertexColor&amp;&amp;SoftParticle.shader" />
@@ -402,6 +406,7 @@
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Sphere.shader" />
     <None Include="Assets\Shader\StencilTest\StencilTest_Replace.shader" />
     <None Include="Assets\Shader\Shader_Bible\USB_function_ABS.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_FLOOR.shader" />
     <None Include="Assets\Shader\Pratice\ToonRamp.shader" />
     <None Include="Assets\ThirdParty\FrostedGlass\FrostedGlass\Shaders\SeparableBlur.shader" />
     <None Include="Assets\Shader\Pratice\OwnedBasicBlinn.shader" />
@@ -409,6 +414,7 @@
     <None Include="Assets\ThirdParty\CZ_B\cz_06Fire.shader" />
     <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture.shader" />
     <None Include="Assets\Shaders\ToonRamp.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_function_LERP.shader" />
     <None Include="Assets\Shader\Pratice\AdvOutline.shader" />
     <None Include="Assets\Shader\Pratice\DotProduct.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\Water.shader" />
