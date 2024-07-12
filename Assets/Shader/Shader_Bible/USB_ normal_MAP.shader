@@ -76,6 +76,8 @@ Shader "Unlit/USB_ normal_MAP"
 
             fixed4 frag (v2f i) : SV_Target
             {
+                fixed4 col = tex2D(_MainTex, i.uv);
+
                 fixed4 normal_map = tex2D(_NormalMap, i.uv_normal);
                 // 等於fixed3 normal_compressed = DXTCompression(normal_map);
                 fixed3 normal_compressed = UnpackNormal(normal_map);
@@ -87,7 +89,7 @@ Shader "Unlit/USB_ normal_MAP"
                 );
 
                 fixed3 normal_color = normalize(mul(normal_compressed, TBN_matrix));
-                return fixed4 (normal_color, 1);
+                return col * fixed4(1-normal_color, 1);
             }
             ENDCG
         }

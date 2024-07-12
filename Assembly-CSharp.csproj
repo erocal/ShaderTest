@@ -167,6 +167,7 @@
     <None Include="Assets\Shader\WormHoleTest.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Double.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_ambient_color.shader" />
     <None Include="Assets\Shader\Pratice\PropertiesChallenge2.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson03\TestMulti 8.shader" />
     <None Include="Assets\Shader\Noise\Noise3.shader" />
@@ -352,6 +353,7 @@
     <None Include="Assets\Shader\Pratice\BlendTest.shader" />
     <None Include="Assets\Shader\Pratice\NormalPlay.shader" />
     <None Include="Assets\Shader\UI\Fonts.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_ normal_MAP.shader" />
     <None Include="Assets\Shader\Pratice\UseProperties.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_02hardDiss.shader" />
     <None Include="Assets\Shaders\LeavesShader.shader" />
