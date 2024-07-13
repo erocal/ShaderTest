@@ -1,4 +1,4 @@
-Shader "Unlit/USB_ambient_color"
+Shader "USB/USB_ambient_color"
 {
     Properties
     {

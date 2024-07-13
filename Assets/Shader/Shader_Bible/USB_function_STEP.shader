@@ -1,4 +1,4 @@
-Shader "Unlit/USB_function_STEP"
+Shader "USB/USB_function_STEP"
 {
     Properties
     {

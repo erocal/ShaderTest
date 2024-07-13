@@ -1,4 +1,4 @@
-Shader "Unlit/USB_function_LERP"
+Shader "USB/USB_function_LERP"
 {
     Properties
     {

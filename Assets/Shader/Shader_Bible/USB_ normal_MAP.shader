@@ -1,4 +1,4 @@
-Shader "Unlit/USB_ normal_MAP"
+Shader "USB/USB_ normal_MAP"
 {
     Properties
     {

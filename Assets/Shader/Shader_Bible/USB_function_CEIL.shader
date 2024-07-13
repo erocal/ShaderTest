@@ -1,4 +1,4 @@
-Shader "Unlit/USB_function_CEIL"
+Shader "USB/USB_function_CEIL"
 {
     Properties
     {

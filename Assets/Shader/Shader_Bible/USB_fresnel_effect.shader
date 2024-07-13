@@ -1,13 +1,14 @@
-Shader "USB/USB_diffuse_shading"
+Shader "Unlit/USB_fresnel_effect"
 {
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        _LightInt ("Light Intensity", Range(0, 1)) = 1
+        _FresnelPow ("Fresnel Power", Range(1, 5)) = 1
+        _FresnelInt ("Fresnel Intensity", Range(0, 1)) = 1
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" "LightMode"="ForwardBase" }
+        Tags { "RenderType"="Opaque" }
         LOD 100
 
         Pass
@@ -32,30 +33,33 @@ Shader "USB/USB_diffuse_shading"
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
                 float3 normal_world : TEXCOORD1;
+                float3 vertex_world : TEXCOORD2;
             };
 
-            float3 LambertShading
+            void unity_FresnelEffect_float
             (
-                float3 colorRefl, // Dr
-                float lightInt, // Dl
-                float3 normal, // n
-                float3 lightDir // l
+                in float3 normal,
+                in float3 viewDir,
+                in float power,
+                out float Out
             )
             {
-                return colorRefl * lightInt * max(0, dot(normal, lightDir));
+                Out = pow((1 - saturate(dot(normal, viewDir))), power);
             }
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
-            float _LightInt;
-            float4 _LightColor0;
+            float _FresnelPow;
+            float _FresnelInt;
 
             v2f vert (appdata v)
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                o.normal_world = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0))).xyz;
+                o.normal_world = normalize(mul(unity_ObjectToWorld, float4(v.normal,
+                0))).xyz;
+                o.vertex_world = mul(unity_ObjectToWorld, v.vertex);
                 return o;
             }
 
@@ -63,10 +67,13 @@ Shader "USB/USB_diffuse_shading"
             {
                 fixed4 col = tex2D(_MainTex, i.uv);
                 float3 normal = i.normal_world;
-                float3 lightDir = normalize(_WorldSpaceLightPos0.xyz);
-                fixed3 colorRefl = _LightColor0.rgb;
-                half3 diffuse = LambertShading(colorRefl, _LightInt, normal, lightDir);
-                return fixed4(col.rgb*diffuse, 1);
+                float3 viewDir = normalize(_WorldSpaceCameraPos - i.vertex_world);
+                // initialize the color output in black
+                float fresnel = 0;
+                // add the output color
+                unity_FresnelEffect_float(normal, viewDir, _FresnelPow, fresnel);
+                col += fresnel * _FresnelInt;
+                return col;
             }
             ENDCG
         }

@@ -1,4 +1,4 @@
-Shader "Unlit/USB_function_LENGTH"
+Shader "USB/USB_function_LENGTH"
 {
     Properties
     {

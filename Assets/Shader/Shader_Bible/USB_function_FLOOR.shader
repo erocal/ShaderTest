@@ -1,4 +1,4 @@
-Shader "Unlit/USB_function_FLOOR"
+Shader "USB/USB_function_FLOOR"
 {
     Properties
     {

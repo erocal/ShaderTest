@@ -1,4 +1,4 @@
-Shader "Unlit/USB_function_TAN"
+Shader "USB/USB_function_TAN"
 {
     Properties
     {
