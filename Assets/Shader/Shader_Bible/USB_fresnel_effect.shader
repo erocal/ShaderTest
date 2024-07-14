@@ -72,7 +72,8 @@ Shader "Unlit/USB_fresnel_effect"
                 float fresnel = 0;
                 // add the output color
                 unity_FresnelEffect_float(normal, viewDir, _FresnelPow, fresnel);
-                col += fresnel * _FresnelInt;
+                col += (fresnel * _FresnelInt);
+
                 return col;
             }
             ENDCG

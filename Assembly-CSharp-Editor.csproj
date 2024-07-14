@@ -80,8 +80,8 @@
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\Common\Utility\CurveToTextureUtility.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\Common\Utility\FilterPopupWindow.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\ImageSequence.cs" />
-    <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\Editor\CustomShaderGUI\SimpleShaderGUI.cs" />
+    <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\BloomModelEditor.cs" />
     <Compile Include="Assets\Editor\CustomShaderGUI\PropertyDraw\PropertyGUI_Texture.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
@@ -799,15 +799,6 @@
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -817,14 +808,20 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
@@ -844,6 +841,21 @@
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
@@ -853,6 +865,18 @@
     <ProjectReference Include="AmplifyShaderEditor.csproj">
       <Project>{B09B058A-7E02-302E-36FF-6D333D56C71B}</Project>
       <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.Toon.Examples.csproj">
+      <Project>{C4C4EA7E-0B2D-7F7D-5C3A-4673F541DA44}</Project>
+      <Name>MK.Toon.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VFXToolbox.Editor.csproj">
+      <Project>{C04DCA9D-6959-AD0D-ECDC-E919785445B4}</Project>
+      <Name>Unity.VFXToolbox.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreator.csproj">
+      <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>
+      <Name>PathCreator</Name>
     </ProjectReference>
     <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
       <Project>{E2D39756-1899-F96B-71A8-FB54498BF1B9}</Project>
@@ -866,21 +890,9 @@
       <Project>{862A16A8-9A17-2B73-33C7-3B725C0BEADF}</Project>
       <Name>MK.Toon</Name>
     </ProjectReference>
-    <ProjectReference Include="MK.Toon.Examples.csproj">
-      <Project>{C4C4EA7E-0B2D-7F7D-5C3A-4673F541DA44}</Project>
-      <Name>MK.Toon.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VFXToolbox.Editor.csproj">
-      <Project>{C04DCA9D-6959-AD0D-ECDC-E919785445B4}</Project>
-      <Name>Unity.VFXToolbox.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="MK.Toon.Editor.csproj">
       <Project>{9EBCF94D-E53C-3160-6A29-BDB44E93E900}</Project>
       <Name>MK.Toon.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PathCreator.csproj">
-      <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>
-      <Name>PathCreator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
