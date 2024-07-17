@@ -59,6 +59,7 @@
     <Compile Include="Assets\ThirdParty\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathSpawner.cs" />
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
+    <Compile Include="Assets\Scripts\USBSimpleColorController.cs" />
     <Compile Include="Assets\Scripts\Drive.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
@@ -156,6 +157,10 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\GameObjectsSort.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Voxelizer\Voxelizer.cs" />
+    <Compile Include="Assets\Scripts\Voxelizer\VoxelizerMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\BasicBlinnPhong.shader" />
@@ -191,9 +196,11 @@
     <None Include="Assets\ThirdParty\CZ_B\cz_10SoftDissolve.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 6.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_specular_reflection.shader" />
     <None Include="Assets\Shader\Pratice\Transparent.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlurFilter.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 5.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_fresnel_effect.shader" />
     <None Include="Assets\Shader\Shader_Bible\USB_function_SINCOS.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 7.shader" />
     <None Include="Assets\Shader\Pratice\UVScroll.shader" />
@@ -233,6 +240,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
     <None Include="Assets\Shader\NeonLight\RunLight.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_simple_color_CS.compute" />
     <None Include="Assets\Shader\NP_09_Test\NP09_disappear.shader" />
     <None Include="Assets\Shader\Pratice\VFPlasma.shader" />
     <None Include="Assets\Shader\ColorGradient\ColorAnimationCurveGradient.shader" />
@@ -250,12 +258,14 @@
     <None Include="Assets\Shader\UI\LightText.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 4.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\ReadMe.txt" />
+    <None Include="Assets\Shader\Voxelizer\Voxelizer.shader" />
     <None Include="Assets\Shader\ColorGradient\ColorGradient.shader" />
     <None Include="Assets\Shader\Pratice\StencilWindow.shader" />
     <None Include="Assets\Shader\Pratice\PrimitiveSphere.shader" />
     <None Include="Assets\ShaderLab_Jeff\Lesson01\VertexOffset.shader" />
     <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
     <None Include="Assets\Shader\ImageSequence\SequenceFrameAnimation.shader" />
+    <None Include="Assets\Shader\Voxelizer\Common.cginc" />
     <None Include="Assets\Shaders\RimLightingShader.shader" />
     <None Include="Assets\Shaders\PlasmaShader.shader" />
     <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\HowToUse.txt" />
@@ -275,6 +285,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\Shaders\VFMat.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\Readme.txt" />
+    <None Include="Assets\Shader\Voxelizer\Voxelizer.cginc" />
     <None Include="Assets\ThirdParty\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
     <None Include="Assets\Shader\PlanarReflection\PlanarReflectionFloor.shader" />
     <None Include="Assets\Shader\Pratice\BasicTextureBlend.shader" />
@@ -301,6 +312,7 @@
     <None Include="Assets\Shader\Pratice\Extrude.shader" />
     <None Include="Assets\Shaders\BumpDiffuse.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Shader\Pratice\VFDiffuse.cginc" />
     <None Include="Assets\Shader\Pratice\UVScrollWater.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
     <None Include="Assets\Shaders\VFDiffuseShadows.shader" />
@@ -308,6 +320,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\Shader\Shader_Bible\USB_replacement_shader.shader" />
     <None Include="Assets\Shader\Pratice\SphericalFog.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_cubemap_reflection.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\Shader\Shader_Bible\USB_function_STEP.shader" />
     <None Include="Assets\Shader\Noise\Noise4.shader" />
@@ -352,6 +365,7 @@
     <None Include="Assets\Shader\Shader_Bible\USB_function_FRAC.shader" />
     <None Include="Assets\Shader\Pratice\BlendTest.shader" />
     <None Include="Assets\Shader\Pratice\NormalPlay.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_SDF_fruit.shader" />
     <None Include="Assets\Shader\UI\Fonts.shader" />
     <None Include="Assets\Shader\Shader_Bible\USB_ normal_MAP.shader" />
     <None Include="Assets\Shader\Pratice\UseProperties.shader" />
@@ -363,6 +377,7 @@
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\Shader\Pratice\OwnedBasicLambert.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Shader\Voxelizer\SimplexNoise3D.hlsl" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\Shader\Dissolve\Dissolve_Simple.shader" />
     <None Include="Assets\ShaderLab_Jeff\UnlitMulti.shader" />
@@ -404,6 +419,7 @@
     <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\Shaders\VMod_Add.shader" />
     <None Include="Assets\Shaders\BasicVF.shader" />
     <None Include="Assets\Shaders\StandardSpecPBR.shader" />
+    <None Include="Assets\Shader\Shader_Bible\USB_diffuse_shading.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_04UV.shader" />
     <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Sphere.shader" />
     <None Include="Assets\Shader\StencilTest\StencilTest_Replace.shader" />

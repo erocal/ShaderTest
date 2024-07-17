@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "D:\\UnityProject\\ShaderTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\usb_render_type\\usbreplacementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\usb_render_type\\usbreplacementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\voxelizer\\voxelizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\voxelizer\\voxelizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\colorgradient\\colorgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorgradient\\colorgradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\voxelizer\\voxelizermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\voxelizer\\voxelizermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\ColorGradient\\ColorArrayGradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ColorGradient\\ColorArrayGradient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\ColorGradient\\AnimationCurve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ColorGradient\\AnimationCurve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\scripts\\planarreflectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\planarreflectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\scripts\\lod\\lodchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lod\\lodchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\scripts\\lod\\lodutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lod\\lodutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\thirdparty\\gaussianblur\\gaussianblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\thirdparty\\gaussianblur\\gaussianblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\thirdparty\\gaussianblur\\gaussianblurfilter.shader||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\thirdparty\\gaussianblur\\gaussianblurfilter.shader||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\thirdparty\\gaussianblur\\filtertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\thirdparty\\gaussianblur\\filtertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\shader\\outlightting.shader||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\shader\\outlightting.shader||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,147 +38,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "USBReplacementController.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\USB_Render_type\\USBReplacementController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\USB_Render_type\\USBReplacementController.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\USB_Render_type\\USBReplacementController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\USB_Render_type\\USBReplacementController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAIA0wCAAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T09:34:38.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AnimationCurve.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\ColorGradient\\AnimationCurve.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ColorGradient\\AnimationCurve.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\ColorGradient\\AnimationCurve.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ColorGradient\\AnimationCurve.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T09:44:21.749Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ColorArrayGradient.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\ColorGradient\\ColorArrayGradient.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ColorGradient\\ColorArrayGradient.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\ColorGradient\\ColorArrayGradient.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ColorGradient\\ColorArrayGradient.cs",
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T07:42:53.949Z"
+              "WhenOpened": "2024-07-17T08:52:19.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ColorGradient.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\ColorGradient\\ColorGradient.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ColorGradient\\ColorGradient.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\ColorGradient\\ColorGradient.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ColorGradient\\ColorGradient.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAEBawBYAAAAEAAAA",
+              "Title": "VoxelizerMove.cs",
+              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\Voxelizer\\VoxelizerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Voxelizer\\VoxelizerMove.cs",
+              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\Voxelizer\\VoxelizerMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Voxelizer\\VoxelizerMove.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T06:12:10.516Z",
+              "WhenOpened": "2024-07-17T08:51:52.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlanarReflectionManager.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\PlanarReflectionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlanarReflectionManager.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\PlanarReflectionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlanarReflectionManager.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAABVwFQAAABDAAAA",
+              "DocumentIndex": 0,
+              "Title": "Voxelizer.cs",
+              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\Voxelizer\\Voxelizer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Voxelizer\\Voxelizer.cs",
+              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\Voxelizer\\Voxelizer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Voxelizer\\Voxelizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T06:30:10.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LODUtils.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\LOD\\LODUtils.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LOD\\LODUtils.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\LOD\\LODUtils.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LOD\\LODUtils.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T03:39:43.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LODChanger.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\LOD\\LODChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LOD\\LODChanger.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\LOD\\LODChanger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LOD\\LODChanger.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAuwCoAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T03:15:36.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GaussianBlur.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
-              "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
-              "RelativeToolTip": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T03:40:31.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GaussianBlurFilter.shader",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlurFilter.shader",
-              "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlurFilter.shader",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlurFilter.shader",
-              "RelativeToolTip": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlurFilter.shader",
-              "ViewState": "AQIAADgAAAAAAAAAAAAuwFYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-03-28T03:15:31.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OutLightting.shader",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Shader\\OutLightting.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\OutLightting.shader",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Shader\\OutLightting.shader",
-              "RelativeToolTip": "Assets\\Shader\\OutLightting.shader",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAAAGMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-03-28T03:25:39.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GaussianBlur.shader",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader",
-              "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader",
-              "RelativeToolTip": "Assets\\ThirdParty\\GaussianBlur\\GaussianBlur.shader",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-03-28T03:20:29.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FilterTest.cs",
-              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\FilterTest.cs",
-              "RelativeDocumentMoniker": "Assets\\ThirdParty\\GaussianBlur\\FilterTest.cs",
-              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\ThirdParty\\GaussianBlur\\FilterTest.cs",
-              "RelativeToolTip": "Assets\\ThirdParty\\GaussianBlur\\FilterTest.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAkwBMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T03:14:46.38Z"
+              "WhenOpened": "2024-07-17T06:30:28.75Z",
+              "EditorCaption": ""
             }
           ]
         }
