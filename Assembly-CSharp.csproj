@@ -59,12 +59,14 @@
     <Compile Include="Assets\ThirdParty\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathSpawner.cs" />
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\USBSimpleColorController.cs" />
     <Compile Include="Assets\Scripts\Drive.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Scripts\Voxelizer\VoxelizerMove.cs" />
     <Compile Include="Assets\Shader\FakeLight\FakeLight.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\ThirdParty\River And Lake\Scripts\RiverGenerator.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Scripts\GameObjectsSort.cs" />
     <Compile Include="Assets\Scripts\MobPsycho100.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Scripts\Resolution\CanvasScalerResolution.cs" />
@@ -112,6 +115,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Scripts\Voxelizer\Voxelizer.cs" />
     <Compile Include="Assets\Scripts\Resolution\CameraResolution.cs" />
     <Compile Include="Assets\Scripts\MeshData.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
@@ -157,10 +161,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\GameObjectsSort.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Voxelizer\Voxelizer.cs" />
-    <Compile Include="Assets\Scripts\Voxelizer\VoxelizerMove.cs" />
+    <Compile Include="Assets\Scripts\Voxelizer\Voxelizer2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\BasicBlinnPhong.shader" />
@@ -416,6 +417,7 @@
     <None Include="Assets\Shader\Pratice\BumpedEnviromentChallenge.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_08VertexColor&amp;&amp;SoftParticle.shader" />
+    <None Include="Assets\Shader\Voxelizer\Voxelizer2.shader" />
     <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\Shaders\VMod_Add.shader" />
     <None Include="Assets\Shaders\BasicVF.shader" />
     <None Include="Assets\Shaders\StandardSpecPBR.shader" />

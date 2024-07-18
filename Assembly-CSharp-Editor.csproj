@@ -83,6 +83,7 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\Editor\CustomShaderGUI\SimpleShaderGUI.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\Editor\GameObjectsSort.cs" />
     <Compile Include="Assets\Editor\CustomShaderGUI\PropertyDraw\PropertyGUI_Texture.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\ImageSequenceAssetEditor.cs" />
@@ -154,7 +155,6 @@
     <Compile Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Serialization\Processors\FixBordersProcessor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\Editor\PathSceneToolEditor.cs" />
-    <Compile Include="Assets\Editor\GameObjectsSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\VFXToolbox-master\Editor\ImageSequencer\Shaders\AlphaFromRGB.shader" />

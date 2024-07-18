@@ -30,6 +30,14 @@ half3 _EdgeColor;
 // Dynamic properties
 float4 _EffectVector;
 
+half2 _VoxelParams; // density, scale  密度，比例
+half3 _AnimParams;  // stretch, fall distance, fluctuation   伸展、下降距離、波動
+
+half4 _EmissionHsvm1;
+half4 _EmissionHsvm2;
+half3 _TransitionColor;
+half3 _LineColor;
+
 // Vertex input attributes
 struct Attributes
 {
@@ -121,6 +129,7 @@ Varyings TriangleVertex(float3 wpos, half3 wnrm, float2 uv, float3 bary, float e
     return VertexOutput(wpos, wnrm, uv, float4(bary, emission), 0);
 }
 
+// 設置輸出的頂點數量 24為幾何著色器為單個調用輸出的頂點最大數量 每次調用標量輸出數是最大頂點輸出數和輸出頂點類型結構中的標量數乘積
 [maxvertexcount(24)]
 void Geometry(
     triangle Attributes input[3], uint pid : SV_PrimitiveID,
@@ -160,7 +169,7 @@ void Geometry(
 
     // Choose cube/triangle randomly.
     uint seed = pid * 877;
-    if (Random(seed) < 0.05)
+    if (Random(seed) < _VoxelParams.x)
     {
         // -- Cube fx --
         // Base triangle -> Expand -> Morph into cube -> Stretch and fade out
@@ -178,11 +187,11 @@ void Geometry(
         float move = saturate(param * 4 - 3); // stretch/move param
         move = move * move;
 
-        float3 pos = center + snoise.xyz * 0.02; // cube position
-        pos.y += move * rnd;
+        float3 pos = center + snoise.xyz * 0.02 * _AnimParams.z; // cube position
+        pos.y += move * rnd * _AnimParams.y;
 
-        float3 scale = float2(1 - move, 1 + move * 5).xyx; // cube scale anim
-        scale *= 0.05 * saturate(1 + snoise.w * 2);
+        float3 scale = float2(1 - move, 1 + move * _AnimParams.x).xyx; // cube scale anim
+        scale *= 0.05 * _VoxelParams.y * saturate(1 + snoise.w * 2);
 
         float edge = saturate(param * 5); // Edge color (emission power)
 
