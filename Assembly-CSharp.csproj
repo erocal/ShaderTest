@@ -99,6 +99,7 @@
     <Compile Include="Assets\Scripts\ShowNormals.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
     <Compile Include="Assets\Scripts\EarthRotate.cs" />
+    <Compile Include="Assets\Scripts\Voxelizer\Voxelizer2.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -161,7 +162,8 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\Voxelizer\Voxelizer2.cs" />
+    <Compile Include="Assets\Scripts\TimeScaleTest\TimeScaleTest.cs" />
+    <Compile Include="Assets\Scripts\TimeScaleTest\RandomMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\BasicBlinnPhong.shader" />
