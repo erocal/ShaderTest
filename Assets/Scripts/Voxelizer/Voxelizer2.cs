@@ -113,7 +113,7 @@ public class Voxelizer2 : MonoBehaviour
             _sheet.SetVector(ShaderIDs.PrevEffectorPlane, _prevEffectorPlane);
             //_sheet.SetFloat(ShaderIDs.LocalTime, time);
             renderer.SetPropertyBlock(_sheet);
-            
+            //print(plane);
         }
     }
 
