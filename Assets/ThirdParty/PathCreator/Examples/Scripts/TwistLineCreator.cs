@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
 namespace PathCreation.Examples
@@ -21,7 +22,8 @@ namespace PathCreation.Examples
         MeshFilter meshFilter;
         MeshRenderer meshRenderer;
         Mesh mesh;
-        List<Mesh> meshList;
+        public List<Mesh> meshList;
+        CombineInstance[] combine;
 
         protected override void PathUpdated()
         {
@@ -34,12 +36,28 @@ namespace PathCreation.Examples
                     mesh,
                     mesh
                 };
+
+                combine = new CombineInstance[meshList.Count];
+
                 for (int i = 0; i < meshHolderList.Count; i++)
                 {
                     CreateRoadMesh(i);
                     AssignMeshComponents(i);
                     AssignMaterials();
                 }
+
+                meshList.RemoveRange(0, 3);
+
+                for (int i = 0; i < 3; i++)
+                {
+                    combine[i].mesh = meshList[i];
+                    combine[i].transform = meshHolderList[i].transform.localToWorldMatrix;
+                }
+
+                Mesh combineMesh = new Mesh();
+                combineMesh.CombineMeshes(combine);
+                combineMesh.name = "combine";
+                meshList.Add(combineMesh);
 
             }
         }
@@ -141,6 +159,7 @@ namespace PathCreation.Examples
             mesh.RecalculateBounds();
             mesh.name = index.ToString();
             meshList.Add(mesh);
+
         }
 
         // Add MeshRenderer and MeshFilter components to this gameobject if not already attached
@@ -173,7 +192,7 @@ namespace PathCreation.Examples
             {
                 meshList[index] = new Mesh();
             }
-            meshFilter.sharedMesh = mesh/*meshList[index]*/;
+            meshFilter.sharedMesh = mesh;
         }
 
         void AssignMaterials()
