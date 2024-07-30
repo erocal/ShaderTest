@@ -141,6 +141,7 @@
     <Compile Include="Assets\Scripts\ColorGradient\ColorAnimationCurveGradient.cs" />
     <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\TwistLineCreator.cs" />
     <Compile Include="Assets\ThirdParty\Samples\VFX Toolbox\2.1.0-preview\Vertex Animation Textures (VATs)\Script\VertexAnimationTextureMesh.cs" />
     <Compile Include="Assets\Scripts\UINeonLightUVMove.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
@@ -349,6 +350,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
     <None Include="Assets\Shader\Pratice\BasicBlinnChanllenge.shader" />
     <None Include="Assets\VFX\Shaders\FresnelAddDiss.shader" />
+    <None Include="Assets\Shader\CenterSwirl.shader" />
     <None Include="Assets\Shaders\HologramShader.shader" />
     <None Include="Assets\Shaders\Stencils\BumpDiffuseStencil.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
