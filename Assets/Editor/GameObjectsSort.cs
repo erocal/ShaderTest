@@ -124,6 +124,8 @@ public class GameObjectsSort : EditorWindow
 
         }
 
+        EditorUtility.DisplayDialog("排列完成 !", $"{gameObjectsList.Count}個物件排列完成 !", "確定");
+
     }
 
     #endregion
