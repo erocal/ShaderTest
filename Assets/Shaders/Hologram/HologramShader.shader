@@ -1,4 +1,4 @@
-﻿Shader "Holistic/HologramShader" {
+﻿Shader "Hologram/HologramShader" {
 
 	Properties {
 
