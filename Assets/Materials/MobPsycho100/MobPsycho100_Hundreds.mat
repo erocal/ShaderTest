@@ -57,8 +57,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Alpha: 1
-    - _BlendDst: 1
-    - _BlendSrc: 1
+    - _BlendDst: 8
+    - _BlendSrc: 5
     - _BumpScale: 1
     - _CurSequenceId: 1
     - _Cutoff: 0.5

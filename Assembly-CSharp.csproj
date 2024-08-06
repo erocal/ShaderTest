@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2020_3_43;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;AMPLIFY_SHADER_EDITOR;STARTER_ASSETS_PACKAGES_CHECKED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_43;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_EXPERIMENTAL_FEATURES;STARTER_ASSETS_PACKAGES_CHECKED;AMPLIFY_SHADER_EDITOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -49,7 +49,7 @@
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.17</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2020.3.43f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="Assets\ThirdParty\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathSpawner.cs" />
-    <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\USBSimpleColorController.cs" />
     <Compile Include="Assets\Scripts\Drive.cs" />
@@ -67,7 +66,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Scripts\Voxelizer\VoxelizerMove.cs" />
-    <Compile Include="Assets\Shader\FakeLight\FakeLight.cs" />
+    <Compile Include="Assets\Shaders\FakeLight\FakeLight.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\ThirdParty\River And Lake\Scripts\RiverGenerator.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
@@ -98,6 +97,7 @@
     <Compile Include="Assets\ThirdParty\FrostedGlass\Demo\Scripts\AutoMove.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\Scripts\ShowNormals.cs" />
+    <Compile Include="Assets\Scripts\SequenceFrameAnimation\SequenceFrameAnimationResetTime.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
     <Compile Include="Assets\Scripts\EarthRotate.cs" />
     <Compile Include="Assets\Scripts\Voxelizer\Voxelizer2.cs" />
@@ -159,293 +159,308 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\Scripts\PostProcessOutline.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Scripts\RadiusBlur\RadiusBlur.cs" />
     <Compile Include="Assets\Scripts\NormalPlay.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\FastBloom\ColorGradingBloomHDR.cs" />
+    <Compile Include="Assets\Scripts\FastBloom\BloomBreath.cs" />
+    <Compile Include="Assets\Scripts\FastBloom\ColorGradingBloomNoHDR.cs" />
+    <Compile Include="Assets\Scripts\FastBloom\ChangeResolution.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Shaders\BasicBlinnPhong.shader" />
-    <None Include="Assets\Shader\Pratice\CutoffWithDiffuse.shader" />
-    <None Include="Assets\Shader\Outline\Outline.shader" />
-    <None Include="Assets\Shader\Pratice\Leaves.shader" />
-    <None Include="Assets\Shaders\HSVRangeShader.shader" />
-    <None Include="Assets\Shader\Pratice\BasicLambert.shader" />
-    <None Include="Assets\Shader\WormHoleTest.shader" />
+    <None Include="Assets\Shaders\PennyShader\BasicBlinnPhong.shader" />
+    <None Include="Assets\Shaders\Pratice\CutoffWithDiffuse.shader" />
+    <None Include="Assets\Shaders\Outline\Outline.shader" />
+    <None Include="Assets\Shaders\Pratice\Leaves.shader" />
+    <None Include="Assets\Shaders\PennyShader\HSVRangeShader.shader" />
+    <None Include="Assets\Shaders\Pratice\BasicLambert.shader" />
+    <None Include="Assets\Shaders\WormHoleTest.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
-    <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Double.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_ambient_color.shader" />
-    <None Include="Assets\Shader\Pratice\PropertiesChallenge2.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson03\TestMulti 8.shader" />
-    <None Include="Assets\Shader\Noise\Noise3.shader" />
-    <None Include="Assets\Shaders\BasicBlinnPhong 1.shader" />
-    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Run.shader" />
-    <None Include="Assets\Shader\Pratice\StandardPBR.shader" />
+    <None Include="Assets\Shaders\BurnAndDissolve\Dissolve_Double.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_ambient_color.shader" />
+    <None Include="Assets\Shaders\Pratice\PropertiesChallenge2.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson03\TestMulti 8.shader" />
+    <None Include="Assets\Shaders\Noise\Noise3.shader" />
+    <None Include="Assets\Shaders\PennyShader\BasicBlinnPhong 1.shader" />
+    <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseTexture_Run.shader" />
+    <None Include="Assets\Shaders\Pratice\StandardPBR.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_09CustomData.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
-    <None Include="Assets\Shader\FadeInOut.shader" />
-    <None Include="Assets\Shader\JacfitPratice\JacfitPratice1.shader" />
-    <None Include="Assets\Shader\Pratice\PropertiesChallenge3.shader" />
-    <None Include="Assets\Shader\Lava\Lava.shader" />
+    <None Include="Assets\Shaders\FadeInOut.shader" />
+    <None Include="Assets\Shaders\RadiusBlur\RadiusBlur.shader" />
+    <None Include="Assets\Shaders\JacfitPratice\JacfitPratice1.shader" />
+    <None Include="Assets\Shaders\Pratice\PropertiesChallenge3.shader" />
+    <None Include="Assets\Shaders\Lava\Lava.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_CLAMP.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_CLAMP.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
     <None Include="Assets\ThirdParty\CZ_B\cz_03EmissDiss.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-    <None Include="Assets\Shaders\MyLightModelBasicLambertShader.shader" />
+    <None Include="Assets\Shaders\PennyShader\MyLightModelBasicLambertShader.shader" />
     <None Include="Assets\VFX\Shaders\FresnelAddDiss_2.shader" />
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_10SoftDissolve.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 6.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_specular_reflection.shader" />
-    <None Include="Assets\Shader\Pratice\Transparent.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson02\TestMulti 6.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_specular_reflection.shader" />
+    <None Include="Assets\Shaders\Pratice\Transparent.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlurFilter.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 5.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_fresnel_effect.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_SINCOS.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson02\TestMulti 7.shader" />
-    <None Include="Assets\Shader\Pratice\UVScroll.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson02\TestMulti 5.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_fresnel_effect.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_SINCOS.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson02\TestMulti 7.shader" />
+    <None Include="Assets\Shaders\Pratice\UVScroll.shader" />
     <None Include="Assets\VFX\Shaders\MK_Particle Add.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson03\CGLighting(9).cginc" />
-    <None Include="Assets\Shader\LOD\LODSphere.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson03\CGLighting(9).cginc" />
+    <None Include="Assets\Shaders\LOD\LODSphere.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-    <None Include="Assets\Shader\Pratice\CloudsCamera.shader" />
-    <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Simple.shader" />
+    <None Include="Assets\Shaders\Pratice\CloudsCamera.shader" />
+    <None Include="Assets\Shaders\BurnAndDissolve\Dissolve_Simple.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 1.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-    <None Include="Assets\Shader\Noise\Noise1.shader" />
-    <None Include="Assets\Shaders\WavesShader.shader" />
-    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTransparent.shader" />
-    <None Include="Assets\Shaders\MyFirstShader.shader" />
-    <None Include="Assets\Shader\Pratice\BumpedEnviroment.shader" />
+    <None Include="Assets\Shaders\Noise\Noise1.shader" />
+    <None Include="Assets\Shaders\PennyShader\WavesShader.shader" />
+    <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseTransparent.shader" />
+    <None Include="Assets\Shaders\PennyShader\MyFirstShader.shader" />
+    <None Include="Assets\Shaders\Pratice\BumpedEnviroment.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
-    <None Include="Assets\Shaders\BasicLambert.shader" />
-    <None Include="Assets\Shader\Pratice\Properties Challenge 4.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson03\TestMulti 9.shader" />
-    <None Include="Assets\Shaders\VFPlasma.shader" />
-    <None Include="Assets\Shader\SimpleAlpha_XRay.shader" />
+    <None Include="Assets\Shaders\PennyShader\BasicLambert.shader" />
+    <None Include="Assets\Shaders\Pratice\Properties Challenge 4.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson03\TestMulti 9.shader" />
+    <None Include="Assets\Shaders\PennyShader\VFPlasma.shader" />
+    <None Include="Assets\Shaders\SimpleAlpha_XRay.shader" />
     <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\Shaders\VMod_Multiply.shader" />
     <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\LICENCE.txt" />
-    <None Include="Assets\Shaders\VFDiffuse.shader" />
-    <None Include="Assets\Shaders\AdvancedOutlineShader.shader" />
-    <None Include="Assets\Shaders\WallShader.shader" />
-    <None Include="Assets\Shader\DitheredLighting\DitheredLighting.shader" />
-    <None Include="Assets\Shader\Pratice\UVScrollWaterWithWaves.shader" />
-    <None Include="Assets\Shader\Pratice\VFMat.shader" />
+    <None Include="Assets\Shaders\PennyShader\VFDiffuse.shader" />
+    <None Include="Assets\Shaders\PennyShader\AdvancedOutlineShader.shader" />
+    <None Include="Assets\Shaders\PennyShader\WallShader.shader" />
+    <None Include="Assets\Shaders\DitheredLighting\DitheredLighting.shader" />
+    <None Include="Assets\Shaders\Pratice\UVScrollWaterWithWaves.shader" />
+    <None Include="Assets\Shaders\Pratice\VFMat.shader" />
+    <None Include="Assets\Shaders\FastBloom\DualFilterBloomHDR.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
-    <None Include="Assets\Shaders\StandardPBR.shader" />
+    <None Include="Assets\Shaders\PennyShader\StandardPBR.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineMask.shader" />
-    <None Include="Assets\Shaders\Stencils\StencilWindowShader.shader" />
+    <None Include="Assets\Shaders\PennyShader\Stencils\StencilWindowShader.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-    <None Include="Assets\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
-    <None Include="Assets\Shader\NeonLight\RunLight.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_simple_color_CS.compute" />
-    <None Include="Assets\Shader\NP_09_Test\NP09_disappear.shader" />
-    <None Include="Assets\Shader\Pratice\VFPlasma.shader" />
-    <None Include="Assets\Shader\ColorGradient\ColorAnimationCurveGradient.shader" />
+    <None Include="Assets\ThirdParty\ShaderlabVSCode\ScriptTemplates\HLSL Shader-New HLSL Shader.hlsl.txt" />
+    <None Include="Assets\Shaders\NeonLight\RunLight.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_simple_color_CS.compute" />
+    <None Include="Assets\Shaders\NP_09_Test\NP09_disappear.shader" />
+    <None Include="Assets\ThirdParty\andybc\Demo\Shaders\Floor.shader" />
+    <None Include="Assets\Shaders\Pratice\VFPlasma.shader" />
+    <None Include="Assets\Shaders\ColorGradient\ColorAnimationCurveGradient.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\built-in\PlanarReflections.cginc" />
-    <None Include="Assets\Shader\Pratice\ToonRampChallenge.shader" />
-    <None Include="Assets\Shader\Pratice\Plasma.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_LENGTH.shader" />
+    <None Include="Assets\Shaders\Pratice\ToonRampChallenge.shader" />
+    <None Include="Assets\Shaders\Pratice\Plasma.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_LENGTH.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Add_CenterGlow.shader" />
-    <None Include="Assets\Shader\PlanarReflection\PlannerReflection.shader" />
-    <None Include="Assets\Shader\Outline\Outline 1.shader" />
-    <None Include="Assets\Shader\ImageSequence\SurfaceSequenceFrameAnimation.shader" />
+    <None Include="Assets\Shaders\PlanarReflection\PlannerReflection.shader" />
+    <None Include="Assets\Shaders\Outline\Outline 1.shader" />
+    <None Include="Assets\Shaders\ImageSequence\SurfaceSequenceFrameAnimation.shader" />
+    <None Include="Assets\Shaders\FastBloom\DualFilterBloomNoHDR.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 1.shader" />
-    <None Include="Assets\Shader\Pratice\NormalShader-1.shader" />
-    <None Include="Assets\Shader\UI\LightText.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 4.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson01\TestMulti 1.shader" />
+    <None Include="Assets\Shaders\Pratice\NormalShader-1.shader" />
+    <None Include="Assets\Shaders\UI\LightText.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson01\TestMulti 4.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\ReadMe.txt" />
-    <None Include="Assets\Shader\Voxelizer\Voxelizer.shader" />
-    <None Include="Assets\Shader\ColorGradient\ColorGradient.shader" />
-    <None Include="Assets\Shader\Pratice\StencilWindow.shader" />
-    <None Include="Assets\Shader\Pratice\PrimitiveSphere.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson01\VertexOffset.shader" />
-    <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
-    <None Include="Assets\Shader\ImageSequence\SequenceFrameAnimation.shader" />
-    <None Include="Assets\Shader\Voxelizer\Common.cginc" />
-    <None Include="Assets\Shaders\RimLightingShader.shader" />
-    <None Include="Assets\Shaders\PlasmaShader.shader" />
+    <None Include="Assets\Shaders\Voxelizer\Voxelizer.shader" />
+    <None Include="Assets\Shaders\ColorGradient\ColorGradient.shader" />
+    <None Include="Assets\Shaders\Pratice\StencilWindow.shader" />
+    <None Include="Assets\Shaders\Pratice\PrimitiveSphere.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson01\VertexOffset.shader" />
+    <None Include="Assets\Shaders\ImageSequence\SequenceFrameAnimation.shader" />
+    <None Include="Assets\Shaders\Voxelizer\Common.cginc" />
+    <None Include="Assets\Shaders\PennyShader\RimLightingShader.shader" />
+    <None Include="Assets\Shaders\PennyShader\PlasmaShader.shader" />
     <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\HowToUse.txt" />
-    <None Include="Assets\Shader\Pratice\VFColouredMat.shader" />
+    <None Include="Assets\Shaders\Pratice\VFColouredMat.shader" />
     <None Include="Assets\ThirdParty\River And Lake\Shaders\River.shader" />
-    <None Include="Assets\Shader\NormalPlay.shader" />
+    <None Include="Assets\Shaders\NormalPlay.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-    <None Include="Assets\Shader\Pratice\RaymarchCloudsVolume.shader" />
-    <None Include="Assets\Shaders\BasicTextureBlend.shader" />
-    <None Include="Assets\Shader\Pratice\BumpDiffuseStencil.shader" />
-    <None Include="Assets\Shader\UI\UINeonLight.shader" />
-    <None Include="Assets\Shader\Pratice\Hole.shader" />
-    <None Include="Assets\Shaders\OutlineShader.shader" />
+    <None Include="Assets\Shaders\Pratice\RaymarchCloudsVolume.shader" />
+    <None Include="Assets\Shaders\PennyShader\BasicTextureBlend.shader" />
+    <None Include="Assets\Shaders\Pratice\BumpDiffuseStencil.shader" />
+    <None Include="Assets\Shaders\UI\UINeonLight.shader" />
+    <None Include="Assets\Shaders\Pratice\Hole.shader" />
+    <None Include="Assets\Shaders\PennyShader\OutlineShader.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarReflections.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
-    <None Include="Assets\Shader\DayAndNight.shader" />
+    <None Include="Assets\Shaders\DayAndNight.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
-    <None Include="Assets\Shaders\VFMat.shader" />
+    <None Include="Assets\Shaders\Hologram\AdvHologram.shader" />
+    <None Include="Assets\Shaders\PennyShader\VFMat.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\Readme.txt" />
-    <None Include="Assets\Shader\Voxelizer\Voxelizer.cginc" />
+    <None Include="Assets\Shaders\Voxelizer\Voxelizer.cginc" />
+    <None Include="Assets\Shaders\Twist\EnviromentTwist.shader" />
     <None Include="Assets\ThirdParty\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
-    <None Include="Assets\Shader\PlanarReflection\PlanarReflectionFloor.shader" />
-    <None Include="Assets\Shader\Pratice\BasicTextureBlend.shader" />
-    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_GLOW.shader" />
+    <None Include="Assets\Shaders\PlanarReflection\PlanarReflectionFloor.shader" />
+    <None Include="Assets\Shaders\Pratice\BasicTextureBlend.shader" />
+    <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseTexture_GLOW.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlur.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 2.shader" />
-    <None Include="Assets\Shaders\BasicLambert 1.shader" />
-    <None Include="Assets\Shader\Pratice\VFDiffuseColouredShadows.shader" />
-    <None Include="Assets\Shader\OcclusionShader.shader" />
-    <None Include="Assets\Shader\Noise\Noise2.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson01\TestMulti 2.shader" />
+    <None Include="Assets\Shaders\PennyShader\BasicLambert 1.shader" />
+    <None Include="Assets\Shaders\Pratice\VFDiffuseColouredShadows.shader" />
+    <None Include="Assets\Shaders\OcclusionShader.shader" />
+    <None Include="Assets\Shaders\Noise\Noise2.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
-    <None Include="Assets\Shaders\BumpEnviroment.shader" />
-    <None Include="Assets\Shader\Pratice\Hologram.shader" />
-    <None Include="Assets\Shader\WormHole.shader" />
+    <None Include="Assets\Shaders\PennyShader\BumpEnviroment.shader" />
+    <None Include="Assets\Shaders\Hologram\Hologram.shader" />
+    <None Include="Assets\Shaders\WormHole.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
-    <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex.shader" />
+    <None Include="Assets\Shaders\Lava\Lava_Flowing_OnlyLavaTex.shader" />
     <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\Shaders\VMod_Opaque.shader" />
-    <None Include="Assets\Shader\StencilTest\StencilTest_Keep.shader" />
+    <None Include="Assets\Shaders\StencilTest\StencilTest_Keep.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 2.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_CEIL.shader" />
-    <None Include="Assets\Shader\OutLightting.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_CEIL.shader" />
+    <None Include="Assets\Shaders\OutLightting.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
     <None Include="Assets\ThirdParty\StarterAssets\license.txt" />
-    <None Include="Assets\Shader\Pratice\Extrude.shader" />
-    <None Include="Assets\Shaders\BumpDiffuse.shader" />
+    <None Include="Assets\Shaders\Pratice\Extrude.shader" />
+    <None Include="Assets\Shaders\PennyShader\BumpDiffuse.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
-    <None Include="Assets\Shader\Pratice\VFDiffuse.cginc" />
-    <None Include="Assets\Shader\Pratice\UVScrollWater.shader" />
+    <None Include="Assets\Shaders\Pratice\VFDiffuse.cginc" />
+    <None Include="Assets\Shaders\Pratice\UVScrollWater.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
-    <None Include="Assets\Shaders\VFDiffuseShadows.shader" />
-    <None Include="Assets\Shader\Pratice\Cutoff.shader" />
+    <None Include="Assets\Shaders\PennyShader\VFDiffuseShadows.shader" />
+    <None Include="Assets\Shaders\Pratice\Cutoff.shader" />
+    <None Include="Assets\Shaders\andybc\Hologram.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_replacement_shader.shader" />
-    <None Include="Assets\Shader\Pratice\SphericalFog.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_cubemap_reflection.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_replacement_shader.shader" />
+    <None Include="Assets\Shaders\Pratice\SphericalFog.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_cubemap_reflection.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_STEP.shader" />
-    <None Include="Assets\Shader\Noise\Noise4.shader" />
-    <None Include="Assets\Shader\ImageSequence\Sequence.shader" />
-    <None Include="Assets\Shaders\ExtrudeShader.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_STEP.shader" />
+    <None Include="Assets\Shaders\Noise\Noise4.shader" />
+    <None Include="Assets\Shaders\ImageSequence\Sequence.shader" />
+    <None Include="Assets\Shaders\PennyShader\ExtrudeShader.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarGroundBuiltIn.shader" />
-    <None Include="Assets\Shader\Pratice\BumpRefChallenge.shader" />
-    <None Include="Assets\Shaders\TransparentShader.shader" />
+    <None Include="Assets\Shaders\Pratice\BumpRefChallenge.shader" />
+    <None Include="Assets\Shaders\PennyShader\TransparentShader.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend4_FlowMap.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
-    <None Include="Assets\Shader\HorizontalMarquee.shader" />
-    <None Include="Assets\Shader\Pratice\SimpleOutline.shader" />
+    <None Include="Assets\Shaders\HorizontalMarquee.shader" />
+    <None Include="Assets\Shaders\Pratice\SimpleOutline.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
-    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture_Pet.shader" />
-    <None Include="Assets\Shaders\HoleShader.shader" />
-    <None Include="Assets\Shader\Pratice\Glass.shader" />
-    <None Include="Assets\Shaders\GlassShader.shader" />
+    <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseTexture_Pet.shader" />
+    <None Include="Assets\Shaders\PennyShader\HoleShader.shader" />
+    <None Include="Assets\Shaders\Pratice\Glass.shader" />
+    <None Include="Assets\Shaders\PennyShader\GlassShader.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
-    <None Include="Assets\Shader\NeonLight\NeonLight.shader" />
+    <None Include="Assets\Shaders\NeonLight\NeonLight.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_07DepthFade.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-    <None Include="Assets\Shader\Pratice\BasicBlinnChanllenge.shader" />
+    <None Include="Assets\Shaders\Pratice\BasicBlinnChanllenge.shader" />
     <None Include="Assets\VFX\Shaders\FresnelAddDiss.shader" />
-    <None Include="Assets\Shader\CenterSwirl.shader" />
-    <None Include="Assets\Shaders\HologramShader.shader" />
-    <None Include="Assets\Shaders\Stencils\BumpDiffuseStencil.shader" />
+    <None Include="Assets\Shaders\CenterSwirl.shader" />
+    <None Include="Assets\Shaders\Hologram\HologramShader.shader" />
+    <None Include="Assets\Shaders\PennyShader\Stencils\BumpDiffuseStencil.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
-    <None Include="Assets\Shaders\ColorVF.shader" />
+    <None Include="Assets\Shaders\PennyShader\ColorVF.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
     <None Include="Assets\ThirdParty\CZ_B\cz_05RimLight 1.shader" />
     <None Include="Assets\ThirdParty\FrostedGlass\FrostedGlass\Shaders\FrostedGlass.shader" />
-    <None Include="Assets\Shader\PlanarReflection\FloorStencil.shader" />
+    <None Include="Assets\Shaders\PlanarReflection\FloorStencil.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_01mask.shader" />
-    <None Include="Assets\Shader\Pratice\BasicBlinn.shader" />
+    <None Include="Assets\Shaders\Pratice\BasicBlinn.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
-    <None Include="Assets\Shaders\MyLightModelBasciBlinnPhongShader.shader" />
-    <None Include="Assets\Shaders\TemplateShader.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_TAN.shader" />
-    <None Include="Assets\Shader\ParticleAddWithScrollingTex.shader" />
+    <None Include="Assets\Shaders\PennyShader\MyLightModelBasciBlinnPhongShader.shader" />
+    <None Include="Assets\Shaders\PennyShader\TemplateShader.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_TAN.shader" />
+    <None Include="Assets\Shaders\ParticleAddWithScrollingTex.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_FRAC.shader" />
-    <None Include="Assets\Shader\Pratice\BlendTest.shader" />
-    <None Include="Assets\Shader\Pratice\NormalPlay.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_SDF_fruit.shader" />
-    <None Include="Assets\Shader\UI\Fonts.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_ normal_MAP.shader" />
-    <None Include="Assets\Shader\Pratice\UseProperties.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_FRAC.shader" />
+    <None Include="Assets\Shaders\Pratice\BlendTest.shader" />
+    <None Include="Assets\Shaders\Pratice\NormalPlay.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_SDF_fruit.shader" />
+    <None Include="Assets\Shaders\UI\Fonts.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_ normal_MAP.shader" />
+    <None Include="Assets\Shaders\Pratice\UseProperties.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_02hardDiss.shader" />
-    <None Include="Assets\Shaders\LeavesShader.shader" />
-    <None Include="Assets\Shader\Outline\Outline2.shader" />
+    <None Include="Assets\Shaders\PennyShader\LeavesShader.shader" />
+    <None Include="Assets\Shaders\Outline\Outline2.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
-    <None Include="Assets\Shader\ImageSequence\MobPsycho100.shader" />
+    <None Include="Assets\Shaders\ImageSequence\MobPsycho100.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-    <None Include="Assets\Shader\Twist.shader" />
-    <None Include="Assets\Shader\Pratice\OwnedBasicLambert.shader" />
+    <None Include="Assets\Shaders\Twist\Twist.shader" />
+    <None Include="Assets\Shaders\Pratice\OwnedBasicLambert.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
-    <None Include="Assets\Shader\Voxelizer\SimplexNoise3D.hlsl" />
+    <None Include="Assets\Shaders\Voxelizer\SimplexNoise3D.hlsl" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
-    <None Include="Assets\Shader\Dissolve\Dissolve_Simple.shader" />
-    <None Include="Assets\ShaderLab_Jeff\UnlitMulti.shader" />
-    <None Include="Assets\Shader\NeonLight\ScoreBoard.shader" />
+    <None Include="Assets\Shaders\Dissolve\Dissolve_Simple.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\UnlitMulti.shader" />
+    <None Include="Assets\Shaders\NeonLight\ScoreBoard.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
-    <None Include="Assets\Shader\Pratice\BumpedEnv.shader" />
-    <None Include="Assets\Shader\Pratice\PackedPractice.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson03\CGLighting(8).cginc" />
-    <None Include="Assets\Shaders\BlendShader.shader" />
+    <None Include="Assets\Shaders\Pratice\BumpedEnv.shader" />
+    <None Include="Assets\Shaders\Pratice\PackedPractice.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson03\CGLighting(8).cginc" />
+    <None Include="Assets\Shaders\PennyShader\BlendShader.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
-    <None Include="Assets\Shader\CustomShaderGUI\CustomShaderGUI.shader" />
-    <None Include="Assets\Shader\DistanceFade.shader" />
-    <None Include="Assets\Shader\Pratice\StandardSpecPBR.shader" />
+    <None Include="Assets\Shaders\CustomShaderGUI\CustomShaderGUI.shader" />
+    <None Include="Assets\Shaders\DistanceFade.shader" />
+    <None Include="Assets\Shaders\FastBloom\BloomNoHDR.shader" />
+    <None Include="Assets\Shaders\Pratice\StandardSpecPBR.shader" />
     <None Include="Assets\ThirdParty\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
-    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseColor.shader" />
-    <None Include="Assets\Shader\ImageSequence\SequenceFrameSetId.shader" />
+    <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseColor.shader" />
+    <None Include="Assets\Shaders\ImageSequence\SequenceFrameSetId.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
-    <None Include="Assets\Shader\Pratice\BumpDiffuse.shader" />
-    <None Include="Assets\Shader\Pratice\VFDiffuse.shader" />
+    <None Include="Assets\Shaders\Pratice\BumpDiffuse.shader" />
+    <None Include="Assets\Shaders\Pratice\VFDiffuse.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
-    <None Include="Assets\Shader\ColorGradient\cginc_gradient_helper.cginc" />
-    <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Soft.shader" />
-    <None Include="Assets\Shader\PlanarReflection\SkyboxReflection.shader" />
+    <None Include="Assets\Shaders\ColorGradient\cginc_gradient_helper.cginc" />
+    <None Include="Assets\Shaders\BurnAndDissolve\Dissolve_Soft.shader" />
+    <None Include="Assets\Shaders\PlanarReflection\SkyboxReflection.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow.shader" />
+    <None Include="Assets\Shaders\HDR\HDR.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-    <None Include="Assets\Shader\Pratice\ColourVF.shader" />
-    <None Include="Assets\ShaderLab_Jeff\Lesson01\TestMulti 3.shader" />
-    <None Include="Assets\Shader\BoxWorld.shader" />
+    <None Include="Assets\Shaders\Pratice\ColourVF.shader" />
+    <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson01\TestMulti 3.shader" />
+    <None Include="Assets\Shaders\BoxWorld.shader" />
+    <None Include="Assets\Shaders\FastBloom\BloomHDR.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\VFX\Shaders\MK_Particle Alpha Blend.shader" />
-    <None Include="Assets\Shader\PlanarReflection\Floor.shader" />
-    <None Include="Assets\Shaders\PackedPractice.shader" />
-    <None Include="Assets\Shader\Pratice\Rim.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_Time.shader" />
-    <None Include="Assets\Shader\Pratice\BumpedEnviromentChallenge.shader" />
+    <None Include="Assets\Shaders\PlanarReflection\Floor.shader" />
+    <None Include="Assets\Shaders\PennyShader\PackedPractice.shader" />
+    <None Include="Assets\Shaders\Pratice\Rim.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_Time.shader" />
+    <None Include="Assets\Shaders\Pratice\BumpedEnviromentChallenge.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_08VertexColor&amp;&amp;SoftParticle.shader" />
-    <None Include="Assets\Shader\Voxelizer\Voxelizer2.shader" />
+    <None Include="Assets\Shaders\Voxelizer\Voxelizer2.shader" />
     <None Include="Assets\ThirdParty\Tsutsuji\VertexModulation\Shaders\VMod_Add.shader" />
-    <None Include="Assets\Shaders\BasicVF.shader" />
-    <None Include="Assets\Shaders\StandardSpecPBR.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_diffuse_shading.shader" />
+    <None Include="Assets\Shaders\PennyShader\BasicVF.shader" />
+    <None Include="Assets\Shaders\PennyShader\StandardSpecPBR.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_diffuse_shading.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_04UV.shader" />
-    <None Include="Assets\Shader\BurnAndDissolve\Dissolve_Sphere.shader" />
-    <None Include="Assets\Shader\StencilTest\StencilTest_Replace.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_ABS.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_FLOOR.shader" />
-    <None Include="Assets\Shader\Pratice\ToonRamp.shader" />
+    <None Include="Assets\Shaders\BurnAndDissolve\Dissolve_Sphere.shader" />
+    <None Include="Assets\Shaders\StencilTest\StencilTest_Replace.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_ABS.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_FLOOR.shader" />
+    <None Include="Assets\Shaders\Pratice\ToonRamp.shader" />
     <None Include="Assets\ThirdParty\FrostedGlass\FrostedGlass\Shaders\SeparableBlur.shader" />
-    <None Include="Assets\Shader\Pratice\OwnedBasicBlinn.shader" />
-    <None Include="Assets\Shader\Pratice\VFDiffuseShadows.shader" />
+    <None Include="Assets\Shaders\Pratice\OwnedBasicBlinn.shader" />
+    <None Include="Assets\Shaders\Pratice\VFDiffuseShadows.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_06Fire.shader" />
-    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseTexture.shader" />
-    <None Include="Assets\Shaders\ToonRamp.shader" />
-    <None Include="Assets\Shader\Shader_Bible\USB_function_LERP.shader" />
-    <None Include="Assets\Shader\Pratice\AdvOutline.shader" />
-    <None Include="Assets\Shader\Pratice\DotProduct.shader" />
+    <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseTexture.shader" />
+    <None Include="Assets\Shaders\PennyShader\ToonRamp.shader" />
+    <None Include="Assets\Shaders\Shader_Bible\USB_function_LERP.shader" />
+    <None Include="Assets\Shaders\Pratice\AdvOutline.shader" />
+    <None Include="Assets\Shaders\Pratice\DotProduct.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\Water.shader" />
-    <None Include="Assets\Shader\Pratice\Waves.shader" />
-    <None Include="Assets\Shader\Lava\Lava_Flowing_OnlyLavaTex_2.shader" />
-    <None Include="Assets\Shader\FakeLight\FakeLight_DiffuseBumpTexture.shader" />
+    <None Include="Assets\Shaders\Pratice\Waves.shader" />
+    <None Include="Assets\Shaders\FastBloom\BloomNoHDRTranslucent.shader" />
+    <None Include="Assets\Shaders\Lava\Lava_Flowing_OnlyLavaTex_2.shader" />
+    <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseBumpTexture.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -474,12 +489,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
@@ -636,9 +645,6 @@
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
@@ -1024,15 +1030,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -1042,14 +1039,20 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
@@ -1069,11 +1072,38 @@
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AmplifyShaderEditor.csproj">
       <Project>{B09B058A-7E02-302E-36FF-6D333D56C71B}</Project>
       <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.Toon.Examples.csproj">
+      <Project>{C4C4EA7E-0B2D-7F7D-5C3A-4673F541DA44}</Project>
+      <Name>MK.Toon.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VFXToolbox.Editor.csproj">
+      <Project>{C04DCA9D-6959-AD0D-ECDC-E919785445B4}</Project>
+      <Name>Unity.VFXToolbox.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreator.csproj">
+      <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>
+      <Name>PathCreator</Name>
     </ProjectReference>
     <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
       <Project>{E2D39756-1899-F96B-71A8-FB54498BF1B9}</Project>
@@ -1087,21 +1117,9 @@
       <Project>{862A16A8-9A17-2B73-33C7-3B725C0BEADF}</Project>
       <Name>MK.Toon</Name>
     </ProjectReference>
-    <ProjectReference Include="MK.Toon.Examples.csproj">
-      <Project>{C4C4EA7E-0B2D-7F7D-5C3A-4673F541DA44}</Project>
-      <Name>MK.Toon.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VFXToolbox.Editor.csproj">
-      <Project>{C04DCA9D-6959-AD0D-ECDC-E919785445B4}</Project>
-      <Name>Unity.VFXToolbox.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="MK.Toon.Editor.csproj">
       <Project>{9EBCF94D-E53C-3160-6A29-BDB44E93E900}</Project>
       <Name>MK.Toon.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PathCreator.csproj">
-      <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>
-      <Name>PathCreator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
