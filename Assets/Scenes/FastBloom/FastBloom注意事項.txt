@@ -1,0 +1,2 @@
+須關閉Quality的Anti Aliasing
+應用相機須關閉HDR
