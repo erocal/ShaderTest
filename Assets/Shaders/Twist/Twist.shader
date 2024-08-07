@@ -1,5 +1,3 @@
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
 Shader "Twist/Twist"
 {
     Properties
@@ -44,10 +42,6 @@ Shader "Twist/Twist"
             v2f vert (appdata v)
             {
                 v2f o;
-
-                //o.vertex = UnityObjectToClipPos(v.vertex);
-
-                //float4 wpos = mul(unity_ObjectToWorld, v.vertex);
 
                 float4 wpos = v.vertex;
 
