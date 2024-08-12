@@ -60,6 +60,8 @@
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathSpawner.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\USBSimpleColorController.cs" />
+    <Compile Include="Assets\Scripts\FastBloom\ChangeResolution.cs" />
+    <Compile Include="Assets\Scripts\FastBloom\ColorGradingBloomHDR.cs" />
     <Compile Include="Assets\Scripts\Drive.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
@@ -80,15 +82,19 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Scripts\OutlineController.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\ThirdParty\NoiseBall\NoiseBall\NoiseBallMesh.cs" />
     <Compile Include="Assets\Scripts\Clouds.cs" />
+    <Compile Include="Assets\ThirdParty\NoiseBall\Emgen\VertexCache.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Scripts\GameObjectsSort.cs" />
     <Compile Include="Assets\Scripts\TimeScaleTest\RandomMove.cs" />
     <Compile Include="Assets\Scripts\MobPsycho100.cs" />
+    <Compile Include="Assets\Scripts\FastBloom\BloomBreath.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Scripts\Resolution\CanvasScalerResolution.cs" />
+    <Compile Include="Assets\ThirdParty\NoiseBall\NoiseBall\NoiseBallRenderer.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
     <Compile Include="Assets\Scripts\Resolution\ResolutionUtility.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -96,6 +102,7 @@
     <Compile Include="Assets\ThirdParty\GaussianBlur\GaussianBlur.cs" />
     <Compile Include="Assets\ThirdParty\FrostedGlass\Demo\Scripts\AutoMove.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\ThirdParty\NoiseBall\Emgen\IcosphereBuilder.cs" />
     <Compile Include="Assets\Scripts\ShowNormals.cs" />
     <Compile Include="Assets\Scripts\SequenceFrameAnimation\SequenceFrameAnimationResetTime.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
@@ -109,6 +116,7 @@
     <Compile Include="Assets\Scripts\TimeScaleTest\TimeScaleTest.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\ThirdParty\FrostedGlass\FrostedGlass\Scripts\CommandBufferBlur.cs" />
+    <Compile Include="Assets\ThirdParty\NoiseBall\Kino\Bloom\Bloom.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
@@ -130,6 +138,7 @@
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathPlacer.cs" />
     <Compile Include="Assets\ThirdParty\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\ThirdParty\NoiseBall\DeferredAO\DeferredAO.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\Scripts\RenderReplacementShaderToTexture.cs" />
     <Compile Include="Assets\ThirdParty\River And Lake\Scripts\LakeGenerator.cs" />
@@ -151,12 +160,14 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\PathFollower.cs" />
+    <Compile Include="Assets\ThirdParty\NoiseBall\Emgen\IcosphereMesh.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Scripts\FastBloom\ColorGradingBloomNoHDR.cs" />
     <Compile Include="Assets\Scripts\PostProcessOutline.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
     <Compile Include="Assets\Scripts\RadiusBlur\RadiusBlur.cs" />
@@ -166,10 +177,6 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\ThirdParty\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\FastBloom\ColorGradingBloomHDR.cs" />
-    <Compile Include="Assets\Scripts\FastBloom\BloomBreath.cs" />
-    <Compile Include="Assets\Scripts\FastBloom\ColorGradingBloomNoHDR.cs" />
-    <Compile Include="Assets\Scripts\FastBloom\ChangeResolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\PennyShader\BasicBlinnPhong.shader" />
@@ -214,11 +221,14 @@
     <None Include="Assets\Shaders\Shader_Bible\USB_function_SINCOS.shader" />
     <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson02\TestMulti 7.shader" />
     <None Include="Assets\Shaders\Pratice\UVScroll.shader" />
+    <None Include="Assets\Shaders\Outline\InnerOutline.shader" />
     <None Include="Assets\VFX\Shaders\MK_Particle Add.shader" />
+    <None Include="Assets\ThirdParty\NoiseBall\NoiseBall\Shader\Surface.shader" />
     <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson03\CGLighting(9).cginc" />
     <None Include="Assets\Shaders\LOD\LODSphere.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\Shaders\Pratice\CloudsCamera.shader" />
+    <None Include="Assets\Scenes\FastBloom\FastBloom注意事項.txt" />
     <None Include="Assets\Shaders\BurnAndDissolve\Dissolve_Simple.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow 1.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
@@ -242,6 +252,7 @@
     <None Include="Assets\Shaders\PennyShader\WallShader.shader" />
     <None Include="Assets\Shaders\DitheredLighting\DitheredLighting.shader" />
     <None Include="Assets\Shaders\Pratice\UVScrollWaterWithWaves.shader" />
+    <None Include="Assets\ThirdParty\NoiseBall\NoiseBall\Shader\Line.shader" />
     <None Include="Assets\Shaders\Pratice\VFMat.shader" />
     <None Include="Assets\Shaders\FastBloom\DualFilterBloomHDR.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
@@ -290,6 +301,7 @@
     <None Include="Assets\Shaders\Pratice\BumpDiffuseStencil.shader" />
     <None Include="Assets\Shaders\UI\UINeonLight.shader" />
     <None Include="Assets\Shaders\Pratice\Hole.shader" />
+    <None Include="Assets\Shaders\Matrix\Matrix.shader" />
     <None Include="Assets\Shaders\PennyShader\OutlineShader.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarReflections.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
@@ -304,8 +316,10 @@
     <None Include="Assets\Shaders\PlanarReflection\PlanarReflectionFloor.shader" />
     <None Include="Assets\Shaders\Pratice\BasicTextureBlend.shader" />
     <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseTexture_GLOW.shader" />
+    <None Include="Assets\Shaders\Matrix\Matrix_Number.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlur.shader" />
     <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson01\TestMulti 2.shader" />
+    <None Include="Assets\ThirdParty\NoiseBall\NoiseBall\Shader\SimplexNoiseGrad3D.cginc" />
     <None Include="Assets\Shaders\PennyShader\BasicLambert 1.shader" />
     <None Include="Assets\Shaders\Pratice\VFDiffuseColouredShadows.shader" />
     <None Include="Assets\Shaders\OcclusionShader.shader" />
@@ -313,6 +327,7 @@
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\Shaders\PennyShader\BumpEnviroment.shader" />
     <None Include="Assets\Shaders\Hologram\Hologram.shader" />
+    <None Include="Assets\Shaders\Matrix\ASEMatrix.shader" />
     <None Include="Assets\Shaders\WormHole.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\Shaders\Lava\Lava_Flowing_OnlyLavaTex.shader" />
@@ -334,6 +349,7 @@
     <None Include="Assets\Shaders\andybc\Hologram.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\Shaders\Shader_Bible\USB_replacement_shader.shader" />
+    <None Include="Assets\ThirdParty\NoiseBall\NoiseBall\Shader\Common.cginc" />
     <None Include="Assets\Shaders\Pratice\SphericalFog.shader" />
     <None Include="Assets\Shaders\Shader_Bible\USB_cubemap_reflection.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
@@ -347,6 +363,7 @@
     <None Include="Assets\VFX\Shaders\VFX_Blend4_FlowMap.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\Shaders\HorizontalMarquee.shader" />
+    <None Include="Assets\ThirdParty\NoiseBall\DeferredAO\Shader\DeferredAO.shader" />
     <None Include="Assets\Shaders\Pratice\SimpleOutline.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\Shaders\FakeLight\FakeLight_DiffuseTexture_Pet.shader" />
@@ -354,7 +371,9 @@
     <None Include="Assets\Shaders\Pratice\Glass.shader" />
     <None Include="Assets\Shaders\PennyShader\GlassShader.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\ThirdParty\NoiseBall\sIBL Archive\Acknowledgement.txt" />
     <None Include="Assets\Shaders\NeonLight\NeonLight.shader" />
+    <None Include="Assets\ThirdParty\NoiseBall\Kino\Bloom\Shader\Bloom.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
     <None Include="Assets\ThirdParty\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_07DepthFade.shader" />
@@ -421,7 +440,6 @@
     <None Include="Assets\Shaders\BurnAndDissolve\Dissolve_Soft.shader" />
     <None Include="Assets\Shaders\PlanarReflection\SkyboxReflection.shader" />
     <None Include="Assets\VFX\Shaders\VFX_Blend3_CenterGlow.shader" />
-    <None Include="Assets\Shaders\HDR\HDR.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\Shaders\Pratice\ColourVF.shader" />
     <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson01\TestMulti 3.shader" />
@@ -443,6 +461,7 @@
     <None Include="Assets\Shaders\Shader_Bible\USB_diffuse_shading.shader" />
     <None Include="Assets\ThirdParty\CZ_B\cz_04UV.shader" />
     <None Include="Assets\Shaders\BurnAndDissolve\Dissolve_Sphere.shader" />
+    <None Include="Assets\Shaders\NoiseBall\NoiseBall.shader" />
     <None Include="Assets\Shaders\StencilTest\StencilTest_Replace.shader" />
     <None Include="Assets\Shaders\Shader_Bible\USB_function_ABS.shader" />
     <None Include="Assets\Shaders\Shader_Bible\USB_function_FLOOR.shader" />
