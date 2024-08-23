@@ -25,7 +25,8 @@ Shader "Custom/DistanceFadeOutline"
         //our surface shader function is called surf and we use our custom lighting model
         #pragma surface surf Standard
         #pragma target 3.0
-        #include "DistanceFade.cginc"
+        #include "UnityCG.cginc"
+        #include "Assets\Cginc\DistanceFade.cginc"
 
         //texture and tint of color
         sampler2D _MainTex;
@@ -66,7 +67,7 @@ Shader "Custom/DistanceFadeOutline"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
-            #include "DistanceFade.cginc"
+            #include "Assets\Cginc\DistanceFade.cginc"
 
             struct appdata {
                 float4 vertex : POSITION;
