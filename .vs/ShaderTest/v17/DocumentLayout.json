@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fastbloom\\colorgradingbloomnohdr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\fastbloom\\changeresolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\scripts\\fastbloom\\changeresolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fastbloom\\changeresolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\voxelizer\\voxelizer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\scripts\\voxelizer\\voxelizer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\voxelizer\\voxelizer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\FastBloom\\ColorGradingBloomNoHDR.cs",
               "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\FastBloom\\ColorGradingBloomNoHDR.cs",
               "RelativeToolTip": "Assets\\Scripts\\FastBloom\\ColorGradingBloomNoHDR.cs",
-              "ViewState": "AQIAAMQAAAAAAAAAAAAkwG0AAAA8AAAA",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAUwKkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T03:38:07.087Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scripts\\FastBloom\\ChangeResolution.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T03:37:18.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T03:37:18.889Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Voxelizer\\Voxelizer2.cs",
               "ViewState": "AQIAAGMAAAAAAAAAAAAswHMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T09:20:08.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T09:20:08.149Z"
             },
             {
               "$type": "Document",

@@ -34,8 +34,8 @@ Shader "Hidden/Post FX/Bloom"
 
         #pragma target 3.0
         #include "UnityCG.cginc"
-        #include "Bloom.cginc"
-        #include "Common.cginc"
+        #include "Assets\Cginc\Bloom.cginc"
+        #include "Assets\Cginc\Common.cginc"
 
         sampler2D _BaseTex;
         float2 _BaseTex_TexelSize;

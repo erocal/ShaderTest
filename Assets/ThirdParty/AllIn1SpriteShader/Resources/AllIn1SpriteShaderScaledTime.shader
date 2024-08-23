@@ -318,7 +318,7 @@
 			#pragma shader_feature FOG_ON
 
             #include "UnityCG.cginc"
-			#include "AllIn1OneShaderFunctions.cginc"
+			#include "Assets\Cginc\AllIn1OneShaderFunctions.cginc"
 
 			#if FOG_ON
 			#pragma multi_compile_fog

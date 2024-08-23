@@ -21,7 +21,7 @@ Shader "Unlit/Test_TestMulti 8"
             #pragma vertex vert
             #pragma fragment frag
             #define IS_IN_BASE_PASS
-            #include "CGLighting(8).cginc"
+            #include "Assets\Cginc\cgLighting_8.cginc"
             ENDCG
         }
 
@@ -35,7 +35,7 @@ Shader "Unlit/Test_TestMulti 8"
             #pragma vertex vert
             #pragma fragment frag
             #pragma multi_compile_fwdadd        //★多重編譯前向添加
-            #include "CGLighting(8).cginc"
+            #include "Assets\Cginc\cgLighting_8.cginc"
             ENDCG
         }
         

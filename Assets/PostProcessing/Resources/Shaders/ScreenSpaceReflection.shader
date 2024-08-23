@@ -15,8 +15,8 @@ Shader "Hidden/Post FX/Screen Space Reflection"
         #include "UnityPBSLighting.cginc"
         #include "UnityStandardBRDF.cginc"
         #include "UnityStandardUtils.cginc"
-        #include "Common.cginc"
-        #include "ScreenSpaceRaytrace.cginc"
+        #include "Assets\Cginc\Common.cginc"
+        #include "Assets\Cginc\ScreenSpaceRaytrace.cginc"
 
         float4   _ProjInfo;
         float4x4 _WorldToCameraMatrix;

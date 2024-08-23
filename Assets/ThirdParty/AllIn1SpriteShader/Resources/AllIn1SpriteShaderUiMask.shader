@@ -331,7 +331,7 @@
             #pragma multi_compile _ UNITY_UI_ALPHACLIP
 
             #include "UnityCG.cginc"
-			#include "AllIn1OneShaderFunctions.cginc"
+			#include "Assets\Cginc\AllIn1OneShaderFunctions.cginc"
 
 			struct appdata
 			{

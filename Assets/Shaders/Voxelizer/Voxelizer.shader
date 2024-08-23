@@ -29,7 +29,7 @@
             #pragma geometry Geometry
             #pragma fragment Fragment
             #pragma multi_compile_prepassfinal noshadowmask nodynlightmap nodirlightmap nolightmap
-            #include "Voxelizer.cginc"
+            #include "Assets\Cginc\Voxelizer.cginc"
             ENDCG
         }
         Pass
@@ -42,7 +42,7 @@
             #pragma fragment Fragment
             #pragma multi_compile_prepassfinal noshadowmask nodynlightmap nodirlightmap nolightmap
             #define UNITY_PASS_SHADOWCASTER
-            #include "Voxelizer.cginc"
+            #include "Assets\Cginc\Voxelizer.cginc"
             ENDCG
         }
     }

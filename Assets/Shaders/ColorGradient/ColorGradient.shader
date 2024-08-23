@@ -20,7 +20,7 @@ Shader "Custom/ColorGradient"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
-            #include "cginc_gradient_helper.cginc"
+            #include "Assets\Cginc\cginc_gradient_helper.cginc"
 
             struct appdata
             {

@@ -13,7 +13,7 @@
         #pragma surface surf Standard vertex:vert nolightmap addshadow
         #pragma target 3.0
 
-        #include "Common.cginc"
+        #include "Assets\ThirdParty\NoiseBall\NoiseBall\Shader\Common.cginc"
 
         struct Input { float dummy; };
 

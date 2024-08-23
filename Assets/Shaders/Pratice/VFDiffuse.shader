@@ -15,7 +15,7 @@ Shader "Holistic/VFDiffuse"
             #pragma vertex vert
             #pragma fragment frag
 
-            #include "VFDiffuse.cginc"
+            #include "Assets\Cginc\VFDiffuse.cginc"
             
             ENDCG
         }

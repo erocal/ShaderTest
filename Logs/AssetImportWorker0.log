@@ -1,126 +1,126 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.43f1 (75bff06b76bf) revision 7716848'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 8042 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32606 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Program Files/UnityProject/ShaderTest
+D:/UnityProject/ShaderTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3195
-Successfully changed project path to: D:/Program Files/UnityProject/ShaderTest
-D:/Program Files/UnityProject/ShaderTest
+61456
+Successfully changed project path to: D:/UnityProject/ShaderTest
+D:/UnityProject/ShaderTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 292.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 117.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.43f1 (75bff06b76bf)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Program Files/UnityProject/ShaderTest/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/ShaderTest/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX250 (ID=0x1d52)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2544)
     Vendor:   
-    VRAM:     1968 MB
-    Driver:   32.0.15.6094
+    VRAM:     8049 MB
+    Driver:   31.0.15.3623
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005385 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002751 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 279.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 133.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.779 seconds
+- Completed reload, in  0.726 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1779ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1411ms)
-			LoadAssemblies (214ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (396ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (141ms)
-			SetupLoadedEditorAssemblies (584ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (284ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (280ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015595 seconds.
+Registered in 0.003335 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 306.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 135.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.008 seconds
+- Completed reload, in  1.621 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4010ms)
-		BeginReloadAssembly (302ms)
+	ReloadAssembly (1622ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (3588ms)
-			LoadAssemblies (280ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1401ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (847ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (288ms)
-			SetupLoadedEditorAssemblies (1854ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (735ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (307ms)
-				BeforeProcessingInitializeOnLoad (238ms)
-				ProcessInitializeOnLoadAttributes (778ms)
-				ProcessInitializeOnLoadMethodAttributes (517ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 18.73 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 382.4 MB.
-System memory in use after: 382.4 MB.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 298.4 MB.
+System memory in use after: 298.4 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4361.
-Total: 61.665600 ms (FindLiveObjects: 16.061700 ms CreateObjectMapping: 0.701700 ms MarkObjects: 30.388000 ms  DeleteObjects: 14.501400 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4355.
+Total: 4.685400 ms (FindLiveObjects: 0.469600 ms CreateObjectMapping: 0.372900 ms MarkObjects: 3.303700 ms  DeleteObjects: 0.537800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,241 +129,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat
-  artifactKey: Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat using Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b9dd26a96a4bde9b4c7689daac1d41') in 0.664300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001085 seconds.
-  path: Assets/Materials/FadeInOut/FadeInOut Yellow.mat
-  artifactKey: Guid(550c2cd0f665cdd42b431889496454c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/FadeInOut/FadeInOut Yellow.mat using Guid(550c2cd0f665cdd42b431889496454c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbb361dc204bafeabb0a770d4618a73') in 0.047890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000963 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
-  artifactKey: Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat using Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb9e2c6e94206068047989b23c92d7d') in 0.141605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000976 seconds.
-  path: Assets/ThirdParty/AllIn1SpriteShader/Demo/Materials/Outline1.mat
-  artifactKey: Guid(2fff2435ee99439438c463e2ce768283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AllIn1SpriteShader/Demo/Materials/Outline1.mat using Guid(2fff2435ee99439438c463e2ce768283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aeb5f345637097ab6edb11227eff0fb') in 0.104248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000712 seconds.
-  path: Assets/ThirdParty/AmplifyShaderEditor/Examples/Built-In/DoubleLayerCustomSurface/DoubleLayerCustomSurface.mat
-  artifactKey: Guid(846aec4914103104d99e9e31a217b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AmplifyShaderEditor/Examples/Built-In/DoubleLayerCustomSurface/DoubleLayerCustomSurface.mat using Guid(846aec4914103104d99e9e31a217b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dde3a98bb0f520483b6ebc4cfd19e82') in 0.305344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000685 seconds.
-  path: Assets/ThirdParty/AllIn1SpriteShader/Materials/EmptyMaterial.mat
-  artifactKey: Guid(cc460e5b1c6c0bd498b44195a0c3da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AllIn1SpriteShader/Materials/EmptyMaterial.mat using Guid(cc460e5b1c6c0bd498b44195a0c3da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7a06681ecf7c59be9f1f941586e0ea') in 0.033134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.852597 seconds.
-  path: Assets/Shaders/PennyShader/AdvancedOutlineShader.shader
-  artifactKey: Guid(73f56570b1853be4d9878f26fbfd515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/PennyShader/AdvancedOutlineShader.shader using Guid(73f56570b1853be4d9878f26fbfd515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e97f62b66deebd0d1e2b1ef65d6da11') in 0.020323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1230.406934 seconds.
-  path: Assets/Shaders/DistanceFade 1.shader
-  artifactKey: Guid(8d0adef272911304fb08afccc023e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFade 1.shader using Guid(8d0adef272911304fb08afccc023e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5dc520abec529b3dc26afa98791def') in 0.034729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.083846 seconds.
-  path: Assets/Shaders/DistanceFadeColor.shader
-  artifactKey: Guid(8d0adef272911304fb08afccc023e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFadeColor.shader using Guid(8d0adef272911304fb08afccc023e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336af7d636ff13e0bdefff2587cad2da') in 0.007981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.502154 seconds.
-  path: Assets/Shaders/DistanceFadeColor.shader
-  artifactKey: Guid(8d0adef272911304fb08afccc023e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFadeColor.shader using Guid(8d0adef272911304fb08afccc023e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c8fc59b168f8e006a5cdacbbf34f11') in 0.006015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.573298 seconds.
-  path: Assets/Shaders/DistanceFadeColor.mat
-  artifactKey: Guid(83142a7da6dff0d48b26dbee04af25d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFadeColor.mat using Guid(83142a7da6dff0d48b26dbee04af25d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c57304284f83d28bf476a913a661d8') in 0.076827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.196362 seconds.
-  path: Assets/ThirdParty/CZ_B/cz_02hardDiss.mat
-  artifactKey: Guid(667835778e0ec804b863ba697295b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/CZ_B/cz_02hardDiss.mat using Guid(667835778e0ec804b863ba697295b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcfb25d6c0f502b8b6c2cd806d8cb05') in 0.026434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/ThirdParty/AmplifyShaderEditor/Examples/Built-In/MultiPassDistortion/MultiPassDistortion.mat
-  artifactKey: Guid(746cf84ae389c9e4e806f8ae9f87f38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/AmplifyShaderEditor/Examples/Built-In/MultiPassDistortion/MultiPassDistortion.mat using Guid(746cf84ae389c9e4e806f8ae9f87f38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d0e1781ba95f0a56ffecd5aede7476') in 0.030104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/ThirdParty/CZ_B/cz_10SoftDissolve.mat
-  artifactKey: Guid(c61ba0b7574eb0141a561d02fc81e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/CZ_B/cz_10SoftDissolve.mat using Guid(c61ba0b7574eb0141a561d02fc81e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea7aeb658fd7dca3b5653a78d94d69a') in 0.040294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000624 seconds.
-  path: Assets/VFX/_Assets/Pet/water_dis.mat
-  artifactKey: Guid(70962a671ec8baf4897da9ddd8965e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_Assets/Pet/water_dis.mat using Guid(70962a671ec8baf4897da9ddd8965e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86974f3fc9d80dc332c42f4d718e16d3') in 0.031544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/ThirdParty/CZ_B/cz_03EmissDiss.mat
-  artifactKey: Guid(50f213111abe6b94294a91381768cb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/CZ_B/cz_03EmissDiss.mat using Guid(50f213111abe6b94294a91381768cb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03747104ae6e844eee659ccab1591a89') in 0.015890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 98.341526 seconds.
-  path: Assets/Materials/DistanceFade 1.mat
-  artifactKey: Guid(2225bc055920d374ea894916ed6e2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DistanceFade 1.mat using Guid(2225bc055920d374ea894916ed6e2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4c79703b8979e5c3a4a31219f44278') in 0.025730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Materials/DistanceFade.mat
-  artifactKey: Guid(4c9acb7e7cfa811449258aa9c286a0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DistanceFade.mat using Guid(4c9acb7e7cfa811449258aa9c286a0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b2c042c5f8820638c0a9eb09597f1f') in 0.028144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.714836 seconds.
-  path: Assets/Materials/DistanceFadeColor.mat
-  artifactKey: Guid(2225bc055920d374ea894916ed6e2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DistanceFadeColor.mat using Guid(2225bc055920d374ea894916ed6e2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693629b603269f5efc13ea300539e2ee') in 0.035338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 378.350260 seconds.
-  path: Assets/Materials/DistanceFadeColor 1.mat
-  artifactKey: Guid(b51133abe3b0c4244b91ea6972f72e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DistanceFadeColor 1.mat using Guid(b51133abe3b0c4244b91ea6972f72e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd1e66c73fc52f9e9794e529b8b1650') in 0.030670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Materials/DistanceFadeColor.mat
-  artifactKey: Guid(2225bc055920d374ea894916ed6e2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DistanceFadeColor.mat using Guid(2225bc055920d374ea894916ed6e2f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1fb198228dbbd6e822c070b47f78bf') in 0.029558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.205425 seconds.
-  path: Assets/Materials/DistanceFadeOutline.mat
-  artifactKey: Guid(b51133abe3b0c4244b91ea6972f72e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DistanceFadeOutline.mat using Guid(b51133abe3b0c4244b91ea6972f72e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34686e90b8c7dc67e1d0df844ddfb0e7') in 0.049560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.785741 seconds.
-  path: Assets/Shaders/DistanceFadeColor 1.shader
-  artifactKey: Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFadeColor 1.shader using Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a2d64ce02990c86b90a800be4fc6f2') in 0.544401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.306929 seconds.
-  path: Assets/Shaders/DistanceFadeOutline.shader
-  artifactKey: Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFadeOutline.shader using Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7647ecb899d20d2123de232eabd2a71d') in 0.009678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.168426 seconds.
-  path: Assets/Shaders/DistanceFadeOutline.shader
-  artifactKey: Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFadeOutline.shader using Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13da68bd0e39e564caa9e5d975e7aedf') in 0.005801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 131.635775 seconds.
-  path: Assets/Shaders/DistanceFadeOutline.shader
-  artifactKey: Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFadeOutline.shader using Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117529cd620c9afef8a31f8d49f6f5cf') in 0.003097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1852.601558 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Custom.png
-  artifactKey: Guid(1ca3f1b1d9b7b4e63bcb89526f13507d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Custom.png using Guid(1ca3f1b1d9b7b4e63bcb89526f13507d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7577f201778844c1f68d549d85946a9') in 0.310477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Local.png
-  artifactKey: Guid(a187dcc3eec2047b38062e5def2d4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Local.png using Guid(a187dcc3eec2047b38062e5def2d4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7e3180ecf90dc2c6765ec1ad607dce') in 0.012013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/ExtrudeFace_Individual_disabled.png
-  artifactKey: Guid(d0945ff31532a4cc2adacd46c6abfc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/ExtrudeFace_Individual_disabled.png using Guid(d0945ff31532a4cc2adacd46c6abfc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fcf376dcf07eff530d6e67a33c371d') in 0.008676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000573 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/ExtrudeFace_FaceNormals_disabled.png
-  artifactKey: Guid(504f22e2501944c509a1de50190e680e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/ExtrudeFace_FaceNormals_disabled.png using Guid(504f22e2501944c509a1de50190e680e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aece99f79480a8db7a89e48311cb98') in 0.009747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/ExtrudeFace_FaceNormals.png
-  artifactKey: Guid(452fce3d684314606b2da9b5dbf4eb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/ExtrudeFace_FaceNormals.png using Guid(452fce3d684314606b2da9b5dbf4eb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8311d48721d9b65254f3477a5f6d64') in 0.008667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/ExtrudeFace_Individual.png
-  artifactKey: Guid(ea438799abcec451b801b70c7299438b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/ExtrudeFace_Individual.png using Guid(ea438799abcec451b801b70c7299438b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5afa816bab3b1fb25322fed518912a') in 0.014146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_World.png
-  artifactKey: Guid(07353549ad6f54463b035ea6bcc87fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_World.png using Guid(07353549ad6f54463b035ea6bcc87fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ba154cef64a4404bd8888eb0215461') in 0.012200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Plane.png
-  artifactKey: Guid(6d8a0cbf20c07418bbb33ec170d3a000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Plane.png using Guid(6d8a0cbf20c07418bbb33ec170d3a000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6ebd7cec298d6efcbb2e2ea0e69b9b') in 0.034135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 900.085444 seconds.
-  path: Assets/Shaders/DistanceFade
-  artifactKey: Guid(21371f08859eae3429c83199bbbb64e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFade using Guid(21371f08859eae3429c83199bbbb64e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c996e4debee862a279a4de78919bdda') in 0.005091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 109.262915 seconds.
-  path: Assets/Shaders/DistanceFade/DistanceFade.cginc
-  artifactKey: Guid(3d05e706a39596e409cbf2ba47574fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFade/DistanceFade.cginc using Guid(3d05e706a39596e409cbf2ba47574fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9b3e7cba8adc1568729ce8d4643e5f') in 0.010745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.830156 seconds.
-  path: Assets/Shaders/DistanceFade/DistanceFadeOutline.shader
-  artifactKey: Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFade/DistanceFadeOutline.shader using Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b70c0025c592492401655cc2eac5bf') in 0.017002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.995467 seconds.
-  path: Assets/Shaders/DistanceFade/DistanceFadeOutline.shader
-  artifactKey: Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFade/DistanceFadeOutline.shader using Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7449de71da08197ece1ec30e2ff77cfd') in 0.003938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.530224 seconds.
-  path: Assets/Shaders/DistanceFade/DistanceFadeOutline.shader
-  artifactKey: Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/DistanceFade/DistanceFadeOutline.shader using Guid(a7824c137f5021f43ab1b5d3a9aa25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0089b118b9122e082494f626e8c60d84') in 0.006206 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

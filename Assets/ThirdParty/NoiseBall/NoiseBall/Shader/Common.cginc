@@ -1,4 +1,4 @@
-#include "SimplexNoiseGrad3D.cginc"
+#include "Assets\Cginc\SimplexNoiseGrad3D.cginc"
 
 float _Radius;
 float _NoiseAmplitude;

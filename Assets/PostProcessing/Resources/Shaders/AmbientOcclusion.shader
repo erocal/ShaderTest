@@ -18,7 +18,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
                 #pragma fragment FragAO
                 #pragma multi_compile FOG_OFF FOG_LINEAR FOG_EXP FOG_EXP2
                 #define SOURCE_DEPTH
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
 
@@ -30,7 +30,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
                 #pragma fragment FragAO
                 #pragma multi_compile FOG_OFF FOG_LINEAR FOG_EXP FOG_EXP2
                 #define SOURCE_DEPTHNORMALS
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
 
@@ -42,7 +42,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
                 #pragma fragment FragAO
                 #pragma multi_compile FOG_OFF FOG_LINEAR FOG_EXP FOG_EXP2
                 #define SOURCE_GBUFFER
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
 
@@ -55,7 +55,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
                 #define SOURCE_DEPTHNORMALS
                 #define BLUR_HORIZONTAL
                 #define BLUR_SAMPLE_CENTER_NORMAL
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
 
@@ -68,7 +68,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
                 #define SOURCE_GBUFFER
                 #define BLUR_HORIZONTAL
                 #define BLUR_SAMPLE_CENTER_NORMAL
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
 
@@ -79,7 +79,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
                 #pragma vertex VertMultitex
                 #pragma fragment FragBlur
                 #define BLUR_VERTICAL
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
 
@@ -89,7 +89,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
             CGPROGRAM
                 #pragma vertex VertMultitex
                 #pragma fragment FragComposition
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
 
@@ -101,7 +101,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
             CGPROGRAM
                 #pragma vertex VertCompositionGBuffer
                 #pragma fragment FragCompositionGBuffer
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
 
@@ -112,7 +112,7 @@ Shader "Hidden/Post FX/Ambient Occlusion"
                 #pragma vertex VertMultitex
                 #pragma fragment FragComposition
                 #define DEBUG_COMPOSITION
-                #include "AmbientOcclusion.cginc"
+                #include "Assets\Cginc\AmbientOcclusion.cginc"
             ENDCG
         }
     }

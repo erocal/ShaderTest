@@ -3,7 +3,7 @@ Shader "Hidden/Post FX/Builtin Debug Views"
     CGINCLUDE
 
         #include "UnityCG.cginc"
-        #include "Common.cginc"
+        #include "Assets\Cginc\Common.cginc"
 
         #pragma exclude_renderers d3d11_9x
 

@@ -29,9 +29,9 @@ Shader "Hidden/Post FX/Uber Shader"
         #pragma multi_compile __ DITHERING
 
         #include "UnityCG.cginc"
-        #include "Bloom.cginc"
-        #include "ColorGrading.cginc"
-        #include "UberSecondPass.cginc"
+        #include "Assets\Cginc\Bloom.cginc"
+        #include "Assets\Cginc\ColorGrading.cginc"
+        #include "Assets\Cginc\UberSecondPass.cginc"
 
         // Auto exposure / eye adaptation
         sampler2D _AutoExposure;

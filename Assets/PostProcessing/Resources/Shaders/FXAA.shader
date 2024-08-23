@@ -8,8 +8,8 @@ Shader "Hidden/Post FX/FXAA"
     CGINCLUDE
 
         #include "UnityCG.cginc"
-        #include "Common.cginc"
-        #include "UberSecondPass.cginc"
+        #include "Assets\Cginc\Common.cginc"
+        #include "Assets\Cginc\UberSecondPass.cginc"
         #pragma multi_compile __ GRAIN
         #pragma multi_compile __ DITHERING
 
@@ -33,7 +33,7 @@ Shader "Hidden/Post FX/FXAA"
         #define FXAA_GREEN_AS_LUMA 1
 
         #pragma target 3.0
-        #include "FXAA3.cginc"
+        #include "Assets\Cginc\FXAA3.cginc"
 
         float3 _QualitySettings;
         float4 _ConsoleSettings;
