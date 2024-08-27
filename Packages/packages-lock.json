@@ -140,6 +140,13 @@
       "source": "local",
       "dependencies": {}
     },
+    "jp.haw2fregel.vfx-texture-maker": {
+      "version": "https://github.com/haw2fregel/VFXTextureMaker.git?path=/Assets/VFXTextureMaker",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "6a344ce28e2c3e3a70e70bf4bfef0570f2c87079"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

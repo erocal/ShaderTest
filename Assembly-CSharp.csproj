@@ -215,6 +215,7 @@
     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson02\TestMulti 6.shader" />
     <None Include="Assets\Shaders\Shader_Bible\USB_specular_reflection.shader" />
+    <None Include="Assets\Shaders\DistanceFade\VFDistanceFade.shader" />
     <None Include="Assets\Shaders\Pratice\Transparent.shader" />
     <None Include="Assets\ThirdParty\GaussianBlur\GaussianBlurFilter.shader" />
     <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson02\TestMulti 5.shader" />
@@ -415,6 +416,7 @@
     <None Include="Assets\Shaders\Twist\Twist.shader" />
     <None Include="Assets\Shaders\Pratice\OwnedBasicLambert.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Shaders\Outline\AdvOutline_Instancing.shader" />
     <None Include="Assets\Shaders\Voxelizer\SimplexNoise3D.hlsl" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\Shaders\Dissolve\Dissolve_Simple.shader" />
