@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\UnityProject\\ShaderTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\fastbloom\\colorgradingbloomnohdr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|d:\\unityproject\\shadertest\\assets\\scripts\\radiusblur\\radiusblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\radiusblur\\radiusblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|D:\\UnityProject\\ShaderTest\\assets\\scripts\\fastbloom\\colorgradingbloomnohdr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fastbloom\\colorgradingbloomnohdr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,6 +63,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RadiusBlur.cs",
+              "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\RadiusBlur\\RadiusBlur.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RadiusBlur\\RadiusBlur.cs",
+              "ToolTip": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\RadiusBlur\\RadiusBlur.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RadiusBlur\\RadiusBlur.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwBoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T02:33:28.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ColorGradingBloomNoHDR.cs",
               "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\FastBloom\\ColorGradingBloomNoHDR.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FastBloom\\ColorGradingBloomNoHDR.cs",
@@ -66,12 +83,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FastBloom\\ColorGradingBloomNoHDR.cs",
               "ViewState": "AQIAAJUAAAAAAAAAAAAUwKkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T03:38:07.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T03:38:07.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ChangeResolution.cs",
               "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\FastBloom\\ChangeResolution.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FastBloom\\ChangeResolution.cs",
@@ -83,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RandomMove.cs",
               "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\TimeScaleTest\\RandomMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TimeScaleTest\\RandomMove.cs",
@@ -95,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TimeScaleTest.cs",
               "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\TimeScaleTest\\TimeScaleTest.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TimeScaleTest\\TimeScaleTest.cs",
@@ -107,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Voxelizer2.cs",
               "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\Voxelizer\\Voxelizer2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Voxelizer\\Voxelizer2.cs",
@@ -119,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Voxelizer.cs",
               "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\Voxelizer\\Voxelizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Voxelizer\\Voxelizer.cs",
@@ -131,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -143,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VoxelizerMove.cs",
               "DocumentMoniker": "D:\\UnityProject\\ShaderTest\\Assets\\Scripts\\Voxelizer\\VoxelizerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Voxelizer\\VoxelizerMove.cs",

@@ -289,6 +289,7 @@
     <None Include="Assets\Shaders\Pratice\StencilWindow.shader" />
     <None Include="Assets\Shaders\Pratice\PrimitiveSphere.shader" />
     <None Include="Assets\ThirdParty\ShaderLab_Jeff\Lesson01\VertexOffset.shader" />
+    <None Include="Assets\Shaders\Puddle.shader" />
     <None Include="Assets\Shaders\ImageSequence\SequenceFrameAnimation.shader" />
     <None Include="Assets\Shaders\Voxelizer\Common.cginc" />
     <None Include="Assets\Shaders\PennyShader\RimLightingShader.shader" />
@@ -303,6 +304,7 @@
     <None Include="Assets\Shaders\Pratice\BumpDiffuseStencil.shader" />
     <None Include="Assets\Shaders\UI\UINeonLight.shader" />
     <None Include="Assets\Shaders\Pratice\Hole.shader" />
+    <None Include="Assets\Shaders\Flare.shader" />
     <None Include="Assets\Shaders\Matrix\Matrix.shader" />
     <None Include="Assets\Shaders\PennyShader\OutlineShader.shader" />
     <None Include="Assets\ThirdParty\PlanarReflectionsforUnity\Shaders\Built-In\PlanarReflections.cginc" />
@@ -355,6 +357,7 @@
     <None Include="Assets\ThirdParty\NoiseBall\NoiseBall\Shader\Common.cginc" />
     <None Include="Assets\Shaders\Pratice\SphericalFog.shader" />
     <None Include="Assets\Shaders\Shader_Bible\USB_cubemap_reflection.shader" />
+    <None Include="Assets\Shaders\HexShield.shader" />
     <None Include="Assets\ThirdParty\QuickOutline\Readme.txt" />
     <None Include="Assets\Shaders\Shader_Bible\USB_function_STEP.shader" />
     <None Include="Assets\Shaders\Noise\Noise4.shader" />
@@ -375,6 +378,7 @@
     <None Include="Assets\Shaders\PennyShader\GlassShader.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\ThirdParty\NoiseBall\sIBL Archive\Acknowledgement.txt" />
+    <None Include="Assets\Shaders\ColorMix\StirBarAddColor.shader" />
     <None Include="Assets\Shaders\NeonLight\NeonLight.shader" />
     <None Include="Assets\ThirdParty\NoiseBall\Kino\Bloom\Shader\Bloom.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
@@ -414,6 +418,7 @@
     <None Include="Assets\Shaders\ImageSequence\MobPsycho100.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\Shaders\Twist\Twist.shader" />
+    <None Include="Assets\Shaders\ColorMix\StirBarMixColor.shader" />
     <None Include="Assets\Shaders\Pratice\OwnedBasicLambert.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\Shaders\Outline\AdvOutline_Instancing.shader" />
@@ -1123,10 +1128,6 @@
     <ProjectReference Include="MK.Toon.Examples.csproj">
       <Project>{C4C4EA7E-0B2D-7F7D-5C3A-4673F541DA44}</Project>
       <Name>MK.Toon.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VFXToolbox.Editor.csproj">
-      <Project>{C04DCA9D-6959-AD0D-ECDC-E919785445B4}</Project>
-      <Name>Unity.VFXToolbox.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PathCreator.csproj">
       <Project>{9F3238AB-9A8F-FC9E-0346-4E8578392BD8}</Project>

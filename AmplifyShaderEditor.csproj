@@ -141,8 +141,8 @@
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\WeightedBlendNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Utils\RectExtension.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\NoiseGeneratorNode.cs" />
-    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Actions\ActionSequence.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\TauNode.cs" />
+    <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Actions\ActionSequence.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\StepOpNode.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\CameraAndScreen\ZBufferParams.cs" />
     <Compile Include="Assets\ThirdParty\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\ColorVertexDataNode.cs" />
