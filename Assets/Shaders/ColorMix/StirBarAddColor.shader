@@ -3,13 +3,16 @@ Shader "Unlit/StirBarAddColor"
     Properties
     {
         [PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
-        _Color ("Tint", Color) = (1,1,1,1)
-        _FirstColor ("First Color", Color) = (1,1,1,1)
-        _FirstColorMaxRange ("First Color Max Range", Range(0, 1)) = 1
-        _FirstColorMinRange ("First Color Min Range", Range(0, 1)) = 0
-        _StirColor ("Stir Area", Color) = (0,0,0,1)
-        _StirMaxRange ("Stir Max Range", Range(0, 1)) = .8
-        _StirMinRange ("Stir Min Range", Range(0, 1)) = .3
+        _Color ("Tint", Color) = (.4,.4,.4,1)
+        _StirColorRed ("Stir Area Red", Color) = (1,0.15,0.1,1)
+        _StirRedMaxRange ("Stir Red Max Range", Range(0, 1)) = .9
+        _StirRedMinRange ("Stir Red Min Range", Range(0, 1)) = .5
+        _StirColorGreen ("Stir Area Green", Color) = (.2, 1,0.1,1)
+        _StirGreenMaxRange ("Stir Green Max Range", Range(0, 1)) = .8
+        _StirGreenMinRange ("Stir Green Min Range", Range(0, 1)) = .3
+        _StirColorBlue ("Stir Area Blue", Color) = (.1, .1, 1, 1)
+        _StirBlueMaxRange ("Stir Blue Max Range", Range(0, 1)) = .5
+        _StirBlueMinRange ("Stir Blue Min Range", Range(0, 1)) = 0
         _StencilComp ("Stencil Comparison", Float) = 8
         _Stencil ("Stencil ID", Float) = 0
         _StencilOp ("Stencil Operation", Float) = 0
@@ -81,12 +84,15 @@ Shader "Unlit/StirBarAddColor"
 
             sampler2D _MainTex;
             fixed4 _Color;
-            fixed4 _FirstColor;
-            float _FirstColorMaxRange;
-            float _FirstColorMinRange;
-            fixed4 _StirColor;
-            float _StirMaxRange;
-            float _StirMinRange;
+            fixed4 _StirColorRed;
+            float _StirRedMaxRange;
+            float _StirRedMinRange;
+            fixed4 _StirColorGreen;
+            float _StirGreenMaxRange;
+            float _StirGreenMinRange;
+            fixed4 _StirColorBlue;
+            float _StirBlueMaxRange;
+            float _StirBlueMinRange;
             fixed4 _TextureSampleAdd;
             float4 _ClipRect;
             float4 _MainTex_ST;
@@ -129,15 +135,31 @@ Shader "Unlit/StirBarAddColor"
 
             fixed4 frag(v2f IN) : SV_Target
             {
-                half4 color = (tex2D(_MainTex, IN.texcoord) + _TextureSampleAdd) ;
+                half4 color = (tex2D(_MainTex, IN.texcoord) + _TextureSampleAdd);
 
-                color *= _Color;
+                color = IN.texcoord.x > Remap(0, 1, .3, .7, _StirRedMinRange) && IN.texcoord.x < Remap(0, 1, .3, .7, _StirRedMaxRange) ? _StirColorRed : _Color;
 
-                color.rgb = IN.texcoord.x > Remap(0, 1, .3, .7, _FirstColorMinRange) && IN.texcoord.x < Remap(0, 1, .3, .7, _FirstColorMaxRange) ? _FirstColor : color.rgb;
+                color = IN.texcoord.x > Remap(0, 1, .3, .7, _StirGreenMinRange) && IN.texcoord.x < Remap(0, 1, .3, .7, _StirGreenMaxRange) ? _StirColorGreen : color;
 
-                color.rgb = IN.texcoord.x > Remap(0, 1, .3, .7, _StirMinRange) && IN.texcoord.x < Remap(0, 1, .3, .7, _StirMaxRange) ? blendAdd(color, _StirColor) : color.rgb;
+                color = IN.texcoord.x > Remap(0, 1, .3, .7, _StirBlueMinRange) && IN.texcoord.x < Remap(0, 1, .3, .7, _StirBlueMaxRange) ? _StirColorBlue : color;
 
-                //color *= IN.texcoord.x > Remap(0, 1, .3, .7, _StirMinRange) && IN.texcoord.x < Remap(0, 1, .3, .7, _StirMaxRange) ? _StirColor : _Color;
+                color = IN.texcoord.x > Remap(0, 1, .3, .7, _StirGreenMinRange > _StirRedMinRange ? _StirGreenMinRange : _StirRedMinRange
+                ) && IN.texcoord.x < Remap(0, 1, .3, .7, _StirGreenMaxRange > _StirRedMaxRange ? _StirRedMaxRange : _StirGreenMaxRange) ?
+                half4(blendAdd(_StirColorGreen.rgb, _StirColorRed.rgb), 1) : color;
+
+                color = IN.texcoord.x > Remap(0, 1, .3, .7, _StirGreenMinRange > _StirBlueMinRange ? _StirGreenMinRange : _StirBlueMinRange
+                ) && IN.texcoord.x < Remap(0, 1, .3, .7, _StirGreenMaxRange > _StirBlueMaxRange ? _StirBlueMaxRange : _StirGreenMaxRange) ?
+                half4(blendAdd(_StirColorGreen.rgb, _StirColorBlue.rgb), 1) : color;
+
+                color = IN.texcoord.x > Remap(0, 1, .3, .7, _StirRedMinRange > _StirBlueMinRange ? _StirRedMinRange : _StirBlueMinRange
+                ) && IN.texcoord.x < Remap(0, 1, .3, .7, _StirRedMaxRange > _StirBlueMaxRange ? _StirBlueMaxRange : _StirRedMaxRange) ?
+                half4(blendAdd(_StirColorRed.rgb, _StirColorBlue.rgb), 1) : color;
+
+                color = IN.texcoord.x > Remap(0, 1, .3, .7, _StirRedMinRange > _StirBlueMinRange ? _StirRedMinRange  > _StirGreenMinRange ? _StirRedMinRange : _StirGreenMinRange 
+                : _StirBlueMinRange  > _StirGreenMinRange ? _StirBlueMinRange : _StirGreenMinRange) && 
+                IN.texcoord.x < Remap(0, 1, .3, .7, _StirRedMaxRange > _StirBlueMaxRange ? _StirGreenMaxRange > _StirBlueMaxRange ? _StirBlueMaxRange : _StirGreenMaxRange 
+                : _StirGreenMaxRange > _StirRedMaxRange ? _StirRedMaxRange : _StirGreenMaxRange) ?
+                half4(blendAdd(blendAdd(_StirColorRed.rgb, _StirColorBlue.rgb), _StirColorGreen.rgb), 1) : color;
 
                 #ifdef UNITY_UI_CLIP_RECT
                 color.a *= UnityGet2DClipping(IN.worldPosition.xy, _ClipRect);

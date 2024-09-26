@@ -32,11 +32,20 @@ Material:
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
+    - _StirBlueMaxRange: 0.385
+    - _StirBlueMinRange: 0.132
+    - _StirGreenMaxRange: 0.741
+    - _StirGreenMinRange: 0.218
     - _StirMaxRange: 0.846
     - _StirMinRange: 0.37844396
+    - _StirRedMaxRange: 0.871
+    - _StirRedMinRange: 0.595
     - _UseUIAlphaClip: 0
     m_Colors:
     - _Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
     - _FirstColor: {r: 1, g: 0, b: 0, a: 1}
     - _StirColor: {r: 0, g: 1, b: 0.11449838, a: 1}
+    - _StirColorBlue: {r: 0.1, g: 0.1, b: 1, a: 1}
+    - _StirColorGreen: {r: 0.19999996, g: 1, b: 0.09999997, a: 1}
+    - _StirColorRed: {r: 1, g: 0.14999998, b: 0.09999997, a: 1}
   m_BuildTextureStacks: []
