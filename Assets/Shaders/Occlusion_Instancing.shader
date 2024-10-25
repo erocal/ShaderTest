@@ -1,4 +1,4 @@
-Shader "Custom/OcclusionShader"
+Shader "Custom/Occlusion_Instancing"
 {
     Properties
     {
@@ -26,6 +26,7 @@ Shader "Custom/OcclusionShader"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+            #pragma multi_compile_instancing
             #include "UnityCG.cginc"
 
             struct v2f
@@ -33,15 +34,22 @@ Shader "Custom/OcclusionShader"
                 float4 worldPos : SV_POSITION;
                 float3 viewDir : TEXCOORD0;
                 float3 worldNor : TEXCOORD1;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
-            fixed4 _Color;
-            fixed _Width;
-            half _Intensity;
+            UNITY_INSTANCING_BUFFER_START(Props)
+                UNITY_DEFINE_INSTANCED_PROP(fixed4, _Color)
+                UNITY_DEFINE_INSTANCED_PROP(fixed, _Width)
+                UNITY_DEFINE_INSTANCED_PROP(half, _Intensity)
+            UNITY_INSTANCING_BUFFER_END(Props)
 
             v2f vert(appdata_base v)
             {
                 v2f o;
+
+                UNITY_SETUP_INSTANCE_ID(v);
+                UNITY_TRANSFER_INSTANCE_ID(v, o);
+
                 o.worldPos = UnityObjectToClipPos(v.vertex);
                 o.viewDir = normalize(WorldSpaceViewDir(v.vertex));
                 o.worldNor = UnityObjectToWorldNormal(v.normal);
@@ -51,6 +59,9 @@ Shader "Custom/OcclusionShader"
 
             float4 frag(v2f i) : SV_Target
             {
+
+                UNITY_SETUP_INSTANCE_ID(i);
+
                 // 計算光線入射法線的點積，並將其映射到遮擋值
 
                 // 計算了光線的方向向量與表面法線向量之間的點積，通過 saturate 函數將結果限制在0到1之間
@@ -59,10 +70,10 @@ Shader "Custom/OcclusionShader"
 
                 // 用1減去NDotV，就能達到反相效果，會變成邊緣白中間黑
                 // 使用pow函數控制邊緣的寬度，接著乘以_Intensity控制邊緣的亮度
-                NDotV = pow(1 - NDotV, _Width) * _Intensity;
+                NDotV = pow(1 - NDotV, UNITY_ACCESS_INSTANCED_PROP(Props, _Width)) * UNITY_ACCESS_INSTANCED_PROP(Props, _Intensity);
 
                 fixed4 color;
-                color.rgb = _Color.rgb;
+                color.rgb = UNITY_ACCESS_INSTANCED_PROP(Props, _Color).rgb;
                 color.a = NDotV; // 輸入近透明層，實現半透效果
                 return color;
             }
