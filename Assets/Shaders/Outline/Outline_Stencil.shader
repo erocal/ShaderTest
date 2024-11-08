@@ -32,7 +32,7 @@ Shader "Outline/Outline_Stencil"
         {
 
             Name "Fill"
-            Cull Front
+            Cull Off
             ZTest LEqual
             ZWrite Off
             Blend SrcAlpha OneMinusSrcAlpha

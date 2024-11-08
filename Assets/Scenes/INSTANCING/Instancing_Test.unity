@@ -452,33 +452,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1871,33 +1847,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2179,33 +2131,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2613,33 +2541,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2987,33 +2891,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3511,41 +3391,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 372c298a184f89143995f866de5a46a3, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[3]
-      value: 
-      objectReference: {fileID: 2100000, guid: a086045d89b13814c8fa1375bfa86c8e, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4078,33 +3926,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4416,33 +4240,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5001,33 +4801,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5525,33 +5301,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6991,33 +6743,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8565,33 +8293,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8867,33 +8571,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9079,33 +8759,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9983,33 +9639,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JSG07_CombineOutline_NeedMesh (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951048, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f004873d9ce409640be7b9170b8ceb6f, type: 2}
-    - target: {fileID: 9003034642335951050, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: bb33a62919b549f4b89aa1d774a9fae7, type: 2}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9003034642335951051, guid: 79f7296f4dd3f2142aa5fbca1b551785, type: 3}
       propertyPath: m_LocalPosition.x
