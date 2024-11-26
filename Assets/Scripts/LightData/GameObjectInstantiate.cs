@@ -1,12 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
-public class GameObjectsSort : EditorWindow
+public class GameObjectInstantiate : MonoBehaviour
 {
 
 	#region -- 資源參考區 --
+
+	[SerializeField] private GameObject InstantiatePrefab;
 
 	#endregion
 	
@@ -18,11 +17,8 @@ public class GameObjectsSort : EditorWindow
 
 	private void Awake()
 	{
-		
-	}
 
-	private void Update()
-	{
+		Instantiate(InstantiatePrefab, this.transform);
 		
 	}
 
