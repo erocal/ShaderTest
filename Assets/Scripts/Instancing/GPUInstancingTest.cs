@@ -33,10 +33,14 @@ public class GPUInstancingTest : MonoBehaviour
             transform.localPosition = Random.insideUnitSphere * radius;
             transform.SetParent(base.transform);
             
-            properties.SetColor(
+            //properties.SetColor(
+            //    "_Color", new Color(Random.value, Random.value, Random.value)
+            //);
+            //transform.GetComponent<MeshRenderer>().SetPropertyBlock(properties);
+
+            this.GetComponent<MeshRenderer>().material.SetColor(
                 "_Color", new Color(Random.value, Random.value, Random.value)
             );
-            transform.GetComponent<MeshRenderer>().SetPropertyBlock(properties);
 
         }
 
