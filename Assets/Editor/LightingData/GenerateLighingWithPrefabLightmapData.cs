@@ -5,12 +5,13 @@ using UnityEngine;
 public class GenerateLighingWithPrefabLightmapData : MonoBehaviour
 {
 
-    [MenuItem("Assets/Generate Lighing With PrefabLightmapData %&g")]
-    static void GenerateLightmapInfo()
+    [MenuItem("Assets/Generate Lighing With PrefabLightmapData")]
+    public static void GenerateLightmapInfo()
     {
         if (Lightmapping.giWorkflowMode != Lightmapping.GIWorkflowMode.OnDemand)
         {
-            Debug.LogError("ExtractLightmapData requires that you have baked you lightmaps and Auto mode is disabled.");
+            Debug.LogError("Extract" +
+                "LightmapData requires that you have baked you lightmaps and Auto mode is disabled.");
             return;
         }
         Lightmapping.Bake();
