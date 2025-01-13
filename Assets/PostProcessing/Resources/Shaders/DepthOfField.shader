@@ -22,7 +22,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma target 3.0
                 #pragma vertex VertDOF
                 #pragma fragment FragCoC
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -33,7 +33,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma target 5.0
                 #pragma vertex VertDOF
                 #pragma fragment FragTempFilter
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -45,7 +45,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragPrefilter
                 #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -57,7 +57,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragBlur
                 #define KERNEL_SMALL
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -69,7 +69,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragBlur
                 #define KERNEL_MEDIUM
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -81,7 +81,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragBlur
                 #define KERNEL_LARGE
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -93,7 +93,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragBlur
                 #define KERNEL_VERYLARGE
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -104,7 +104,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma target 3.0
                 #pragma vertex VertDOF
                 #pragma fragment FragPostBlur
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
     }
@@ -121,7 +121,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma target 3.0
                 #pragma vertex VertDOF
                 #pragma fragment FragCoC
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -132,7 +132,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma target 3.0
                 #pragma vertex VertDOF
                 #pragma fragment FragTempFilter
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -144,7 +144,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragPrefilter
                 #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -156,7 +156,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragBlur
                 #define KERNEL_SMALL
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -168,7 +168,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragBlur
                 #define KERNEL_MEDIUM
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -180,7 +180,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragBlur
                 #define KERNEL_LARGE
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -192,7 +192,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma vertex VertDOF
                 #pragma fragment FragBlur
                 #define KERNEL_VERYLARGE
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
 
@@ -203,7 +203,7 @@ Shader "Hidden/Post FX/Depth Of Field"
                 #pragma target 3.0
                 #pragma vertex VertDOF
                 #pragma fragment FragPostBlur
-                #include "Assets\Cginc\DepthOfField.cginc"
+                #include "DepthOfField.cginc"
             ENDCG
         }
     }

@@ -1,8 +1,8 @@
 #ifndef __COLOR_GRADING__
 #define __COLOR_GRADING__
 
-#include "Assets\Cginc\ACES.cginc"
-#include "Assets\Cginc\Common.cginc"
+#include "ACES.cginc"
+#include "Common.cginc"
 
 // Set to 1 to use more precise but more expensive log/linear conversions. I haven't found a proper
 // use case for the high precision version yet so I'm leaving this to 0.

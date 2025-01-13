@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Background_jsg8
+  m_Shader: {fileID: 4800000, guid: bd800448152c65e4ab2f9da6c7de0597, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORMODE_ORIGINAL
+  - _GRADIENT_VERTICAL
+  - _MASKSHAPE_CIRCLE
+  - _SQUAREMASK_UP
+  - _TEX1USEATEXT_RGBA
+  - _TEX2USEATEXT_RGBA
+  m_InvalidKeywords:
+  - _FLOAT0_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowmapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexMask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AllScale: 0
+    - _Alpha: 1
+    - _BulitIn_MaskOneMinus: 0
+    - _ColorMode: 0
+    - _CullMode: 0
+    - _CustomDataTex1_2Offset: 0
+    - _Diss1OneMinus: 0
+    - _Diss2OneMinus: 0
+    - _DissCenterScale: 0.01
+    - _Diss_Mode: 0
+    - _DissolveMaxValue: 1.5
+    - _DissolvePower: 1
+    - _DissolveTexture1Scale: 1
+    - _DissolveTexture2Scale: 1.88
+    - _DissolveVaule: 1
+    - _Emission: 1
+    - _Float0: 1
+    - _Float3: 1
+    - _FlowmapScale: 1
+    - _Gradient: 2
+    - _GradientMapsAdjust1: 0.2337991
+    - _GradientMapsAdjust2: 0.2337991
+    - _InvFade: 1
+    - _MainCenterScale: 1
+    - _MainScale: 1
+    - _MainTex_Color: 1
+    - _MaskOneMinus: 0
+    - _MaskPower: 1
+    - _MaskRange: 1
+    - _MaskScale: 1
+    - _MaskShape: 0
+    - _SquareMask: 0
+    - _Tex1Offset_uv_Alpha_w1: 0
+    - _Tex1UseAtext: 0
+    - _Tex1Value: 1
+    - _Tex2UseAtext: 0
+    - _Tex2Value: 1
+    - _TexOffset_uv_Alpha_w2: 0
+    - _UseAllScale: 0
+    - _UseBulitInMask: 0
+    - _UseCustomDataWMaskScale: 0
+    - _UseCustomDataw: 0
+    - _UseDissolve: 0
+    - _UseDissolveTexture2: 0
+    - _UseFlow: 0
+    - _UseFlowmap: 0
+    - _UseMask: 0
+    - _UseVertexMove: 0
+    - _Usecenterglow: 0
+    - _Zwrite: 0
+    - _offsetdown: 0
+    - _offsetleft: 0
+    - _offsetright: 0
+    - _offsetup: 0
+    - _scaledown: 20
+    - _scaleleft: 20
+    - _scaleright: 20
+    - _scaleup: 20
+    m_Colors:
+    - _BlackColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color2: {r: 1, g: 0, b: 0.6688237, a: 1}
+    - _Color3: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorGradient: {r: 1.53, g: 2.17, b: 0, a: -0.27}
+    - _DissSpeedxy: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveColor0: {r: 1, g: 0, b: 0.1231942, a: 1}
+    - _DistortionSpeedXYPowerZ: {r: 0, g: 0, b: 0, a: 0}
+    - _GrayColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+    - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskSpeedXY: {r: 0, g: 0, b: 0, a: 0}
+    - _SpeedMainTexUVNoiseZW: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _VertexMaskSpeedXYVertexTimeRandomZ: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexSpeedXY: {r: 0, g: 0, b: 0, a: 0}
+    - _WhiteColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

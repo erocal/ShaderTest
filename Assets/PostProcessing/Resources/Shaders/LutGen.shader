@@ -6,10 +6,10 @@ Shader "Hidden/Post FX/Lut Generator"
         #pragma multi_compile __ TONEMAPPING_NEUTRAL TONEMAPPING_FILMIC
 
         #include "UnityCG.cginc"
-        #include "Assets\Cginc\ACES.cginc"
-        #include "Assets\Cginc\Common.cginc"
-        #include "Assets\Cginc\ColorGrading.cginc"
-        #include "Assets\Cginc\Tonemapping.cginc"
+        #include "Assets/Cginc/ACES.cginc"
+        #include "Assets/Cginc/Common.cginc"
+        #include "Assets/Cginc/ColorGrading.cginc"
+        #include "Assets/Cginc/Tonemapping.cginc"
 
         half3 _Balance;
 

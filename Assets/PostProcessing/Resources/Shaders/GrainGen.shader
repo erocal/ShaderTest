@@ -5,7 +5,7 @@ Shader "Hidden/Post FX/Grain Generator"
         #pragma exclude_renderers d3d11_9x
         #pragma target 3.0
         #include "UnityCG.cginc"
-        #include "Assets\Cginc\Common.cginc"
+        #include "Common.cginc"
 
         float _Phase;
 

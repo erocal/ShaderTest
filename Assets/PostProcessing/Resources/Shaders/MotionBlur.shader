@@ -15,7 +15,7 @@ Shader "Hidden/Post FX/Motion Blur"
         {
             CGPROGRAM
 
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertDefault
                 #pragma fragment FragVelocitySetup
 
@@ -27,7 +27,7 @@ Shader "Hidden/Post FX/Motion Blur"
         {
             CGPROGRAM
 
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertDefault
                 #pragma fragment FragTileMax1
 
@@ -39,7 +39,7 @@ Shader "Hidden/Post FX/Motion Blur"
         {
             CGPROGRAM
 
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertDefault
                 #pragma fragment FragTileMax2
 
@@ -51,7 +51,7 @@ Shader "Hidden/Post FX/Motion Blur"
         {
             CGPROGRAM
 
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertDefault
                 #pragma fragment FragTileMaxV
 
@@ -63,7 +63,7 @@ Shader "Hidden/Post FX/Motion Blur"
         {
             CGPROGRAM
 
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertDefault
                 #pragma fragment FragNeighborMax
 
@@ -75,7 +75,7 @@ Shader "Hidden/Post FX/Motion Blur"
         {
             CGPROGRAM
 
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertMultitex
                 #pragma fragment FragReconstruction
 
@@ -88,7 +88,7 @@ Shader "Hidden/Post FX/Motion Blur"
             CGPROGRAM
 
                 #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertFrameCompress
                 #pragma fragment FragFrameCompress
 
@@ -101,7 +101,7 @@ Shader "Hidden/Post FX/Motion Blur"
             CGPROGRAM
 
                 #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertMultitex
                 #pragma fragment FragFrameBlending
 
@@ -113,7 +113,7 @@ Shader "Hidden/Post FX/Motion Blur"
         {
             CGPROGRAM
 
-                #include "Assets\Cginc\MotionBlur.cginc"
+                #include "MotionBlur.cginc"
                 #pragma vertex VertMultitex
                 #pragma fragment FragFrameBlendingRaw
 

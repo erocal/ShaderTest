@@ -16,7 +16,7 @@ Shader "Hidden/Post FX/Temporal Anti-aliasing"
                 #pragma target 5.0
                 #pragma vertex VertSolver
                 #pragma fragment FragSolver
-                #include "Assets\Cginc\TAA.cginc"
+                #include "Assets/Cginc/TAA.cginc"
             ENDCG
         }
 
@@ -28,7 +28,7 @@ Shader "Hidden/Post FX/Temporal Anti-aliasing"
                 #pragma vertex VertSolver
                 #pragma fragment FragSolver
                 #define TAA_DILATE_MOTION_VECTOR_SAMPLE 0
-                #include "Assets\Cginc\TAA.cginc"
+                #include "Assets/Cginc/TAA.cginc"
             ENDCG
         }
 
@@ -39,7 +39,7 @@ Shader "Hidden/Post FX/Temporal Anti-aliasing"
                 #pragma target 5.0
                 #pragma vertex VertDefault
                 #pragma fragment FragAlphaClear
-                #include "Assets\Cginc\TAA.cginc"
+                #include "Assets/Cginc/TAA.cginc"
             ENDCG
         }
     }
@@ -55,7 +55,7 @@ Shader "Hidden/Post FX/Temporal Anti-aliasing"
                 #pragma target 3.0
                 #pragma vertex VertSolver
                 #pragma fragment FragSolver
-                #include "Assets\Cginc\TAA.cginc"
+                #include "Assets/Cginc/TAA.cginc"
             ENDCG
         }
 
@@ -67,7 +67,7 @@ Shader "Hidden/Post FX/Temporal Anti-aliasing"
                 #pragma vertex VertSolver
                 #pragma fragment FragSolver
                 #define TAA_DILATE_MOTION_VECTOR_SAMPLE 0
-                #include "Assets\Cginc\TAA.cginc"
+                #include "Assets/Cginc/TAA.cginc"
             ENDCG
         }
 
@@ -78,7 +78,7 @@ Shader "Hidden/Post FX/Temporal Anti-aliasing"
                 #pragma target 3.0
                 #pragma vertex VertDefault
                 #pragma fragment FragAlphaClear
-                #include "Assets\Cginc\TAA.cginc"
+                #include "Assets/Cginc/TAA.cginc"
             ENDCG
         }
     }
